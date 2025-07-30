@@ -18,8 +18,8 @@ print("Is CUDA available:", torch.cuda.is_available())
 print("GPU name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "None")
 
 # 路径设置
-train_path = "/root/Project/datasets/Celeb_V2/IdentitySplit/Train"
-val_path = "/root/Project/datasets/Celeb_V2//IdentitySplit/Val"
+train_path = "/root/Project/datasets/Celeb_V2/Train"
+val_path = "/root/Project/datasets/Celeb_V2/Val"
 
 # 数据预处理
 transform = transforms.Compose([
