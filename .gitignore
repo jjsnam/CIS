@@ -6,3 +6,4 @@ data*
 *.jpg
 *.pth
 *.pkl
+*.npy
