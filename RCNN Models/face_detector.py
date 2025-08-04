@@ -4,7 +4,7 @@ import os
 import cv2
 import torch
 import numpy as np
-from PIL import Image, UnidentifiedImageError
+from PIL import Image, UnidentifiedImageError, ImageOps
 from facenet_pytorch import MTCNN
 from torchvision import transforms
 from typing import Dict, Tuple
@@ -12,7 +12,8 @@ from typing import Dict, Tuple
 class FaceRegionExtractor:
     def __init__(self, cache_dir="/root/Project/RCNN Models/cache/regions", image_size=160, device=None):
         self.device = device or torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.mtcnn = MTCNN(keep_all=False, device=self.device)  # 只提取主脸
+        # self.mtcnn = MTCNN(keep_all=False, device=self.device)  # 只提取主脸
+        self.mtcnn = MTCNN(keep_all=True, thresholds=[0.3, 0.5, 0.5], device=self.device)
         self.cache_dir = cache_dir
         self.image_size = image_size
 
@@ -39,6 +40,8 @@ class FaceRegionExtractor:
         # 检测主脸
         try:
             img = Image.open(img_path).convert("RGB")
+            img = ImageOps.exif_transpose(img)  # 自动处理旋转
+            assert isinstance(img, Image.Image)
         except (OSError, UnidentifiedImageError) as e:
             raise ValueError(f"Failed to open image: {img_path}") from e
 

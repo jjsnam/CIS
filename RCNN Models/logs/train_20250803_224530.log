@@ -1,0 +1,2 @@
+2025-08-03 22:46:05,381 | INFO | Epoch 1 | Train Loss: 86.4911, Train Acc: 0.8448
+2025-08-03 22:46:09,623 | INFO | Epoch 1 | Val Acc: 0.7685

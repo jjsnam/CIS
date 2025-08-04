@@ -1,8 +1,8 @@
 __pycache__/
 *.pyc
-checkpoints/
-datasets/
-data*
+# checkpoints/
+# datasets/
+# data*
 *.jpg
 *.pth
 *.pkl

@@ -1,0 +1,3 @@
+2025-08-03 22:47:57,003 | INFO | Epoch 1 | Train Loss: 85.4777, Train Acc: 0.8517
+2025-08-03 22:48:01,364 | INFO | Epoch 1 | Val Acc: 0.7273
+2025-08-03 22:48:01,589 | INFO | Saved checkpoint to /root/Project/weights/RCNN/SGDF/checkpoint_rcnn_epoch{epoch+1}.pth

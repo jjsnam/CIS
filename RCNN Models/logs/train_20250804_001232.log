@@ -1,0 +1,13 @@
+2025-08-04 00:13:09,340 | INFO | Epoch 1 | Train Loss: 110.5124, Train Acc: 0.8481
+2025-08-04 00:13:13,550 | INFO | Epoch 1 | Val Acc: 0.7679
+2025-08-04 00:13:13,828 | INFO | Saved best model top10 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top10.pth
+2025-08-04 00:13:14,087 | INFO | Saved best model top30 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top30.pth
+2025-08-04 00:13:14,330 | INFO | Saved best model top50 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top50.pth
+2025-08-04 00:13:50,500 | INFO | Epoch 2 | Train Loss: 68.1431, Train Acc: 0.9703
+2025-08-04 00:13:55,193 | INFO | Epoch 2 | Val Acc: 0.7268
+2025-08-04 00:14:34,094 | INFO | Epoch 3 | Train Loss: 58.4606, Train Acc: 0.9911
+2025-08-04 00:14:38,380 | INFO | Epoch 3 | Val Acc: 0.7099
+2025-08-04 00:15:17,309 | INFO | Epoch 4 | Train Loss: 55.2847, Train Acc: 0.9971
+2025-08-04 00:15:21,830 | INFO | Epoch 4 | Val Acc: 0.7211
+2025-08-04 00:16:00,195 | INFO | Epoch 5 | Train Loss: 54.2874, Train Acc: 0.9970
+2025-08-04 00:16:04,949 | INFO | Epoch 5 | Val Acc: 0.7392

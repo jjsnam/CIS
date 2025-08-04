@@ -25,6 +25,7 @@ from config import Config
 def get_model():
     # model = timm.create_model(Config.model_name, pretrained=False, num_classes=Config.num_classes)
     model = timm.create_model(Config.model_name, pretrained=False, num_classes=Config.num_classes, drop_rate=0.1)
+    """ , in_chans=6 """
     if Config.pretrained:
         state_dict = torch.load(Config.checkpoint_path, map_location='cpu')
 

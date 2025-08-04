@@ -4,9 +4,15 @@ import os
 import shutil
 from tqdm import tqdm
 from face_detector import FaceRegionExtractor
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--dataset_name', type=str, default="SGDF", help='dataset_name')
+
+args = parser.parse_args()
 
 # ===== 配置部分 =====
-dataset_name = "Celeb_V2"
+dataset_name = args.dataset_name
 splits = ["Train", "Val", "Test"]
 base_image_root = f"/root/Project/datasets/{dataset_name}"
 base_cache_dir = "/root/Project/RCNN Models/cache/regions"

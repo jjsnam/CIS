@@ -1,0 +1,45 @@
+2025-08-04 16:10:37,798 | INFO | Epoch 1 | Train Loss: 94.1513, Train Acc: 0.8346
+2025-08-04 16:10:37,839 | INFO | Epoch 1 | Train Precision: 0.8519, Recall: 0.8586, F1: 0.8553, AP: 0.8119
+2025-08-04 16:10:37,839 | INFO | Epoch 1 | Train AUC: 0.8308
+2025-08-04 16:10:43,309 | INFO | Epoch 1 | Val Acc: 0.7358
+2025-08-04 16:10:43,329 | INFO | Epoch 1 | Val Precision: 0.6872, Recall: 0.9882, F1: 0.8107, AP: 0.6858
+2025-08-04 16:10:43,329 | INFO | Epoch 1 | Val AUC: 0.6930
+2025-08-04 16:10:43,564 | INFO | Saved best model top10 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top10.pth
+2025-08-04 16:10:43,783 | INFO | Saved best model top30 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top30.pth
+2025-08-04 16:10:43,981 | INFO | Saved best model top50 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top50.pth
+2025-08-04 16:11:16,453 | INFO | Epoch 2 | Train Loss: 47.2390, Train Acc: 0.9255
+2025-08-04 16:11:16,493 | INFO | Epoch 2 | Train Precision: 0.9383, Recall: 0.9303, F1: 0.9343, AP: 0.9125
+2025-08-04 16:11:16,493 | INFO | Epoch 2 | Train AUC: 0.9247
+2025-08-04 16:11:21,461 | INFO | Epoch 2 | Val Acc: 0.7335
+2025-08-04 16:11:21,483 | INFO | Epoch 2 | Val Precision: 0.6838, Recall: 0.9941, F1: 0.8103, AP: 0.6832
+2025-08-04 16:11:21,483 | INFO | Epoch 2 | Val AUC: 0.6894
+2025-08-04 16:11:54,075 | INFO | Epoch 3 | Train Loss: 31.8971, Train Acc: 0.9493
+2025-08-04 16:11:54,119 | INFO | Epoch 3 | Train Precision: 0.9580, Recall: 0.9527, F1: 0.9553, AP: 0.9396
+2025-08-04 16:11:54,119 | INFO | Epoch 3 | Train AUC: 0.9487
+2025-08-04 16:11:59,309 | INFO | Epoch 3 | Val Acc: 0.7752
+2025-08-04 16:11:59,331 | INFO | Epoch 3 | Val Precision: 0.7196, Recall: 0.9951, F1: 0.8352, AP: 0.7188
+2025-08-04 16:11:59,331 | INFO | Epoch 3 | Val AUC: 0.7380
+2025-08-04 16:12:00,103 | INFO | Saved best model top10 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top10.pth
+2025-08-04 16:12:00,676 | INFO | Saved best model top30 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top30.pth
+2025-08-04 16:12:01,601 | INFO | Saved best model top50 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top50.pth
+2025-08-04 16:12:34,751 | INFO | Epoch 4 | Train Loss: 23.5766, Train Acc: 0.9652
+2025-08-04 16:12:34,794 | INFO | Epoch 4 | Train Precision: 0.9701, Recall: 0.9687, F1: 0.9694, AP: 0.9575
+2025-08-04 16:12:34,794 | INFO | Epoch 4 | Train AUC: 0.9646
+2025-08-04 16:12:41,149 | INFO | Epoch 4 | Val Acc: 0.7239
+2025-08-04 16:12:41,167 | INFO | Epoch 4 | Val Precision: 0.6756, Recall: 0.9961, F1: 0.8051, AP: 0.6752
+2025-08-04 16:12:41,167 | INFO | Epoch 4 | Val AUC: 0.6779
+2025-08-04 16:13:15,409 | INFO | Epoch 5 | Train Loss: 18.6435, Train Acc: 0.9715
+2025-08-04 16:13:15,458 | INFO | Epoch 5 | Train Precision: 0.9759, Recall: 0.9740, F1: 0.9749, AP: 0.9653
+2025-08-04 16:13:15,459 | INFO | Epoch 5 | Train AUC: 0.9711
+2025-08-04 16:13:20,640 | INFO | Epoch 5 | Val Acc: 0.6907
+2025-08-04 16:13:20,660 | INFO | Epoch 5 | Val Precision: 0.6492, Recall: 1.0000, F1: 0.7873, AP: 0.6492
+2025-08-04 16:13:20,660 | INFO | Epoch 5 | Val AUC: 0.6383
+2025-08-04 16:13:53,395 | INFO | Epoch 6 | Train Loss: 13.8246, Train Acc: 0.9808
+2025-08-04 16:13:53,435 | INFO | Epoch 6 | Train Precision: 0.9836, Recall: 0.9827, F1: 0.9831, AP: 0.9764
+2025-08-04 16:13:53,435 | INFO | Epoch 6 | Train AUC: 0.9805
+2025-08-04 16:13:58,674 | INFO | Epoch 6 | Val Acc: 0.9104
+2025-08-04 16:13:58,699 | INFO | Epoch 6 | Val Precision: 0.8809, Recall: 0.9754, F1: 0.9257, AP: 0.8733
+2025-08-04 16:13:58,700 | INFO | Epoch 6 | Val AUC: 0.8994
+2025-08-04 16:13:59,306 | INFO | Saved best model top10 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top10.pth
+2025-08-04 16:13:59,865 | INFO | Saved best model top30 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top30.pth
+2025-08-04 16:14:00,231 | INFO | Saved best model top50 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top50.pth

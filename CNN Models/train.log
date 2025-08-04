@@ -1,40 +1,110 @@
-2025-07-16 16:13:30,427 INFO [Epoch 1] Train Loss: 245.4561, Train Acc: 0.9607
-2025-07-16 16:13:38,643 INFO [Epoch 1] Val Acc: 0.9849
-2025-07-16 16:15:05,343 INFO [Epoch 2] Train Loss: 77.9596, Train Acc: 0.9891
-2025-07-16 16:15:13,377 INFO [Epoch 2] Val Acc: 0.9856
-2025-07-16 16:16:40,618 INFO [Epoch 3] Train Loss: 58.7084, Train Acc: 0.9917
-2025-07-16 16:16:48,490 INFO [Epoch 3] Val Acc: 0.9919
-2025-07-16 16:18:14,762 INFO [Epoch 4] Train Loss: 41.8329, Train Acc: 0.9940
-2025-07-16 16:18:22,830 INFO [Epoch 4] Val Acc: 0.9923
-2025-07-16 16:19:55,657 INFO [Epoch 5] Train Loss: 35.6253, Train Acc: 0.9948
-2025-07-16 16:20:04,581 INFO [Epoch 5] Val Acc: 0.9950
-2025-07-16 16:21:31,276 INFO [Epoch 6] Train Loss: 30.3930, Train Acc: 0.9955
-2025-07-16 16:21:40,437 INFO [Epoch 6] Val Acc: 0.9897
-2025-07-16 16:24:26,599 INFO [Epoch 7] Train Loss: 24.2555, Train Acc: 0.9964
-2025-07-16 16:24:35,298 INFO [Epoch 7] Val Acc: 0.9902
-2025-07-16 16:26:01,626 INFO [Epoch 8] Train Loss: 25.3544, Train Acc: 0.9964
-2025-07-16 16:26:09,498 INFO [Epoch 8] Val Acc: 0.9827
-2025-07-16 16:27:36,482 INFO [Epoch 9] Train Loss: 21.4286, Train Acc: 0.9968
-2025-07-16 16:27:44,590 INFO [Epoch 9] Val Acc: 0.9960
-2025-07-16 16:29:11,251 INFO [Epoch 10] Train Loss: 19.8566, Train Acc: 0.9970
-2025-07-16 16:29:20,250 INFO [Epoch 10] Val Acc: 0.9866
-2025-07-16 16:37:51,732 INFO [Epoch 1] Train Loss: 194.2888, Train Acc: 0.9625
-2025-07-16 16:38:04,010 INFO [Epoch 1] Val Acc: 0.8902
-2025-07-16 16:39:13,626 INFO [Epoch 2] Train Loss: 62.0130, Train Acc: 0.9890
-2025-07-16 16:39:25,558 INFO [Epoch 2] Val Acc: 0.9100
-2025-07-16 16:40:36,083 INFO [Epoch 3] Train Loss: 43.1623, Train Acc: 0.9928
-2025-07-16 16:40:47,756 INFO [Epoch 3] Val Acc: 0.8650
-2025-07-16 16:41:57,424 INFO [Epoch 4] Train Loss: 33.7671, Train Acc: 0.9945
-2025-07-16 16:42:09,937 INFO [Epoch 4] Val Acc: 0.8949
-2025-07-16 16:43:19,923 INFO [Epoch 5] Train Loss: 29.5879, Train Acc: 0.9947
-2025-07-16 16:43:32,167 INFO [Epoch 5] Val Acc: 0.8992
-2025-07-16 16:44:42,208 INFO [Epoch 6] Train Loss: 25.2339, Train Acc: 0.9958
-2025-07-16 16:44:54,240 INFO [Epoch 6] Val Acc: 0.9012
-2025-07-16 16:46:03,858 INFO [Epoch 7] Train Loss: 18.5666, Train Acc: 0.9969
-2025-07-16 16:46:16,181 INFO [Epoch 7] Val Acc: 0.9274
-2025-07-16 16:47:25,771 INFO [Epoch 8] Train Loss: 19.0532, Train Acc: 0.9967
-2025-07-16 16:47:37,840 INFO [Epoch 8] Val Acc: 0.9288
-2025-07-16 16:48:48,091 INFO [Epoch 9] Train Loss: 21.6029, Train Acc: 0.9968
-2025-07-16 16:49:00,160 INFO [Epoch 9] Val Acc: 0.9330
-2025-07-16 16:50:30,051 INFO [Epoch 10] Train Loss: 14.2721, Train Acc: 0.9977
-2025-07-16 16:50:43,297 INFO [Epoch 10] Val Acc: 0.9253
+2025-08-04 17:04:31,621 INFO [Epoch 1] Train Loss: 65.9905, Train Acc: 0.8990
+2025-08-04 17:04:33,984 INFO [Epoch 1] Val Acc: 0.9493, Precision: 0.9335, Recall: 0.9762, F1: 0.9544, AUC: 0.9929, AP: 0.9943
+2025-08-04 17:05:43,162 INFO [Epoch 1] Train Loss: 66.5745, Train Acc: 0.8955
+2025-08-04 17:05:45,373 INFO [Epoch 1] Val Acc: 0.9581, Precision: 0.9524, Recall: 0.9714, F1: 0.9618, AUC: 0.9934, AP: 0.9945
+2025-08-04 17:05:56,015 INFO [Epoch 2] Train Loss: 15.9827, Train Acc: 0.9782
+2025-08-04 17:05:58,100 INFO [Epoch 2] Val Acc: 0.9126, Precision: 0.9922, Recall: 0.8457, F1: 0.9131, AUC: 0.9913, AP: 0.9929
+2025-08-04 17:06:08,278 INFO [Epoch 3] Train Loss: 9.2451, Train Acc: 0.9877
+2025-08-04 17:06:10,423 INFO [Epoch 3] Val Acc: 0.9633, Precision: 0.9605, Recall: 0.9724, F1: 0.9664, AUC: 0.9959, AP: 0.9966
+2025-08-04 17:06:21,052 INFO [Epoch 4] Train Loss: 9.1157, Train Acc: 0.9883
+2025-08-04 17:06:23,239 INFO [Epoch 4] Val Acc: 0.9027, Precision: 0.9909, Recall: 0.8286, F1: 0.9025, AUC: 0.9893, AP: 0.9919
+2025-08-04 17:06:33,310 INFO [Epoch 5] Train Loss: 8.6742, Train Acc: 0.9887
+2025-08-04 17:06:35,483 INFO [Epoch 5] Val Acc: 0.9653, Precision: 0.9589, Recall: 0.9781, F1: 0.9684, AUC: 0.9963, AP: 0.9969
+2025-08-04 17:06:46,032 INFO [Epoch 6] Train Loss: 3.6947, Train Acc: 0.9958
+2025-08-04 17:06:48,172 INFO [Epoch 6] Val Acc: 0.9814, Precision: 0.9847, Recall: 0.9810, F1: 0.9828, AUC: 0.9982, AP: 0.9985
+2025-08-04 17:06:58,697 INFO [Epoch 7] Train Loss: 2.2654, Train Acc: 0.9984
+2025-08-04 17:07:00,892 INFO [Epoch 7] Val Acc: 0.9715, Precision: 0.9788, Recall: 0.9686, F1: 0.9737, AUC: 0.9965, AP: 0.9973
+2025-08-04 17:07:10,966 INFO [Epoch 8] Train Loss: 2.6777, Train Acc: 0.9973
+2025-08-04 17:07:13,184 INFO [Epoch 8] Val Acc: 0.9483, Precision: 0.9174, Recall: 0.9943, F1: 0.9543, AUC: 0.9950, AP: 0.9957
+2025-08-04 17:07:23,256 INFO [Epoch 9] Train Loss: 8.2963, Train Acc: 0.9902
+2025-08-04 17:07:25,376 INFO [Epoch 9] Val Acc: 0.9793, Precision: 0.9903, Recall: 0.9714, F1: 0.9808, AUC: 0.9975, AP: 0.9981
+2025-08-04 17:07:35,537 INFO [Epoch 10] Train Loss: 3.2328, Train Acc: 0.9968
+2025-08-04 17:07:37,621 INFO [Epoch 10] Val Acc: 0.9684, Precision: 0.9980, Recall: 0.9438, F1: 0.9701, AUC: 0.9975, AP: 0.9982
+2025-08-04 17:07:47,710 INFO [Epoch 11] Train Loss: 1.5717, Train Acc: 0.9984
+2025-08-04 17:07:49,886 INFO [Epoch 11] Val Acc: 0.9819, Precision: 0.9856, Recall: 0.9810, F1: 0.9833, AUC: 0.9979, AP: 0.9984
+2025-08-04 17:08:00,360 INFO [Epoch 12] Train Loss: 2.4735, Train Acc: 0.9971
+2025-08-04 17:08:02,545 INFO [Epoch 12] Val Acc: 0.9741, Precision: 0.9845, Recall: 0.9676, F1: 0.9760, AUC: 0.9975, AP: 0.9981
+2025-08-04 17:08:12,672 INFO [Epoch 13] Train Loss: 3.9680, Train Acc: 0.9953
+2025-08-04 17:08:14,797 INFO [Epoch 13] Val Acc: 0.9824, Precision: 0.9847, Recall: 0.9829, F1: 0.9838, AUC: 0.9984, AP: 0.9988
+2025-08-04 17:08:25,213 INFO [Epoch 14] Train Loss: 1.2920, Train Acc: 0.9982
+2025-08-04 17:08:27,482 INFO [Epoch 14] Val Acc: 0.9809, Precision: 0.9783, Recall: 0.9867, F1: 0.9825, AUC: 0.9984, AP: 0.9987
+2025-08-04 17:08:37,450 INFO [Epoch 15] Train Loss: 2.5332, Train Acc: 0.9975
+2025-08-04 17:08:39,566 INFO [Epoch 15] Val Acc: 0.9540, Precision: 0.9420, Recall: 0.9752, F1: 0.9584, AUC: 0.9921, AP: 0.9931
+2025-08-04 17:08:49,533 INFO [Epoch 16] Train Loss: 1.5915, Train Acc: 0.9982
+2025-08-04 17:08:51,695 INFO [Epoch 16] Val Acc: 0.9865, Precision: 0.9942, Recall: 0.9810, F1: 0.9875, AUC: 0.9989, AP: 0.9991
+2025-08-04 17:09:02,018 INFO [Epoch 17] Train Loss: 2.5323, Train Acc: 0.9969
+2025-08-04 17:09:04,101 INFO [Epoch 17] Val Acc: 0.9679, Precision: 0.9723, Recall: 0.9686, F1: 0.9704, AUC: 0.9951, AP: 0.9959
+2025-08-04 17:09:14,247 INFO [Epoch 18] Train Loss: 7.3688, Train Acc: 0.9909
+2025-08-04 17:09:16,440 INFO [Epoch 18] Val Acc: 0.9017, Precision: 0.9853, Recall: 0.8314, F1: 0.9019, AUC: 0.9906, AP: 0.9921
+2025-08-04 17:09:26,542 INFO [Epoch 19] Train Loss: 1.8434, Train Acc: 0.9978
+2025-08-04 17:09:28,724 INFO [Epoch 19] Val Acc: 0.9793, Precision: 0.9702, Recall: 0.9924, F1: 0.9812, AUC: 0.9990, AP: 0.9992
+2025-08-04 17:09:38,686 INFO [Epoch 20] Train Loss: 0.4694, Train Acc: 0.9994
+2025-08-04 17:09:40,896 INFO [Epoch 20] Val Acc: 0.9767, Precision: 0.9648, Recall: 0.9933, F1: 0.9789, AUC: 0.9979, AP: 0.9982
+2025-08-04 17:09:50,958 INFO [Epoch 21] Train Loss: 1.8012, Train Acc: 0.9979
+2025-08-04 17:09:53,242 INFO [Epoch 21] Val Acc: 0.9783, Precision: 0.9737, Recall: 0.9867, F1: 0.9801, AUC: 0.9976, AP: 0.9981
+2025-08-04 17:10:03,370 INFO [Epoch 22] Train Loss: 2.4627, Train Acc: 0.9976
+2025-08-04 17:10:05,557 INFO [Epoch 22] Val Acc: 0.9333, Precision: 0.9968, Recall: 0.8800, F1: 0.9347, AUC: 0.9962, AP: 0.9970
+2025-08-04 17:10:15,639 INFO [Epoch 23] Train Loss: 3.0501, Train Acc: 0.9960
+2025-08-04 17:10:17,814 INFO [Epoch 23] Val Acc: 0.9772, Precision: 0.9931, Recall: 0.9648, F1: 0.9787, AUC: 0.9981, AP: 0.9984
+2025-08-04 17:10:27,915 INFO [Epoch 24] Train Loss: 2.0083, Train Acc: 0.9973
+2025-08-04 17:10:30,041 INFO [Epoch 24] Val Acc: 0.9783, Precision: 0.9865, Recall: 0.9733, F1: 0.9799, AUC: 0.9981, AP: 0.9985
+2025-08-04 17:10:40,124 INFO [Epoch 25] Train Loss: 1.4852, Train Acc: 0.9981
+2025-08-04 17:10:42,292 INFO [Epoch 25] Val Acc: 0.9840, Precision: 0.9894, Recall: 0.9810, F1: 0.9852, AUC: 0.9991, AP: 0.9993
+2025-08-04 17:10:52,423 INFO [Epoch 26] Train Loss: 0.5381, Train Acc: 0.9994
+2025-08-04 17:10:54,663 INFO [Epoch 26] Val Acc: 0.9669, Precision: 0.9970, Recall: 0.9419, F1: 0.9687, AUC: 0.9986, AP: 0.9989
+2025-08-04 17:11:04,743 INFO [Epoch 27] Train Loss: 2.0605, Train Acc: 0.9972
+2025-08-04 17:11:06,964 INFO [Epoch 27] Val Acc: 0.9684, Precision: 0.9815, Recall: 0.9600, F1: 0.9706, AUC: 0.9956, AP: 0.9965
+2025-08-04 17:11:17,006 INFO [Epoch 28] Train Loss: 2.4202, Train Acc: 0.9968
+2025-08-04 17:11:19,182 INFO [Epoch 28] Val Acc: 0.9767, Precision: 0.9836, Recall: 0.9733, F1: 0.9785, AUC: 0.9967, AP: 0.9972
+2025-08-04 17:11:29,268 INFO [Epoch 29] Train Loss: 0.7192, Train Acc: 0.9991
+2025-08-04 17:11:31,544 INFO [Epoch 29] Val Acc: 0.9757, Precision: 0.9674, Recall: 0.9886, F1: 0.9779, AUC: 0.9975, AP: 0.9980
+2025-08-04 17:11:41,489 INFO [Epoch 30] Train Loss: 0.1178, Train Acc: 1.0000
+2025-08-04 17:11:43,656 INFO [Epoch 30] Val Acc: 0.9809, Precision: 0.9941, Recall: 0.9705, F1: 0.9822, AUC: 0.9986, AP: 0.9989
+2025-08-04 17:11:53,601 INFO [Epoch 31] Train Loss: 0.0426, Train Acc: 1.0000
+2025-08-04 17:11:55,787 INFO [Epoch 31] Val Acc: 0.9865, Precision: 0.9904, Recall: 0.9848, F1: 0.9876, AUC: 0.9986, AP: 0.9989
+2025-08-04 17:12:05,869 INFO [Epoch 32] Train Loss: 0.0186, Train Acc: 1.0000
+2025-08-04 17:12:08,110 INFO [Epoch 32] Val Acc: 0.9850, Precision: 0.9885, Recall: 0.9838, F1: 0.9862, AUC: 0.9987, AP: 0.9989
+2025-08-04 17:12:18,163 INFO [Epoch 33] Train Loss: 0.0084, Train Acc: 1.0000
+2025-08-04 17:12:20,415 INFO [Epoch 33] Val Acc: 0.9860, Precision: 0.9885, Recall: 0.9857, F1: 0.9871, AUC: 0.9987, AP: 0.9990
+2025-08-04 17:12:30,600 INFO [Epoch 34] Train Loss: 0.0206, Train Acc: 1.0000
+2025-08-04 17:12:32,779 INFO [Epoch 34] Val Acc: 0.9871, Precision: 0.9858, Recall: 0.9905, F1: 0.9881, AUC: 0.9990, AP: 0.9992
+2025-08-04 17:12:42,983 INFO [Epoch 35] Train Loss: 0.0477, Train Acc: 1.0000
+2025-08-04 17:12:45,160 INFO [Epoch 35] Val Acc: 0.9767, Precision: 0.9692, Recall: 0.9886, F1: 0.9788, AUC: 0.9971, AP: 0.9970
+2025-08-04 17:12:55,241 INFO [Epoch 36] Train Loss: 13.6435, Train Acc: 0.9859
+2025-08-04 17:12:57,535 INFO [Epoch 36] Val Acc: 0.9752, Precision: 0.9836, Recall: 0.9705, F1: 0.9770, AUC: 0.9977, AP: 0.9981
+2025-08-04 17:13:07,605 INFO [Epoch 37] Train Loss: 2.0786, Train Acc: 0.9979
+2025-08-04 17:13:09,667 INFO [Epoch 37] Val Acc: 0.9829, Precision: 0.9847, Recall: 0.9838, F1: 0.9843, AUC: 0.9986, AP: 0.9987
+2025-08-04 17:13:19,699 INFO [Epoch 38] Train Loss: 0.7563, Train Acc: 0.9992
+2025-08-04 17:13:21,889 INFO [Epoch 38] Val Acc: 0.9829, Precision: 0.9820, Recall: 0.9867, F1: 0.9843, AUC: 0.9983, AP: 0.9985
+2025-08-04 17:13:31,966 INFO [Epoch 39] Train Loss: 0.9002, Train Acc: 0.9989
+2025-08-04 17:13:34,124 INFO [Epoch 39] Val Acc: 0.9767, Precision: 0.9799, Recall: 0.9771, F1: 0.9785, AUC: 0.9972, AP: 0.9976
+2025-08-04 17:13:44,302 INFO [Epoch 40] Train Loss: 0.8264, Train Acc: 0.9991
+2025-08-04 17:13:46,435 INFO [Epoch 40] Val Acc: 0.9772, Precision: 0.9675, Recall: 0.9914, F1: 0.9793, AUC: 0.9984, AP: 0.9987
+2025-08-04 17:13:56,525 INFO [Epoch 41] Train Loss: 0.3444, Train Acc: 0.9998
+2025-08-04 17:13:58,733 INFO [Epoch 41] Val Acc: 0.9809, Precision: 0.9783, Recall: 0.9867, F1: 0.9825, AUC: 0.9984, AP: 0.9987
+2025-08-04 17:14:08,876 INFO [Epoch 42] Train Loss: 4.3970, Train Acc: 0.9953
+2025-08-04 17:14:11,051 INFO [Epoch 42] Val Acc: 0.9426, Precision: 0.9937, Recall: 0.9000, F1: 0.9445, AUC: 0.9964, AP: 0.9969
+2025-08-04 17:14:21,181 INFO [Epoch 43] Train Loss: 1.7090, Train Acc: 0.9983
+2025-08-04 17:14:23,407 INFO [Epoch 43] Val Acc: 0.9840, Precision: 0.9848, Recall: 0.9857, F1: 0.9852, AUC: 0.9987, AP: 0.9990
+2025-08-04 17:14:33,560 INFO [Epoch 44] Train Loss: 1.7169, Train Acc: 0.9982
+2025-08-04 17:14:35,741 INFO [Epoch 44] Val Acc: 0.9824, Precision: 0.9765, Recall: 0.9914, F1: 0.9839, AUC: 0.9988, AP: 0.9991
+2025-08-04 17:14:45,733 INFO [Epoch 45] Train Loss: 0.5316, Train Acc: 0.9996
+2025-08-04 17:14:47,944 INFO [Epoch 45] Val Acc: 0.9855, Precision: 0.9876, Recall: 0.9857, F1: 0.9867, AUC: 0.9991, AP: 0.9993
+2025-08-04 17:14:58,022 INFO [Epoch 46] Train Loss: 0.3438, Train Acc: 0.9996
+2025-08-04 17:15:00,262 INFO [Epoch 46] Val Acc: 0.9871, Precision: 0.9886, Recall: 0.9876, F1: 0.9881, AUC: 0.9992, AP: 0.9993
+2025-08-04 17:15:10,495 INFO [Epoch 47] Train Loss: 0.0403, Train Acc: 1.0000
+2025-08-04 17:15:12,579 INFO [Epoch 47] Val Acc: 0.9855, Precision: 0.9885, Recall: 0.9848, F1: 0.9866, AUC: 0.9991, AP: 0.9992
+2025-08-04 17:15:22,602 INFO [Epoch 48] Train Loss: 0.0163, Train Acc: 1.0000
+2025-08-04 17:15:24,824 INFO [Epoch 48] Val Acc: 0.9871, Precision: 0.9895, Recall: 0.9867, F1: 0.9881, AUC: 0.9992, AP: 0.9994
+2025-08-04 17:15:34,977 INFO [Epoch 49] Train Loss: 0.0108, Train Acc: 1.0000
+2025-08-04 17:15:37,140 INFO [Epoch 49] Val Acc: 0.9860, Precision: 0.9914, Recall: 0.9829, F1: 0.9871, AUC: 0.9993, AP: 0.9994
+2025-08-04 17:15:47,274 INFO [Epoch 50] Train Loss: 0.0132, Train Acc: 1.0000
+2025-08-04 17:15:49,354 INFO [Epoch 50] Val Acc: 0.9865, Precision: 0.9830, Recall: 0.9924, F1: 0.9877, AUC: 0.9992, AP: 0.9994
+2025-08-04 17:18:29,838 INFO [Epoch 1] Train Loss: 290.6336, Train Acc: 0.9739
+2025-08-04 17:19:00,066 INFO [Epoch 1] Val Acc: 0.9720, Precision: 0.9857, Recall: 0.9577, F1: 0.9715, AUC: 0.9968, AP: 0.9964
+2025-08-04 17:21:27,563 INFO [Epoch 2] Train Loss: 153.8842, Train Acc: 0.9857
+2025-08-04 17:21:57,115 INFO [Epoch 2] Val Acc: 0.9815, Precision: 0.9835, Recall: 0.9793, F1: 0.9814, AUC: 0.9982, AP: 0.9980
+2025-08-04 17:24:25,137 INFO [Epoch 3] Train Loss: 118.5019, Train Acc: 0.9893
+2025-08-04 17:24:54,572 INFO [Epoch 3] Val Acc: 0.9778, Precision: 0.9905, Recall: 0.9647, F1: 0.9774, AUC: 0.9978, AP: 0.9978
+2025-08-04 17:27:22,987 INFO [Epoch 4] Train Loss: 94.3461, Train Acc: 0.9912
+2025-08-04 17:27:52,211 INFO [Epoch 4] Val Acc: 0.9862, Precision: 0.9866, Recall: 0.9856, F1: 0.9861, AUC: 0.9987, AP: 0.9983

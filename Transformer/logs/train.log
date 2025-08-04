@@ -1,1 +1,4 @@
-2025-07-30 13:09:57,205 - INFO - Training started.
+2025-08-03 23:03:17,041 - INFO - Training started.
+2025-08-03 23:05:00,770 - INFO - Epoch 1: Train loss 0.5948, acc 0.6706 | Val loss 0.5500, acc 0.7170
+2025-08-03 23:05:00,770 - INFO - Learning rate: 0.0001
+2025-08-03 23:05:01,170 - INFO - Checkpoint saved: /root/Project/weights/Transformer/SGDF/epoch_1.pth
