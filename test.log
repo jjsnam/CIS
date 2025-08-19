@@ -1,0 +1,1606 @@
+Testing started
+Testing CNN
+
+Testing SGDF Trained CNN Model top10 on SGDF dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.9809
+Precision: 0.9819
+Recall: 0.9829
+F1 Score: 0.9824
+ROC-AUC: 0.9978
+Confusion Matrix:
+[[ 865   19]
+ [  18 1032]]
+
+
+Testing SGDF Trained CNN Model top10 on OpenForensics dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.5348
+Precision: 0.5743
+Recall: 0.2948
+F1 Score: 0.3896
+ROC-AUC: 0.5523
+Confusion Matrix:
+[[4213 1200]
+ [3873 1619]]
+
+
+Testing SGDF Trained CNN Model top10 on 200kMDID dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.5748
+Precision: 0.5880
+Recall: 0.5003
+F1 Score: 0.5406
+ROC-AUC: 0.6178
+Confusion Matrix:
+[[6494 3506]
+ [4997 5003]]
+
+
+Testing SGDF Trained CNN Model top30 on SGDF dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.9835
+Precision: 0.9913
+Recall: 0.9781
+F1 Score: 0.9847
+ROC-AUC: 0.9989
+Confusion Matrix:
+[[ 875    9]
+ [  23 1027]]
+
+
+Testing SGDF Trained CNN Model top30 on OpenForensics dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.5351
+Precision: 0.6126
+Recall: 0.2090
+F1 Score: 0.3117
+ROC-AUC: 0.5609
+Confusion Matrix:
+[[4687  726]
+ [4344 1148]]
+
+
+Testing SGDF Trained CNN Model top30 on 200kMDID dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.6239
+Precision: 0.6745
+Recall: 0.4787
+F1 Score: 0.5600
+ROC-AUC: 0.6229
+Confusion Matrix:
+[[7690 2310]
+ [5213 4787]]
+
+
+Testing SGDF Trained CNN Model top50 on SGDF dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.9855
+Precision: 0.9848
+Recall: 0.9886
+F1 Score: 0.9867
+ROC-AUC: 0.9984
+Confusion Matrix:
+[[ 868   16]
+ [  12 1038]]
+
+
+Testing SGDF Trained CNN Model top50 on OpenForensics dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.5559
+Precision: 0.6252
+Recall: 0.2950
+F1 Score: 0.4008
+ROC-AUC: 0.6021
+Confusion Matrix:
+[[4442  971]
+ [3872 1620]]
+
+
+Testing SGDF Trained CNN Model top50 on 200kMDID dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.5758
+Precision: 0.5933
+Recall: 0.4820
+F1 Score: 0.5319
+ROC-AUC: 0.6166
+Confusion Matrix:
+[[6696 3304]
+ [5180 4820]]
+
+
+Testing OpenForensics Trained CNN Model top10 on SGDF dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.5543
+Precision: 0.5668
+Recall: 0.7600
+F1 Score: 0.6493
+ROC-AUC: 0.5893
+Confusion Matrix:
+[[274 610]
+ [252 798]]
+
+
+Testing OpenForensics Trained CNN Model top10 on OpenForensics dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.8918
+Precision: 0.8365
+Recall: 0.9760
+F1 Score: 0.9008
+ROC-AUC: 0.9461
+Confusion Matrix:
+[[4365 1048]
+ [ 132 5360]]
+
+
+Testing OpenForensics Trained CNN Model top10 on 200kMDID dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.4689
+Precision: 0.4759
+Recall: 0.6143
+F1 Score: 0.5363
+ROC-AUC: 0.4630
+Confusion Matrix:
+[[3235 6765]
+ [3857 6143]]
+
+
+Testing OpenForensics Trained CNN Model top30 on SGDF dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.5377
+Precision: 0.5577
+Recall: 0.7181
+F1 Score: 0.6278
+ROC-AUC: 0.5639
+Confusion Matrix:
+[[286 598]
+ [296 754]]
+
+
+Testing OpenForensics Trained CNN Model top30 on OpenForensics dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.9038
+Precision: 0.8485
+Recall: 0.9849
+F1 Score: 0.9116
+ROC-AUC: 0.9625
+Confusion Matrix:
+[[4447  966]
+ [  83 5409]]
+
+
+Testing OpenForensics Trained CNN Model top30 on 200kMDID dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.5165
+Precision: 0.5118
+Recall: 0.7136
+F1 Score: 0.5961
+ROC-AUC: 0.5158
+Confusion Matrix:
+[[3194 6806]
+ [2864 7136]]
+
+
+Testing OpenForensics Trained CNN Model top50 on SGDF dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.5377
+Precision: 0.5577
+Recall: 0.7181
+F1 Score: 0.6278
+ROC-AUC: 0.5639
+Confusion Matrix:
+[[286 598]
+ [296 754]]
+
+
+Testing OpenForensics Trained CNN Model top50 on OpenForensics dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.9038
+Precision: 0.8485
+Recall: 0.9849
+F1 Score: 0.9116
+ROC-AUC: 0.9625
+Confusion Matrix:
+[[4447  966]
+ [  83 5409]]
+
+
+Testing OpenForensics Trained CNN Model top50 on 200kMDID dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.5165
+Precision: 0.5118
+Recall: 0.7136
+F1 Score: 0.5961
+ROC-AUC: 0.5158
+Confusion Matrix:
+[[3194 6806]
+ [2864 7136]]
+
+
+Testing 200kMDID Trained CNN Model top10 on SGDF dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.7192
+Precision: 0.8526
+Recall: 0.5838
+F1 Score: 0.6930
+ROC-AUC: 0.8432
+Confusion Matrix:
+[[778 106]
+ [437 613]]
+
+
+Testing 200kMDID Trained CNN Model top10 on OpenForensics dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.4352
+Precision: 0.4342
+Recall: 0.4004
+F1 Score: 0.4166
+ROC-AUC: 0.4199
+Confusion Matrix:
+[[2547 2866]
+ [3293 2199]]
+
+
+Testing 200kMDID Trained CNN Model top10 on 200kMDID dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.9673
+Precision: 0.9629
+Recall: 0.9721
+F1 Score: 0.9675
+ROC-AUC: 0.9960
+Confusion Matrix:
+[[9625  375]
+ [ 279 9721]]
+
+
+Testing 200kMDID Trained CNN Model top30 on SGDF dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.7229
+Precision: 0.8579
+Recall: 0.5867
+F1 Score: 0.6968
+ROC-AUC: 0.8527
+Confusion Matrix:
+[[782 102]
+ [434 616]]
+
+
+Testing 200kMDID Trained CNN Model top30 on OpenForensics dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.4619
+Precision: 0.4658
+Recall: 0.4669
+F1 Score: 0.4664
+ROC-AUC: 0.4517
+Confusion Matrix:
+[[2473 2940]
+ [2928 2564]]
+
+
+Testing 200kMDID Trained CNN Model top30 on 200kMDID dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.9708
+Precision: 0.9729
+Recall: 0.9687
+F1 Score: 0.9708
+ROC-AUC: 0.9967
+Confusion Matrix:
+[[9730  270]
+ [ 313 9687]]
+
+
+Testing 200kMDID Trained CNN Model top50 on SGDF dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.7363
+Precision: 0.7967
+Recall: 0.6905
+F1 Score: 0.7398
+ROC-AUC: 0.8650
+Confusion Matrix:
+[[699 185]
+ [325 725]]
+
+
+Testing 200kMDID Trained CNN Model top50 on OpenForensics dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.4704
+Precision: 0.4811
+Recall: 0.6553
+F1 Score: 0.5548
+ROC-AUC: 0.4522
+Confusion Matrix:
+[[1531 3882]
+ [1893 3599]]
+
+
+Testing 200kMDID Trained CNN Model top50 on 200kMDID dataset
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Test Results:
+Accuracy: 0.9715
+Precision: 0.9684
+Recall: 0.9747
+F1 Score: 0.9715
+ROC-AUC: 0.9966
+Confusion Matrix:
+[[9682  318]
+ [ 253 9747]]
+
+Testing Statistical Models
+Testing SGDF Statistical Model top10 on SGDF dataset
+
+Accuracy:  0.8097
+Precision: 0.8007
+Recall:    0.7771
+F1:        0.7887
+ROC-AUC:   0.8878
+Testing SGDF Statistical Model top10 on OpenForensics dataset
+
+Accuracy:  0.5229
+Precision: 0.5112
+Recall:    0.8851
+F1:        0.6481
+ROC-AUC:   0.5707
+Testing SGDF Statistical Model top10 on 200kMDID dataset
+
+Accuracy:  0.5484
+Precision: 0.5357
+Recall:    0.7272
+F1:        0.6169
+ROC-AUC:   0.5046
+Testing SGDF Statistical Model top30 on SGDF dataset
+
+Accuracy:  0.8108
+Precision: 0.8005
+Recall:    0.7805
+F1:        0.7904
+ROC-AUC:   0.8882
+Testing SGDF Statistical Model top30 on OpenForensics dataset
+
+Accuracy:  0.5210
+Precision: 0.5101
+Recall:    0.8832
+F1:        0.6467
+ROC-AUC:   0.5703
+Testing SGDF Statistical Model top30 on 200kMDID dataset
+
+Accuracy:  0.5501
+Precision: 0.5369
+Recall:    0.7275
+F1:        0.6179
+ROC-AUC:   0.5052
+Testing SGDF Statistical Model top50 on SGDF dataset
+
+Accuracy:  0.8108
+Precision: 0.8005
+Recall:    0.7805
+F1:        0.7904
+ROC-AUC:   0.8882
+Testing SGDF Statistical Model top50 on OpenForensics dataset
+
+Accuracy:  0.5210
+Precision: 0.5101
+Recall:    0.8832
+F1:        0.6467
+ROC-AUC:   0.5703
+Testing SGDF Statistical Model top50 on 200kMDID dataset
+
+Accuracy:  0.5501
+Precision: 0.5369
+Recall:    0.7275
+F1:        0.6179
+ROC-AUC:   0.5052
+Testing OpenForensics Statistical Model top10 on SGDF dataset
+
+Accuracy:  0.5434
+Precision: 0.5010
+Recall:    0.2771
+F1:        0.3569
+ROC-AUC:   0.5264
+Testing OpenForensics Statistical Model top10 on OpenForensics dataset
+
+Accuracy:  0.5868
+Precision: 0.6059
+Recall:    0.4794
+F1:        0.5353
+ROC-AUC:   0.6111
+Testing OpenForensics Statistical Model top10 on 200kMDID dataset
+
+Accuracy:  0.5044
+Precision: 0.5072
+Recall:    0.3146
+F1:        0.3883
+ROC-AUC:   0.5291
+Testing OpenForensics Statistical Model top30 on SGDF dataset
+
+Accuracy:  0.5434
+Precision: 0.5010
+Recall:    0.2771
+F1:        0.3569
+ROC-AUC:   0.5264
+Testing OpenForensics Statistical Model top30 on OpenForensics dataset
+
+Accuracy:  0.5868
+Precision: 0.6059
+Recall:    0.4794
+F1:        0.5353
+ROC-AUC:   0.6111
+Testing OpenForensics Statistical Model top30 on 200kMDID dataset
+
+Accuracy:  0.5044
+Precision: 0.5072
+Recall:    0.3146
+F1:        0.3883
+ROC-AUC:   0.5291
+Testing OpenForensics Statistical Model top50 on SGDF dataset
+
+Accuracy:  0.5434
+Precision: 0.5010
+Recall:    0.2771
+F1:        0.3569
+ROC-AUC:   0.5264
+Testing OpenForensics Statistical Model top50 on OpenForensics dataset
+
+Accuracy:  0.5868
+Precision: 0.6059
+Recall:    0.4794
+F1:        0.5353
+ROC-AUC:   0.6111
+Testing OpenForensics Statistical Model top50 on 200kMDID dataset
+
+Accuracy:  0.5044
+Precision: 0.5072
+Recall:    0.3146
+F1:        0.3883
+ROC-AUC:   0.5291
+Testing 200kMDID Statistical Model top10 on SGDF dataset
+
+Accuracy:  0.6039
+Precision: 0.5501
+Recall:    0.7330
+F1:        0.6285
+ROC-AUC:   0.6538
+Testing 200kMDID Statistical Model top10 on OpenForensics dataset
+
+Accuracy:  0.4641
+Precision: 0.4705
+Recall:    0.6340
+F1:        0.5401
+ROC-AUC:   0.4441
+Testing 200kMDID Statistical Model top10 on 200kMDID dataset
+
+Accuracy:  0.7185
+Precision: 0.7054
+Recall:    0.7502
+F1:        0.7271
+ROC-AUC:   0.7930
+Testing 200kMDID Statistical Model top30 on SGDF dataset
+
+Accuracy:  0.6055
+Precision: 0.5513
+Recall:    0.7353
+F1:        0.6302
+ROC-AUC:   0.6537
+Testing 200kMDID Statistical Model top30 on OpenForensics dataset
+
+Accuracy:  0.4642
+Precision: 0.4706
+Recall:    0.6351
+F1:        0.5406
+ROC-AUC:   0.4441
+Testing 200kMDID Statistical Model top30 on 200kMDID dataset
+
+Accuracy:  0.7184
+Precision: 0.7055
+Recall:    0.7498
+F1:        0.7270
+ROC-AUC:   0.7930
+Testing 200kMDID Statistical Model top50 on SGDF dataset
+
+Accuracy:  0.6055
+Precision: 0.5513
+Recall:    0.7353
+F1:        0.6302
+ROC-AUC:   0.6537
+Testing 200kMDID Statistical Model top50 on OpenForensics dataset
+
+Accuracy:  0.4642
+Precision: 0.4706
+Recall:    0.6351
+F1:        0.5406
+ROC-AUC:   0.4441
+Testing 200kMDID Statistical Model top50 on 200kMDID dataset
+
+Accuracy:  0.7184
+Precision: 0.7055
+Recall:    0.7498
+F1:        0.7270
+ROC-AUC:   0.7930
+
+Testing process is now restored
+
+Testing started
+Testing RCNN
+
+Testing SGDF Trained RCNN Model top10 on SGDF dataset
+[TEST] Accuracy:  0.8608
+[TEST] Precision: 0.8111
+[TEST] Recall:    0.9852
+[TEST] F1 Score:  0.8897
+[TEST] ROC-AUC:   0.9777
+[TEST] Confusion Matrix:
+[[531 232]
+ [ 15 996]]
+
+
+Testing SGDF Trained RCNN Model top10 on OpenForensics dataset
+[TEST] Accuracy:  0.6083
+[TEST] Precision: 0.6038
+[TEST] Recall:    0.6781
+[TEST] F1 Score:  0.6388
+[TEST] ROC-AUC:   0.6456
+[TEST] Confusion Matrix:
+[[2757 2392]
+ [1730 3645]]
+
+
+Testing SGDF Trained RCNN Model top10 on 200kMDID dataset
+[TEST] Accuracy:  0.4352
+[TEST] Precision: 0.4428
+[TEST] Recall:    0.5034
+[TEST] F1 Score:  0.4711
+[TEST] ROC-AUC:   0.5426
+[TEST] Confusion Matrix:
+[[3672 6328]
+ [4961 5028]]
+
+
+Testing SGDF Trained RCNN Model top30 on SGDF dataset
+[TEST] Accuracy:  0.9205
+[TEST] Precision: 0.8884
+[TEST] Recall:    0.9842
+[TEST] F1 Score:  0.9338
+[TEST] ROC-AUC:   0.9868
+[TEST] Confusion Matrix:
+[[638 125]
+ [ 16 995]]
+
+
+Testing SGDF Trained RCNN Model top30 on OpenForensics dataset
+[TEST] Accuracy:  0.5882
+[TEST] Precision: 0.5958
+[TEST] Recall:    0.6020
+[TEST] F1 Score:  0.5989
+[TEST] ROC-AUC:   0.6169
+[TEST] Confusion Matrix:
+[[2954 2195]
+ [2139 3236]]
+
+
+Testing SGDF Trained RCNN Model top30 on 200kMDID dataset
+[TEST] Accuracy:  0.4848
+[TEST] Precision: 0.4855
+[TEST] Recall:    0.5163
+[TEST] F1 Score:  0.5004
+[TEST] ROC-AUC:   0.5709
+[TEST] Confusion Matrix:
+[[4534 5466]
+ [4832 5157]]
+
+
+Testing SGDF Trained RCNN Model top50 on SGDF dataset
+[TEST] Accuracy:  0.9205
+[TEST] Precision: 0.8884
+[TEST] Recall:    0.9842
+[TEST] F1 Score:  0.9338
+[TEST] ROC-AUC:   0.9868
+[TEST] Confusion Matrix:
+[[638 125]
+ [ 16 995]]
+
+
+Testing SGDF Trained RCNN Model top50 on OpenForensics dataset
+[TEST] Accuracy:  0.5882
+[TEST] Precision: 0.5958
+[TEST] Recall:    0.6020
+[TEST] F1 Score:  0.5989
+[TEST] ROC-AUC:   0.6169
+[TEST] Confusion Matrix:
+[[2954 2195]
+ [2139 3236]]
+
+
+Testing SGDF Trained RCNN Model top50 on 200kMDID dataset
+[TEST] Accuracy:  0.4848
+[TEST] Precision: 0.4855
+[TEST] Recall:    0.5163
+[TEST] F1 Score:  0.5004
+[TEST] ROC-AUC:   0.5709
+[TEST] Confusion Matrix:
+[[4534 5466]
+ [4832 5157]]
+
+
+Testing OpenForensics Trained RCNN Model top10 on SGDF dataset
+[TEST] Accuracy:  0.5316
+[TEST] Precision: 0.5689
+[TEST] Recall:    0.7349
+[TEST] F1 Score:  0.6413
+[TEST] ROC-AUC:   0.5215
+[TEST] Confusion Matrix:
+[[200 563]
+ [268 743]]
+
+
+Testing OpenForensics Trained RCNN Model top10 on OpenForensics dataset
+[TEST] Accuracy:  0.7809
+[TEST] Precision: 0.7042
+[TEST] Recall:    0.9846
+[TEST] F1 Score:  0.8211
+[TEST] ROC-AUC:   0.9374
+[TEST] Confusion Matrix:
+[[2926 2223]
+ [  83 5292]]
+
+
+Testing OpenForensics Trained RCNN Model top10 on 200kMDID dataset
+[TEST] Accuracy:  0.4973
+[TEST] Precision: 0.4972
+[TEST] Recall:    0.5153
+[TEST] F1 Score:  0.5060
+[TEST] ROC-AUC:   0.4908
+[TEST] Confusion Matrix:
+[[4794 5206]
+ [4842 5147]]
+
+
+Testing OpenForensics Trained RCNN Model top30 on SGDF dataset
+[TEST] Accuracy:  0.5158
+[TEST] Precision: 0.5752
+[TEST] Recall:    0.5747
+[TEST] F1 Score:  0.5750
+[TEST] ROC-AUC:   0.5269
+[TEST] Confusion Matrix:
+[[334 429]
+ [430 581]]
+
+
+Testing OpenForensics Trained RCNN Model top30 on OpenForensics dataset
+[TEST] Accuracy:  0.8288
+[TEST] Precision: 0.7633
+[TEST] Recall:    0.9635
+[TEST] F1 Score:  0.8518
+[TEST] ROC-AUC:   0.9310
+[TEST] Confusion Matrix:
+[[3543 1606]
+ [ 196 5179]]
+
+
+Testing OpenForensics Trained RCNN Model top30 on 200kMDID dataset
+[TEST] Accuracy:  0.4880
+[TEST] Precision: 0.4830
+[TEST] Recall:    0.3498
+[TEST] F1 Score:  0.4057
+[TEST] ROC-AUC:   0.4751
+[TEST] Confusion Matrix:
+[[6260 3740]
+ [6495 3494]]
+
+
+Testing OpenForensics Trained RCNN Model top50 on SGDF dataset
+[TEST] Accuracy:  0.5158
+[TEST] Precision: 0.5752
+[TEST] Recall:    0.5747
+[TEST] F1 Score:  0.5750
+[TEST] ROC-AUC:   0.5269
+[TEST] Confusion Matrix:
+[[334 429]
+ [430 581]]
+
+
+Testing OpenForensics Trained RCNN Model top50 on OpenForensics dataset
+[TEST] Accuracy:  0.8288
+[TEST] Precision: 0.7633
+[TEST] Recall:    0.9635
+[TEST] F1 Score:  0.8518
+[TEST] ROC-AUC:   0.9310
+[TEST] Confusion Matrix:
+[[3543 1606]
+ [ 196 5179]]
+
+
+Testing OpenForensics Trained RCNN Model top50 on 200kMDID dataset
+[TEST] Accuracy:  0.4880
+[TEST] Precision: 0.4830
+[TEST] Recall:    0.3498
+[TEST] F1 Score:  0.4057
+[TEST] ROC-AUC:   0.4751
+[TEST] Confusion Matrix:
+[[6260 3740]
+ [6495 3494]]
+
+
+Testing 200kMDID Trained RCNN Model top10 on SGDF dataset
+[TEST] Accuracy:  0.6838
+[TEST] Precision: 0.9377
+[TEST] Recall:    0.4768
+[TEST] F1 Score:  0.6321
+[TEST] ROC-AUC:   0.8088
+[TEST] Confusion Matrix:
+[[731  32]
+ [529 482]]
+
+
+Testing 200kMDID Trained RCNN Model top10 on OpenForensics dataset
+[TEST] Accuracy:  0.4765
+[TEST] Precision: 0.3905
+[TEST] Recall:    0.0445
+[TEST] F1 Score:  0.0798
+[TEST] ROC-AUC:   0.4784
+[TEST] Confusion Matrix:
+[[4776  373]
+ [5136  239]]
+
+
+Testing 200kMDID Trained RCNN Model top10 on 200kMDID dataset
+[TEST] Accuracy:  0.9062
+[TEST] Precision: 0.9950
+[TEST] Recall:    0.8164
+[TEST] F1 Score:  0.8969
+[TEST] ROC-AUC:   0.9892
+[TEST] Confusion Matrix:
+[[9959   41]
+ [1834 8155]]
+
+
+Testing 200kMDID Trained RCNN Model top30 on SGDF dataset
+[TEST] Accuracy:  0.7074
+[TEST] Precision: 0.9424
+[TEST] Recall:    0.5183
+[TEST] F1 Score:  0.6688
+[TEST] ROC-AUC:   0.8336
+[TEST] Confusion Matrix:
+[[731  32]
+ [487 524]]
+
+
+Testing 200kMDID Trained RCNN Model top30 on OpenForensics dataset
+[TEST] Accuracy:  0.4776
+[TEST] Precision: 0.4279
+[TEST] Recall:    0.0679
+[TEST] F1 Score:  0.1172
+[TEST] ROC-AUC:   0.4754
+[TEST] Confusion Matrix:
+[[4661  488]
+ [5010  365]]
+
+
+Testing 200kMDID Trained RCNN Model top30 on 200kMDID dataset
+[TEST] Accuracy:  0.9298
+[TEST] Precision: 0.9891
+[TEST] Recall:    0.8691
+[TEST] F1 Score:  0.9252
+[TEST] ROC-AUC:   0.9900
+[TEST] Confusion Matrix:
+[[9904   96]
+ [1308 8681]]
+
+
+Testing 200kMDID Trained RCNN Model top50 on SGDF dataset
+[TEST] Accuracy:  0.7103
+[TEST] Precision: 0.9430
+[TEST] Recall:    0.5232
+[TEST] F1 Score:  0.6730
+[TEST] ROC-AUC:   0.8142
+[TEST] Confusion Matrix:
+[[731  32]
+ [482 529]]
+
+
+Testing 200kMDID Trained RCNN Model top50 on OpenForensics dataset
+[TEST] Accuracy:  0.4794
+[TEST] Precision: 0.4307
+[TEST] Recall:    0.0601
+[TEST] F1 Score:  0.1055
+[TEST] ROC-AUC:   0.4925
+[TEST] Confusion Matrix:
+[[4722  427]
+ [5052  323]]
+
+
+Testing 200kMDID Trained RCNN Model top50 on 200kMDID dataset
+[TEST] Accuracy:  0.9346
+[TEST] Precision: 0.9905
+[TEST] Recall:    0.8775
+[TEST] F1 Score:  0.9306
+[TEST] ROC-AUC:   0.9883
+[TEST] Confusion Matrix:
+[[9916   84]
+ [1224 8765]]
+
+Testing CNN+Transformer
+
+Testing SGDF Trained CNN+Transformer Model top10 on SGDF dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/SGDF/SGDF_CNN+Transformer_top10.pth
+[TEST] Accuracy:  0.9638
+[TEST] Precision: 0.9649
+[TEST] Recall:    0.9686
+[TEST] F1 Score:  0.9667
+[TEST] ROC-AUC:   0.9939
+[TEST] Confusion Matrix:
+[[ 847   37]
+ [  33 1017]]
+
+
+Testing SGDF Trained CNN+Transformer Model top10 on OpenForensics dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/SGDF/SGDF_CNN+Transformer_top10.pth
+[TEST] Accuracy:  0.5182
+[TEST] Precision: 0.5474
+[TEST] Recall:    0.2502
+[TEST] F1 Score:  0.3434
+[TEST] ROC-AUC:   0.5573
+[TEST] Confusion Matrix:
+[[4277 1136]
+ [4118 1374]]
+
+
+Testing SGDF Trained CNN+Transformer Model top10 on 200kMDID dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/SGDF/SGDF_CNN+Transformer_top10.pth
+[TEST] Accuracy:  0.5667
+[TEST] Precision: 0.5726
+[TEST] Recall:    0.5267
+[TEST] F1 Score:  0.5487
+[TEST] ROC-AUC:   0.5998
+[TEST] Confusion Matrix:
+[[6068 3932]
+ [4733 5267]]
+
+
+Testing SGDF Trained CNN+Transformer Model top30 on SGDF dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/SGDF/SGDF_CNN+Transformer_top30.pth
+[TEST] Accuracy:  0.9623
+[TEST] Precision: 0.9702
+[TEST] Recall:    0.9600
+[TEST] F1 Score:  0.9651
+[TEST] ROC-AUC:   0.9944
+[TEST] Confusion Matrix:
+[[ 853   31]
+ [  42 1008]]
+
+
+Testing SGDF Trained CNN+Transformer Model top30 on OpenForensics dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/SGDF/SGDF_CNN+Transformer_top30.pth
+[TEST] Accuracy:  0.5259
+[TEST] Precision: 0.5964
+[TEST] Recall:    0.1814
+[TEST] F1 Score:  0.2781
+[TEST] ROC-AUC:   0.5825
+[TEST] Confusion Matrix:
+[[4739  674]
+ [4496  996]]
+
+
+Testing SGDF Trained CNN+Transformer Model top30 on 200kMDID dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/SGDF/SGDF_CNN+Transformer_top30.pth
+[TEST] Accuracy:  0.5923
+[TEST] Precision: 0.6192
+[TEST] Recall:    0.4792
+[TEST] F1 Score:  0.5403
+[TEST] ROC-AUC:   0.6091
+[TEST] Confusion Matrix:
+[[7053 2947]
+ [5208 4792]]
+
+
+Testing SGDF Trained CNN+Transformer Model top50 on SGDF dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/SGDF/SGDF_CNN+Transformer_top50.pth
+[TEST] Accuracy:  0.9741
+[TEST] Precision: 0.9817
+[TEST] Recall:    0.9705
+[TEST] F1 Score:  0.9761
+[TEST] ROC-AUC:   0.9961
+[TEST] Confusion Matrix:
+[[ 865   19]
+ [  31 1019]]
+
+
+Testing SGDF Trained CNN+Transformer Model top50 on OpenForensics dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/SGDF/SGDF_CNN+Transformer_top50.pth
+[TEST] Accuracy:  0.5288
+[TEST] Precision: 0.5964
+[TEST] Recall:    0.1994
+[TEST] F1 Score:  0.2989
+[TEST] ROC-AUC:   0.5625
+[TEST] Confusion Matrix:
+[[4672  741]
+ [4397 1095]]
+
+
+Testing SGDF Trained CNN+Transformer Model top50 on 200kMDID dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/SGDF/SGDF_CNN+Transformer_top50.pth
+[TEST] Accuracy:  0.6017
+[TEST] Precision: 0.6339
+[TEST] Recall:    0.4815
+[TEST] F1 Score:  0.5473
+[TEST] ROC-AUC:   0.6076
+[TEST] Confusion Matrix:
+[[7219 2781]
+ [5185 4815]]
+
+
+Testing OpenForensics Trained CNN+Transformer Model top10 on SGDF dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/OpenForensics/OpenForensics_CNN+Transformer_top10.pth
+[TEST] Accuracy:  0.5496
+[TEST] Precision: 0.5766
+[TEST] Recall:    0.6419
+[TEST] F1 Score:  0.6075
+[TEST] ROC-AUC:   0.5612
+[TEST] Confusion Matrix:
+[[389 495]
+ [376 674]]
+
+
+Testing OpenForensics Trained CNN+Transformer Model top10 on OpenForensics dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/OpenForensics/OpenForensics_CNN+Transformer_top10.pth
+[TEST] Accuracy:  0.9101
+[TEST] Precision: 0.8678
+[TEST] Recall:    0.9692
+[TEST] F1 Score:  0.9157
+[TEST] ROC-AUC:   0.9817
+[TEST] Confusion Matrix:
+[[4602  811]
+ [ 169 5323]]
+
+
+Testing OpenForensics Trained CNN+Transformer Model top10 on 200kMDID dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/OpenForensics/OpenForensics_CNN+Transformer_top10.pth
+[TEST] Accuracy:  0.5009
+[TEST] Precision: 0.5008
+[TEST] Recall:    0.5508
+[TEST] F1 Score:  0.5246
+[TEST] ROC-AUC:   0.4904
+[TEST] Confusion Matrix:
+[[4509 5491]
+ [4492 5508]]
+
+
+Testing OpenForensics Trained CNN+Transformer Model top30 on SGDF dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/OpenForensics/OpenForensics_CNN+Transformer_top30.pth
+[TEST] Accuracy:  0.5683
+[TEST] Precision: 0.5966
+[TEST] Recall:    0.6324
+[TEST] F1 Score:  0.6140
+[TEST] ROC-AUC:   0.5725
+[TEST] Confusion Matrix:
+[[435 449]
+ [386 664]]
+
+
+Testing OpenForensics Trained CNN+Transformer Model top30 on OpenForensics dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/OpenForensics/OpenForensics_CNN+Transformer_top30.pth
+[TEST] Accuracy:  0.9100
+[TEST] Precision: 0.8668
+[TEST] Recall:    0.9705
+[TEST] F1 Score:  0.9157
+[TEST] ROC-AUC:   0.9817
+[TEST] Confusion Matrix:
+[[4594  819]
+ [ 162 5330]]
+
+
+Testing OpenForensics Trained CNN+Transformer Model top30 on 200kMDID dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/OpenForensics/OpenForensics_CNN+Transformer_top30.pth
+[TEST] Accuracy:  0.4976
+[TEST] Precision: 0.4976
+[TEST] Recall:    0.4890
+[TEST] F1 Score:  0.4933
+[TEST] ROC-AUC:   0.4867
+[TEST] Confusion Matrix:
+[[5063 4937]
+ [5110 4890]]
+
+
+Testing OpenForensics Trained CNN+Transformer Model top50 on SGDF dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/OpenForensics/OpenForensics_CNN+Transformer_top50.pth
+[TEST] Accuracy:  0.5636
+[TEST] Precision: 0.5784
+[TEST] Recall:    0.7238
+[TEST] F1 Score:  0.6430
+[TEST] ROC-AUC:   0.5823
+[TEST] Confusion Matrix:
+[[330 554]
+ [290 760]]
+
+
+Testing OpenForensics Trained CNN+Transformer Model top50 on OpenForensics dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/OpenForensics/OpenForensics_CNN+Transformer_top50.pth
+[TEST] Accuracy:  0.9197
+[TEST] Precision: 0.8754
+[TEST] Recall:    0.9800
+[TEST] F1 Score:  0.9247
+[TEST] ROC-AUC:   0.9861
+[TEST] Confusion Matrix:
+[[4647  766]
+ [ 110 5382]]
+
+
+Testing OpenForensics Trained CNN+Transformer Model top50 on 200kMDID dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/OpenForensics/OpenForensics_CNN+Transformer_top50.pth
+[TEST] Accuracy:  0.4809
+[TEST] Precision: 0.4840
+[TEST] Recall:    0.5764
+[TEST] F1 Score:  0.5262
+[TEST] ROC-AUC:   0.4743
+[TEST] Confusion Matrix:
+[[3854 6146]
+ [4236 5764]]
+
+
+Testing 200kMDID Trained CNN+Transformer Model top10 on SGDF dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/200kMDID/200kMDID_CNN+Transformer_top10.pth
+[TEST] Accuracy:  0.7053
+[TEST] Precision: 0.7927
+[TEST] Recall:    0.6190
+[TEST] F1 Score:  0.6952
+[TEST] ROC-AUC:   0.8307
+[TEST] Confusion Matrix:
+[[714 170]
+ [400 650]]
+
+
+Testing 200kMDID Trained CNN+Transformer Model top10 on OpenForensics dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/200kMDID/200kMDID_CNN+Transformer_top10.pth
+[TEST] Accuracy:  0.5086
+[TEST] Precision: 0.5102
+[TEST] Recall:    0.6052
+[TEST] F1 Score:  0.5537
+[TEST] ROC-AUC:   0.5170
+[TEST] Confusion Matrix:
+[[2222 3191]
+ [2168 3324]]
+
+
+Testing 200kMDID Trained CNN+Transformer Model top10 on 200kMDID dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/200kMDID/200kMDID_CNN+Transformer_top10.pth
+[TEST] Accuracy:  0.9666
+[TEST] Precision: 0.9714
+[TEST] Recall:    0.9614
+[TEST] F1 Score:  0.9664
+[TEST] ROC-AUC:   0.9959
+[TEST] Confusion Matrix:
+[[9717  283]
+ [ 386 9614]]
+
+
+Testing 200kMDID Trained CNN+Transformer Model top30 on SGDF dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/200kMDID/200kMDID_CNN+Transformer_top30.pth
+[TEST] Accuracy:  0.7223
+[TEST] Precision: 0.8021
+[TEST] Recall:    0.6486
+[TEST] F1 Score:  0.7172
+[TEST] ROC-AUC:   0.8438
+[TEST] Confusion Matrix:
+[[716 168]
+ [369 681]]
+
+
+Testing 200kMDID Trained CNN+Transformer Model top30 on OpenForensics dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/200kMDID/200kMDID_CNN+Transformer_top30.pth
+[TEST] Accuracy:  0.5179
+[TEST] Precision: 0.5167
+[TEST] Recall:    0.6611
+[TEST] F1 Score:  0.5801
+[TEST] ROC-AUC:   0.5173
+[TEST] Confusion Matrix:
+[[2017 3396]
+ [1861 3631]]
+
+
+Testing 200kMDID Trained CNN+Transformer Model top30 on 200kMDID dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/200kMDID/200kMDID_CNN+Transformer_top30.pth
+[TEST] Accuracy:  0.9674
+[TEST] Precision: 0.9669
+[TEST] Recall:    0.9679
+[TEST] F1 Score:  0.9674
+[TEST] ROC-AUC:   0.9959
+[TEST] Confusion Matrix:
+[[9669  331]
+ [ 321 9679]]
+
+
+Testing 200kMDID Trained CNN+Transformer Model top50 on SGDF dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/200kMDID/200kMDID_CNN+Transformer_top50.pth
+[TEST] Accuracy:  0.6867
+[TEST] Precision: 0.7500
+[TEST] Recall:    0.6343
+[TEST] F1 Score:  0.6873
+[TEST] ROC-AUC:   0.8169
+[TEST] Confusion Matrix:
+[[662 222]
+ [384 666]]
+
+
+Testing 200kMDID Trained CNN+Transformer Model top50 on OpenForensics dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/200kMDID/200kMDID_CNN+Transformer_top50.pth
+[TEST] Accuracy:  0.5265
+[TEST] Precision: 0.5236
+[TEST] Recall:    0.6651
+[TEST] F1 Score:  0.5859
+[TEST] ROC-AUC:   0.5267
+[TEST] Confusion Matrix:
+[[2089 3324]
+ [1839 3653]]
+
+
+Testing 200kMDID Trained CNN+Transformer Model top50 on 200kMDID dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/200kMDID/200kMDID_CNN+Transformer_top50.pth
+[TEST] Accuracy:  0.9688
+[TEST] Precision: 0.9664
+[TEST] Recall:    0.9715
+[TEST] F1 Score:  0.9689
+[TEST] ROC-AUC:   0.9963
+[TEST] Confusion Matrix:
+[[9662  338]
+ [ 285 9715]]
+
+Instance: I228c8602ca00301d54 shutdown successfully
+Testing started
+Testing Transformer
+
+Testing SGDF Trained Transformer Model top10 on SGDF dataset
+Transformer Test Results:
+Accuracy: 0.9385
+Precision: 0.9516
+Recall: 0.9118
+F1 Score: 0.9313
+ROC-AUC: 0.9856
+Confusion Matrix:
+[[1009   41]
+ [  78  806]]
+
+
+Testing SGDF Trained Transformer Model top10 on OpenForensics dataset
+Transformer Test Results:
+Accuracy: 0.5119
+Precision: 0.5043
+Recall: 0.9849
+F1 Score: 0.6670
+ROC-AUC: 0.5802
+Confusion Matrix:
+[[ 251 5241]
+ [  82 5331]]
+
+
+Testing SGDF Trained Transformer Model top10 on 200kMDID dataset
+Transformer Test Results:
+Accuracy: 0.6470
+Precision: 0.6029
+Recall: 0.8614
+F1 Score: 0.7093
+ROC-AUC: 0.6251
+Confusion Matrix:
+[[4326 5674]
+ [1386 8614]]
+
+
+Testing SGDF Trained Transformer Model top30 on SGDF dataset
+Transformer Test Results:
+Accuracy: 0.9385
+Precision: 0.9516
+Recall: 0.9118
+F1 Score: 0.9313
+ROC-AUC: 0.9856
+Confusion Matrix:
+[[1009   41]
+ [  78  806]]
+
+
+Testing SGDF Trained Transformer Model top30 on OpenForensics dataset
+Transformer Test Results:
+Accuracy: 0.5119
+Precision: 0.5043
+Recall: 0.9849
+F1 Score: 0.6670
+ROC-AUC: 0.5802
+Confusion Matrix:
+[[ 251 5241]
+ [  82 5331]]
+
+
+Testing SGDF Trained Transformer Model top30 on 200kMDID dataset
+Transformer Test Results:
+Accuracy: 0.6470
+Precision: 0.6029
+Recall: 0.8614
+F1 Score: 0.7093
+ROC-AUC: 0.6251
+Confusion Matrix:
+[[4326 5674]
+ [1386 8614]]
+
+
+Testing SGDF Trained Transformer Model top50 on SGDF dataset
+Transformer Test Results:
+Accuracy: 0.9385
+Precision: 0.9516
+Recall: 0.9118
+F1 Score: 0.9313
+ROC-AUC: 0.9856
+Confusion Matrix:
+[[1009   41]
+ [  78  806]]
+
+
+Testing SGDF Trained Transformer Model top50 on OpenForensics dataset
+Transformer Test Results:
+Accuracy: 0.5119
+Precision: 0.5043
+Recall: 0.9849
+F1 Score: 0.6670
+ROC-AUC: 0.5802
+Confusion Matrix:
+[[ 251 5241]
+ [  82 5331]]
+
+
+Testing SGDF Trained Transformer Model top50 on 200kMDID dataset
+Transformer Test Results:
+Accuracy: 0.6470
+Precision: 0.6029
+Recall: 0.8614
+F1 Score: 0.7093
+ROC-AUC: 0.6251
+Confusion Matrix:
+[[4326 5674]
+ [1386 8614]]
+
+
+Testing OpenForensics Trained Transformer Model top10 on SGDF dataset
+Transformer Test Results:
+Accuracy: 0.5010
+Precision: 0.4578
+Recall: 0.4966
+F1 Score: 0.4764
+ROC-AUC: 0.5156
+Confusion Matrix:
+[[530 520]
+ [445 439]]
+
+
+Testing OpenForensics Trained Transformer Model top10 on OpenForensics dataset
+Transformer Test Results:
+Accuracy: 0.9093
+Precision: 0.9550
+Recall: 0.8577
+F1 Score: 0.9037
+ROC-AUC: 0.9787
+Confusion Matrix:
+[[5273  219]
+ [ 770 4643]]
+
+
+Testing OpenForensics Trained Transformer Model top10 on 200kMDID dataset
+Transformer Test Results:
+Accuracy: 0.5185
+Precision: 0.5155
+Recall: 0.6183
+F1 Score: 0.5622
+ROC-AUC: 0.5245
+Confusion Matrix:
+[[4188 5812]
+ [3817 6183]]
+
+
+Testing OpenForensics Trained Transformer Model top30 on SGDF dataset
+Transformer Test Results:
+Accuracy: 0.5010
+Precision: 0.4578
+Recall: 0.4966
+F1 Score: 0.4764
+ROC-AUC: 0.5156
+Confusion Matrix:
+[[530 520]
+ [445 439]]
+
+
+Testing OpenForensics Trained Transformer Model top30 on OpenForensics dataset
+Transformer Test Results:
+Accuracy: 0.9093
+Precision: 0.9550
+Recall: 0.8577
+F1 Score: 0.9037
+ROC-AUC: 0.9787
+Confusion Matrix:
+[[5273  219]
+ [ 770 4643]]
+
+
+Testing OpenForensics Trained Transformer Model top30 on 200kMDID dataset
+Transformer Test Results:
+Accuracy: 0.5185
+Precision: 0.5155
+Recall: 0.6183
+F1 Score: 0.5622
+ROC-AUC: 0.5245
+Confusion Matrix:
+[[4188 5812]
+ [3817 6183]]
+
+
+Testing OpenForensics Trained Transformer Model top50 on SGDF dataset
+Transformer Test Results:
+Accuracy: 0.5010
+Precision: 0.4578
+Recall: 0.4966
+F1 Score: 0.4764
+ROC-AUC: 0.5156
+Confusion Matrix:
+[[530 520]
+ [445 439]]
+
+
+Testing OpenForensics Trained Transformer Model top50 on OpenForensics dataset
+Transformer Test Results:
+Accuracy: 0.9093
+Precision: 0.9550
+Recall: 0.8577
+F1 Score: 0.9037
+ROC-AUC: 0.9787
+Confusion Matrix:
+[[5273  219]
+ [ 770 4643]]
+
+
+Testing OpenForensics Trained Transformer Model top50 on 200kMDID dataset
+Transformer Test Results:
+Accuracy: 0.5185
+Precision: 0.5155
+Recall: 0.6183
+F1 Score: 0.5622
+ROC-AUC: 0.5245
+Confusion Matrix:
+[[4188 5812]
+ [3817 6183]]
+
+
+Testing 200kMDID Trained Transformer Model top10 on SGDF dataset
+Transformer Test Results:
+Accuracy: 0.7260
+Precision: 0.6597
+Recall: 0.8269
+F1 Score: 0.7339
+ROC-AUC: 0.8332
+Confusion Matrix:
+[[673 377]
+ [153 731]]
+
+
+Testing 200kMDID Trained Transformer Model top10 on OpenForensics dataset
+Transformer Test Results:
+Accuracy: 0.4971
+Precision: 0.4945
+Recall: 0.5878
+F1 Score: 0.5371
+ROC-AUC: 0.4993
+Confusion Matrix:
+[[2239 3253]
+ [2231 3182]]
+
+
+Testing 200kMDID Trained Transformer Model top10 on 200kMDID dataset
+Transformer Test Results:
+Accuracy: 0.9492
+Precision: 0.9485
+Recall: 0.9499
+F1 Score: 0.9492
+ROC-AUC: 0.9917
+Confusion Matrix:
+[[9484  516]
+ [ 501 9499]]
+
+
+Testing 200kMDID Trained Transformer Model top30 on SGDF dataset
+Transformer Test Results:
+Accuracy: 0.7234
+Precision: 0.6723
+Recall: 0.7704
+F1 Score: 0.7180
+ROC-AUC: 0.8321
+Confusion Matrix:
+[[718 332]
+ [203 681]]
+
+
+Testing 200kMDID Trained Transformer Model top30 on OpenForensics dataset
+Transformer Test Results:
+Accuracy: 0.5168
+Precision: 0.5132
+Recall: 0.5182
+F1 Score: 0.5157
+ROC-AUC: 0.5310
+Confusion Matrix:
+[[2831 2661]
+ [2608 2805]]
+
+
+Testing 200kMDID Trained Transformer Model top30 on 200kMDID dataset
+Transformer Test Results:
+Accuracy: 0.9535
+Precision: 0.9550
+Recall: 0.9519
+F1 Score: 0.9534
+ROC-AUC: 0.9918
+Confusion Matrix:
+[[9551  449]
+ [ 481 9519]]
+
+
+Testing 200kMDID Trained Transformer Model top50 on SGDF dataset
+Transformer Test Results:
+Accuracy: 0.7296
+Precision: 0.6631
+Recall: 0.8303
+F1 Score: 0.7373
+ROC-AUC: 0.8347
+Confusion Matrix:
+[[677 373]
+ [150 734]]
+
+
+Testing 200kMDID Trained Transformer Model top50 on OpenForensics dataset
+Transformer Test Results:
+Accuracy: 0.5229
+Precision: 0.5163
+Recall: 0.6144
+F1 Score: 0.5611
+ROC-AUC: 0.5445
+Confusion Matrix:
+[[2376 3116]
+ [2087 3326]]
+
+
+Testing 200kMDID Trained Transformer Model top50 on 200kMDID dataset
+Transformer Test Results:
+Accuracy: 0.9519
+Precision: 0.9485
+Recall: 0.9558
+F1 Score: 0.9521
+ROC-AUC: 0.9920
+Confusion Matrix:
+[[9481  519]
+ [ 442 9558]]
+
+Instance: I228c8602ca00301d54 shutdown successfully

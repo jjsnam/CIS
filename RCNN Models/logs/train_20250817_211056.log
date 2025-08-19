@@ -1,0 +1,109 @@
+2025-08-17 21:16:54,215 | INFO | Epoch 1 | Train Loss: 889.8257, Train Acc: 0.8614
+2025-08-17 21:16:54,513 | INFO | Epoch 1 | Train Precision: 0.8740, Recall: 0.8464, F1: 0.8600, AP: 0.8169
+2025-08-17 21:16:54,514 | INFO | Epoch 1 | Train AUC: 0.8615
+2025-08-17 21:17:39,998 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 21:17:40,150 | INFO | Epoch 1 | Val Acc: 0.8651
+2025-08-17 21:17:40,244 | INFO | Epoch 1 | Val Precision: 0.8611, Recall: 0.8704, F1: 0.8657, AP: 0.8142
+2025-08-17 21:17:40,245 | INFO | Epoch 1 | Val AUC: 0.8651
+2025-08-17 21:17:40,447 | INFO | Saved best model to /root/Project/weights/RCNN/Fused/Fused_RCNN_best.pth
+2025-08-17 21:23:31,299 | INFO | Epoch 2 | Train Loss: 511.2417, Train Acc: 0.9249
+2025-08-17 21:23:31,616 | INFO | Epoch 2 | Train Precision: 0.9355, Recall: 0.9136, F1: 0.9244, AP: 0.8981
+2025-08-17 21:23:31,616 | INFO | Epoch 2 | Train AUC: 0.9250
+2025-08-17 21:24:29,569 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 21:24:29,702 | INFO | Epoch 2 | Val Acc: 0.8632
+2025-08-17 21:24:29,814 | INFO | Epoch 2 | Val Precision: 0.8503, Recall: 0.8812, F1: 0.8655, AP: 0.8086
+2025-08-17 21:24:29,814 | INFO | Epoch 2 | Val AUC: 0.8632
+2025-08-17 21:30:21,211 | INFO | Epoch 3 | Train Loss: 389.8165, Train Acc: 0.9433
+2025-08-17 21:30:21,530 | INFO | Epoch 3 | Train Precision: 0.9507, Recall: 0.9359, F1: 0.9432, AP: 0.9219
+2025-08-17 21:30:21,530 | INFO | Epoch 3 | Train AUC: 0.9434
+2025-08-17 21:31:20,716 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 21:31:20,862 | INFO | Epoch 3 | Val Acc: 0.8842
+2025-08-17 21:31:20,958 | INFO | Epoch 3 | Val Precision: 0.8939, Recall: 0.8718, F1: 0.8827, AP: 0.8433
+2025-08-17 21:31:20,958 | INFO | Epoch 3 | Val AUC: 0.8842
+2025-08-17 21:31:21,478 | INFO | Saved best model to /root/Project/weights/RCNN/Fused/Fused_RCNN_best.pth
+2025-08-17 21:37:12,877 | INFO | Epoch 4 | Train Loss: 316.8439, Train Acc: 0.9537
+2025-08-17 21:37:13,180 | INFO | Epoch 4 | Train Precision: 0.9595, Recall: 0.9480, F1: 0.9537, AP: 0.9357
+2025-08-17 21:37:13,181 | INFO | Epoch 4 | Train AUC: 0.9538
+2025-08-17 21:38:10,363 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 21:38:10,505 | INFO | Epoch 4 | Val Acc: 0.9030
+2025-08-17 21:38:10,649 | INFO | Epoch 4 | Val Precision: 0.8993, Recall: 0.9074, F1: 0.9034, AP: 0.8623
+2025-08-17 21:38:10,649 | INFO | Epoch 4 | Val AUC: 0.9030
+2025-08-17 21:38:11,180 | INFO | Saved best model to /root/Project/weights/RCNN/Fused/Fused_RCNN_best.pth
+2025-08-17 21:44:03,593 | INFO | Epoch 5 | Train Loss: 253.9474, Train Acc: 0.9641
+2025-08-17 21:44:03,904 | INFO | Epoch 5 | Train Precision: 0.9674, Recall: 0.9609, F1: 0.9641, AP: 0.9492
+2025-08-17 21:44:03,904 | INFO | Epoch 5 | Train AUC: 0.9641
+2025-08-17 21:44:48,290 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 21:44:48,434 | INFO | Epoch 5 | Val Acc: 0.8691
+2025-08-17 21:44:48,553 | INFO | Epoch 5 | Val Precision: 0.8420, Recall: 0.9084, F1: 0.8740, AP: 0.8107
+2025-08-17 21:44:48,553 | INFO | Epoch 5 | Val AUC: 0.8692
+2025-08-17 21:50:41,174 | INFO | Epoch 6 | Train Loss: 203.9794, Train Acc: 0.9728
+2025-08-17 21:50:41,523 | INFO | Epoch 6 | Train Precision: 0.9751, Recall: 0.9706, F1: 0.9728, AP: 0.9612
+2025-08-17 21:50:41,524 | INFO | Epoch 6 | Train AUC: 0.9728
+2025-08-17 21:51:40,489 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 21:51:40,637 | INFO | Epoch 6 | Val Acc: 0.8765
+2025-08-17 21:51:40,728 | INFO | Epoch 6 | Val Precision: 0.9435, Recall: 0.8006, F1: 0.8662, AP: 0.8550
+2025-08-17 21:51:40,729 | INFO | Epoch 6 | Val AUC: 0.8764
+2025-08-17 21:57:32,304 | INFO | Epoch 7 | Train Loss: 160.3705, Train Acc: 0.9790
+2025-08-17 21:57:32,643 | INFO | Epoch 7 | Train Precision: 0.9802, Recall: 0.9781, F1: 0.9791, AP: 0.9697
+2025-08-17 21:57:32,643 | INFO | Epoch 7 | Train AUC: 0.9790
+2025-08-17 21:58:32,015 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 21:58:32,161 | INFO | Epoch 7 | Val Acc: 0.8974
+2025-08-17 21:58:32,260 | INFO | Epoch 7 | Val Precision: 0.9449, Recall: 0.8437, F1: 0.8915, AP: 0.8753
+2025-08-17 21:58:32,260 | INFO | Epoch 7 | Val AUC: 0.8973
+2025-08-17 22:04:23,640 | INFO | Epoch 8 | Train Loss: 127.6665, Train Acc: 0.9841
+2025-08-17 22:04:24,002 | INFO | Epoch 8 | Train Precision: 0.9847, Recall: 0.9836, F1: 0.9842, AP: 0.9768
+2025-08-17 22:04:24,003 | INFO | Epoch 8 | Train AUC: 0.9841
+2025-08-17 22:05:22,188 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 22:05:22,323 | INFO | Epoch 8 | Val Acc: 0.8935
+2025-08-17 22:05:22,420 | INFO | Epoch 8 | Val Precision: 0.9430, Recall: 0.8373, F1: 0.8871, AP: 0.8709
+2025-08-17 22:05:22,420 | INFO | Epoch 8 | Val AUC: 0.8934
+2025-08-17 22:11:12,668 | INFO | Epoch 9 | Train Loss: 106.7728, Train Acc: 0.9867
+2025-08-17 22:11:12,969 | INFO | Epoch 9 | Train Precision: 0.9875, Recall: 0.9860, F1: 0.9867, AP: 0.9807
+2025-08-17 22:11:12,970 | INFO | Epoch 9 | Train AUC: 0.9867
+2025-08-17 22:12:02,365 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 22:12:02,532 | INFO | Epoch 9 | Val Acc: 0.8942
+2025-08-17 22:12:02,626 | INFO | Epoch 9 | Val Precision: 0.8722, Recall: 0.9237, F1: 0.8972, AP: 0.8437
+2025-08-17 22:12:02,626 | INFO | Epoch 9 | Val AUC: 0.8943
+2025-08-17 22:17:54,824 | INFO | Epoch 10 | Train Loss: 99.2697, Train Acc: 0.9874
+2025-08-17 22:17:55,206 | INFO | Epoch 10 | Train Precision: 0.9878, Recall: 0.9871, F1: 0.9875, AP: 0.9816
+2025-08-17 22:17:55,206 | INFO | Epoch 10 | Train AUC: 0.9874
+2025-08-17 22:18:44,333 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 22:18:44,489 | INFO | Epoch 10 | Val Acc: 0.9069
+2025-08-17 22:18:44,593 | INFO | Epoch 10 | Val Precision: 0.9158, Recall: 0.8960, F1: 0.9058, AP: 0.8725
+2025-08-17 22:18:44,593 | INFO | Epoch 10 | Val AUC: 0.9069
+2025-08-17 22:18:45,086 | INFO | Saved best model to /root/Project/weights/RCNN/Fused/Fused_RCNN_best.pth
+2025-08-17 22:24:35,720 | INFO | Epoch 11 | Train Loss: 86.1439, Train Acc: 0.9896
+2025-08-17 22:24:36,019 | INFO | Epoch 11 | Train Precision: 0.9902, Recall: 0.9890, F1: 0.9896, AP: 0.9848
+2025-08-17 22:24:36,019 | INFO | Epoch 11 | Train AUC: 0.9896
+2025-08-17 22:25:35,025 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 22:25:35,177 | INFO | Epoch 11 | Val Acc: 0.8923
+2025-08-17 22:25:35,277 | INFO | Epoch 11 | Val Precision: 0.9047, Recall: 0.8767, F1: 0.8905, AP: 0.8548
+2025-08-17 22:25:35,277 | INFO | Epoch 11 | Val AUC: 0.8923
+2025-08-17 22:31:25,413 | INFO | Epoch 12 | Train Loss: 78.0442, Train Acc: 0.9906
+2025-08-17 22:31:25,759 | INFO | Epoch 12 | Train Precision: 0.9910, Recall: 0.9903, F1: 0.9906, AP: 0.9862
+2025-08-17 22:31:25,759 | INFO | Epoch 12 | Train AUC: 0.9906
+2025-08-17 22:32:10,028 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 22:32:10,176 | INFO | Epoch 12 | Val Acc: 0.8967
+2025-08-17 22:32:10,274 | INFO | Epoch 12 | Val Precision: 0.8803, Recall: 0.9181, F1: 0.8988, AP: 0.8491
+2025-08-17 22:32:10,274 | INFO | Epoch 12 | Val AUC: 0.8967
+2025-08-17 22:38:01,580 | INFO | Epoch 13 | Train Loss: 72.3628, Train Acc: 0.9916
+2025-08-17 22:38:01,919 | INFO | Epoch 13 | Train Precision: 0.9919, Recall: 0.9914, F1: 0.9917, AP: 0.9877
+2025-08-17 22:38:01,920 | INFO | Epoch 13 | Train AUC: 0.9916
+2025-08-17 22:38:59,991 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 22:39:00,131 | INFO | Epoch 13 | Val Acc: 0.9015
+2025-08-17 22:39:00,225 | INFO | Epoch 13 | Val Precision: 0.9090, Recall: 0.8921, F1: 0.9005, AP: 0.8648
+2025-08-17 22:39:00,225 | INFO | Epoch 13 | Val AUC: 0.9015
+2025-08-17 22:44:52,477 | INFO | Epoch 14 | Train Loss: 65.1892, Train Acc: 0.9921
+2025-08-17 22:44:52,794 | INFO | Epoch 14 | Train Precision: 0.9926, Recall: 0.9917, F1: 0.9921, AP: 0.9885
+2025-08-17 22:44:52,794 | INFO | Epoch 14 | Train AUC: 0.9921
+2025-08-17 22:45:37,378 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 22:45:37,528 | INFO | Epoch 14 | Val Acc: 0.8827
+2025-08-17 22:45:37,627 | INFO | Epoch 14 | Val Precision: 0.8482, Recall: 0.9319, F1: 0.8881, AP: 0.8244
+2025-08-17 22:45:37,627 | INFO | Epoch 14 | Val AUC: 0.8827
+2025-08-17 22:51:30,168 | INFO | Epoch 15 | Train Loss: 65.4713, Train Acc: 0.9923
+2025-08-17 22:51:30,515 | INFO | Epoch 15 | Train Precision: 0.9927, Recall: 0.9921, F1: 0.9924, AP: 0.9888
+2025-08-17 22:51:30,516 | INFO | Epoch 15 | Train AUC: 0.9923
+2025-08-17 22:52:25,453 | WARNING | [VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-08-17 22:52:25,631 | INFO | Epoch 15 | Val Acc: 0.8972
+2025-08-17 22:52:25,749 | INFO | Epoch 15 | Val Precision: 0.8802, Recall: 0.9193, F1: 0.8993, AP: 0.8495
+2025-08-17 22:52:25,749 | INFO | Epoch 15 | Val AUC: 0.8972

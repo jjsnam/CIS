@@ -1,0 +1,425 @@
+2025-08-04 22:21:04,529 - INFO - Loaded  from checkpoint '/root/Project/Transformer/weights/vit_base_patch16_224.pth'
+2025-08-04 22:21:19,955 - INFO - Loaded  from checkpoint '/root/Project/Transformer/weights/vit_base_patch16_224.pth'
+2025-08-04 22:21:35,270 - INFO - Loaded  from checkpoint '/root/Project/Transformer/weights/vit_base_patch16_224.pth'
+2025-08-04 22:54:59,355 - INFO - Loaded  from checkpoint '/root/Project/Transformer/weights/vit_base_patch16_224.pth'
+2025-08-04 23:01:42,706 - INFO - Epoch 1 Train Loss: 0.4887
+2025-08-04 23:01:50,999 - INFO - (Val @ epoch 1) Acc: 0.8815, Prec: 0.9691, Rec: 0.8076, F1: 0.8810, AUC: 0.8885, AP: 0.8872
+2025-08-04 23:01:51,580 - INFO - Saved checkpoint: top10.pth
+2025-08-04 23:01:52,138 - INFO - Saved checkpoint: top30.pth
+2025-08-04 23:01:52,575 - INFO - Saved checkpoint: top50.pth
+2025-08-08 15:42:30,964 - INFO - Epoch 1 Train Loss: 0.4902
+2025-08-08 15:42:38,977 - INFO - (Val @ epoch 1) Acc: 0.8733, Prec: 0.9697, Rec: 0.7914, F1: 0.8715, AUC: 0.8810, AP: 0.8807
+2025-08-08 15:42:40,309 - INFO - Saved checkpoint: top10.pth
+2025-08-08 15:42:41,608 - INFO - Saved checkpoint: top30.pth
+2025-08-08 15:42:42,875 - INFO - Saved checkpoint: top50.pth
+2025-08-08 15:44:26,926 - INFO - Epoch 2 Train Loss: 0.1578
+2025-08-08 15:44:34,991 - INFO - (Val @ epoch 2) Acc: 0.9545, Prec: 0.9429, Rec: 0.9752, F1: 0.9588, AUC: 0.9525, AP: 0.9330
+2025-08-08 15:44:35,510 - INFO - Saved checkpoint: top10.pth
+2025-08-08 15:44:37,034 - INFO - Saved checkpoint: top30.pth
+2025-08-08 15:44:38,442 - INFO - Saved checkpoint: top50.pth
+2025-08-08 15:46:22,312 - INFO - Epoch 3 Train Loss: 0.0645
+2025-08-08 15:46:30,248 - INFO - (Val @ epoch 3) Acc: 0.8345, Prec: 0.9986, Rec: 0.6962, F1: 0.8204, AUC: 0.8475, AP: 0.8603
+2025-08-08 15:48:14,153 - INFO - Epoch 4 Train Loss: 0.0576
+2025-08-08 15:48:22,096 - INFO - (Val @ epoch 4) Acc: 0.7522, Prec: 1.0000, Rec: 0.5438, F1: 0.7045, AUC: 0.7719, AP: 0.7916
+2025-08-08 15:50:06,109 - INFO - Epoch 5 Train Loss: 0.0296
+2025-08-08 15:50:14,106 - INFO - (Val @ epoch 5) Acc: 0.9648, Prec: 0.9521, Rec: 0.9848, F1: 0.9682, AUC: 0.9629, AP: 0.9459
+2025-08-08 15:50:14,680 - INFO - Saved checkpoint: top10.pth
+2025-08-08 15:50:15,993 - INFO - Saved checkpoint: top30.pth
+2025-08-08 15:50:17,539 - INFO - Saved checkpoint: top50.pth
+2025-08-08 15:52:01,744 - INFO - Epoch 6 Train Loss: 0.0125
+2025-08-08 15:52:09,665 - INFO - (Val @ epoch 6) Acc: 0.9514, Prec: 0.9888, Rec: 0.9210, F1: 0.9536, AUC: 0.9542, AP: 0.9535
+2025-08-08 15:53:53,675 - INFO - Epoch 7 Train Loss: 0.0266
+2025-08-08 15:54:01,626 - INFO - (Val @ epoch 7) Acc: 0.8898, Prec: 0.9976, Rec: 0.7990, F1: 0.8874, AUC: 0.8984, AP: 0.9063
+2025-08-08 15:55:45,725 - INFO - Epoch 8 Train Loss: 0.0185
+2025-08-08 15:55:53,695 - INFO - (Val @ epoch 8) Acc: 0.9638, Prec: 0.9776, Rec: 0.9552, F1: 0.9663, AUC: 0.9646, AP: 0.9581
+2025-08-08 15:57:38,440 - INFO - Epoch 9 Train Loss: 0.0260
+2025-08-08 15:57:46,961 - INFO - (Val @ epoch 9) Acc: 0.9669, Prec: 0.9677, Rec: 0.9714, F1: 0.9696, AUC: 0.9665, AP: 0.9556
+2025-08-08 15:57:48,555 - INFO - Saved checkpoint: top10.pth
+2025-08-08 15:57:49,875 - INFO - Saved checkpoint: top30.pth
+2025-08-08 15:57:51,276 - INFO - Saved checkpoint: top50.pth
+2025-08-08 15:59:36,070 - INFO - Epoch 10 Train Loss: 0.0084
+2025-08-08 15:59:44,001 - INFO - (Val @ epoch 10) Acc: 0.9431, Prec: 0.9094, Rec: 0.9943, F1: 0.9500, AUC: 0.9383, AP: 0.9073
+2025-08-08 16:01:28,104 - INFO - Epoch 11 Train Loss: 0.0191
+2025-08-08 16:01:36,068 - INFO - (Val @ epoch 11) Acc: 0.8934, Prec: 0.9976, Rec: 0.8057, F1: 0.8915, AUC: 0.9017, AP: 0.9093
+2025-08-08 16:03:20,220 - INFO - Epoch 12 Train Loss: 0.0120
+2025-08-08 16:03:28,189 - INFO - (Val @ epoch 12) Acc: 0.9162, Prec: 0.8688, Rec: 0.9962, F1: 0.9281, AUC: 0.9086, AP: 0.8675
+2025-08-08 16:05:12,986 - INFO - Epoch 13 Train Loss: 0.0193
+2025-08-08 16:05:20,969 - INFO - (Val @ epoch 13) Acc: 0.9565, Prec: 0.9745, Rec: 0.9448, F1: 0.9594, AUC: 0.9577, AP: 0.9506
+2025-08-08 16:07:05,150 - INFO - Epoch 14 Train Loss: 0.0249
+2025-08-08 16:07:13,109 - INFO - (Val @ epoch 14) Acc: 0.9229, Prec: 0.8783, Rec: 0.9962, F1: 0.9335, AUC: 0.9160, AP: 0.8770
+2025-08-08 16:08:57,244 - INFO - Epoch 15 Train Loss: 0.0094
+2025-08-08 16:09:05,098 - INFO - (Val @ epoch 15) Acc: 0.9617, Prec: 0.9477, Rec: 0.9838, F1: 0.9654, AUC: 0.9596, AP: 0.9412
+2025-08-08 16:10:49,203 - INFO - Epoch 16 Train Loss: 0.0169
+2025-08-08 16:10:57,204 - INFO - (Val @ epoch 16) Acc: 0.9669, Prec: 0.9616, Rec: 0.9781, F1: 0.9698, AUC: 0.9658, AP: 0.9524
+2025-08-08 16:12:41,977 - INFO - Epoch 17 Train Loss: 0.0098
+2025-08-08 16:12:49,939 - INFO - (Val @ epoch 17) Acc: 0.9576, Prec: 0.9850, Rec: 0.9362, F1: 0.9600, AUC: 0.9596, AP: 0.9568
+2025-08-08 16:14:34,209 - INFO - Epoch 18 Train Loss: 0.0055
+2025-08-08 16:14:42,211 - INFO - (Val @ epoch 18) Acc: 0.9679, Prec: 0.9617, Rec: 0.9800, F1: 0.9708, AUC: 0.9668, AP: 0.9533
+2025-08-08 16:14:43,560 - INFO - Saved checkpoint: top30.pth
+2025-08-08 16:14:44,891 - INFO - Saved checkpoint: top50.pth
+2025-08-08 16:16:29,190 - INFO - Epoch 19 Train Loss: 0.0142
+2025-08-08 16:16:37,238 - INFO - (Val @ epoch 19) Acc: 0.9695, Prec: 0.9797, Rec: 0.9638, F1: 0.9717, AUC: 0.9700, AP: 0.9639
+2025-08-08 16:16:38,548 - INFO - Saved checkpoint: top30.pth
+2025-08-08 16:16:39,912 - INFO - Saved checkpoint: top50.pth
+2025-08-08 16:18:23,964 - INFO - Epoch 20 Train Loss: 0.0118
+2025-08-08 16:18:31,885 - INFO - (Val @ epoch 20) Acc: 0.9157, Prec: 1.0000, Rec: 0.8448, F1: 0.9158, AUC: 0.9224, AP: 0.9291
+2025-08-08 16:20:16,198 - INFO - Epoch 21 Train Loss: 0.0173
+2025-08-08 16:20:24,747 - INFO - (Val @ epoch 21) Acc: 0.9628, Prec: 0.9880, Rec: 0.9429, F1: 0.9649, AUC: 0.9646, AP: 0.9626
+2025-08-08 16:22:09,294 - INFO - Epoch 22 Train Loss: 0.0081
+2025-08-08 16:22:17,267 - INFO - (Val @ epoch 22) Acc: 0.9715, Prec: 0.9743, Rec: 0.9733, F1: 0.9738, AUC: 0.9714, AP: 0.9628
+2025-08-08 16:22:18,587 - INFO - Saved checkpoint: top30.pth
+2025-08-08 16:22:19,851 - INFO - Saved checkpoint: top50.pth
+2025-08-08 16:24:04,206 - INFO - Epoch 23 Train Loss: 0.0359
+2025-08-08 16:24:12,254 - INFO - (Val @ epoch 23) Acc: 0.9477, Prec: 0.9647, Rec: 0.9381, F1: 0.9512, AUC: 0.9487, AP: 0.9386
+2025-08-08 16:25:56,565 - INFO - Epoch 24 Train Loss: 0.0180
+2025-08-08 16:26:04,523 - INFO - (Val @ epoch 24) Acc: 0.9700, Prec: 0.9697, Rec: 0.9752, F1: 0.9725, AUC: 0.9695, AP: 0.9591
+2025-08-08 16:27:48,727 - INFO - Epoch 25 Train Loss: 0.0049
+2025-08-08 16:27:56,517 - INFO - (Val @ epoch 25) Acc: 0.9752, Prec: 0.9799, Rec: 0.9743, F1: 0.9771, AUC: 0.9753, AP: 0.9687
+2025-08-08 16:27:57,654 - INFO - Saved checkpoint: top30.pth
+2025-08-08 16:27:59,037 - INFO - Saved checkpoint: top50.pth
+2025-08-08 16:29:43,101 - INFO - Epoch 26 Train Loss: 0.0042
+2025-08-08 16:29:51,042 - INFO - (Val @ epoch 26) Acc: 0.9643, Prec: 0.9776, Rec: 0.9562, F1: 0.9668, AUC: 0.9651, AP: 0.9586
+2025-08-08 16:31:35,338 - INFO - Epoch 27 Train Loss: 0.0057
+2025-08-08 16:31:43,526 - INFO - (Val @ epoch 27) Acc: 0.9679, Prec: 0.9815, Rec: 0.9590, F1: 0.9701, AUC: 0.9688, AP: 0.9635
+2025-08-08 16:33:27,733 - INFO - Epoch 28 Train Loss: 0.0048
+2025-08-08 16:33:35,722 - INFO - (Val @ epoch 28) Acc: 0.9731, Prec: 0.9835, Rec: 0.9667, F1: 0.9750, AUC: 0.9737, AP: 0.9688
+2025-08-08 16:35:19,875 - INFO - Epoch 29 Train Loss: 0.0100
+2025-08-08 16:35:27,747 - INFO - (Val @ epoch 29) Acc: 0.9498, Prec: 0.9907, Rec: 0.9162, F1: 0.9520, AUC: 0.9530, AP: 0.9532
+2025-08-08 16:37:11,900 - INFO - Epoch 30 Train Loss: 0.0088
+2025-08-08 16:37:19,952 - INFO - (Val @ epoch 30) Acc: 0.9659, Prec: 0.9843, Rec: 0.9524, F1: 0.9681, AUC: 0.9671, AP: 0.9632
+2025-08-08 16:39:04,276 - INFO - Epoch 31 Train Loss: 0.0080
+2025-08-08 16:39:12,213 - INFO - (Val @ epoch 31) Acc: 0.9674, Prec: 0.9759, Rec: 0.9638, F1: 0.9698, AUC: 0.9677, AP: 0.9602
+2025-08-08 16:40:56,330 - INFO - Epoch 32 Train Loss: 0.0093
+2025-08-08 16:41:04,192 - INFO - (Val @ epoch 32) Acc: 0.9664, Prec: 0.9514, Rec: 0.9886, F1: 0.9696, AUC: 0.9643, AP: 0.9468
+2025-08-08 16:42:48,545 - INFO - Epoch 33 Train Loss: 0.0048
+2025-08-08 16:42:56,434 - INFO - (Val @ epoch 33) Acc: 0.7098, Prec: 1.0000, Rec: 0.4657, F1: 0.6355, AUC: 0.7329, AP: 0.7559
+2025-08-08 16:44:40,552 - INFO - Epoch 34 Train Loss: 0.0062
+2025-08-08 16:44:48,489 - INFO - (Val @ epoch 34) Acc: 0.9617, Prec: 0.9929, Rec: 0.9362, F1: 0.9637, AUC: 0.9641, AP: 0.9642
+2025-08-08 16:46:33,519 - INFO - Epoch 35 Train Loss: 0.0050
+2025-08-08 16:46:42,008 - INFO - (Val @ epoch 35) Acc: 0.9778, Prec: 0.9782, Rec: 0.9810, F1: 0.9796, AUC: 0.9775, AP: 0.9699
+2025-08-08 16:46:43,656 - INFO - Saved checkpoint: top50.pth
+2025-08-08 16:48:28,130 - INFO - Epoch 36 Train Loss: 0.0133
+2025-08-08 16:48:36,144 - INFO - (Val @ epoch 36) Acc: 0.9731, Prec: 0.9931, Rec: 0.9571, F1: 0.9748, AUC: 0.9746, AP: 0.9738
+2025-08-08 16:50:20,345 - INFO - Epoch 37 Train Loss: 0.0038
+2025-08-08 16:50:28,267 - INFO - (Val @ epoch 37) Acc: 0.9793, Prec: 0.9846, Rec: 0.9771, F1: 0.9809, AUC: 0.9795, AP: 0.9746
+2025-08-08 16:50:29,643 - INFO - Saved checkpoint: top50.pth
+2025-08-08 16:52:15,399 - INFO - Epoch 38 Train Loss: 0.0091
+2025-08-08 16:52:24,043 - INFO - (Val @ epoch 38) Acc: 0.9726, Prec: 0.9725, Rec: 0.9771, F1: 0.9748, AUC: 0.9722, AP: 0.9627
+2025-08-08 16:54:08,701 - INFO - Epoch 39 Train Loss: 0.0115
+2025-08-08 16:54:16,735 - INFO - (Val @ epoch 39) Acc: 0.9695, Prec: 0.9733, Rec: 0.9705, F1: 0.9719, AUC: 0.9694, AP: 0.9606
+2025-08-08 16:56:00,839 - INFO - Epoch 40 Train Loss: 0.0125
+2025-08-08 16:56:08,923 - INFO - (Val @ epoch 40) Acc: 0.9653, Prec: 0.9795, Rec: 0.9562, F1: 0.9677, AUC: 0.9662, AP: 0.9604
+2025-08-08 16:57:53,245 - INFO - Epoch 41 Train Loss: 0.0050
+2025-08-08 16:58:01,276 - INFO - (Val @ epoch 41) Acc: 0.9700, Prec: 0.9825, Rec: 0.9619, F1: 0.9721, AUC: 0.9708, AP: 0.9658
+2025-08-08 16:59:45,590 - INFO - Epoch 42 Train Loss: 0.0055
+2025-08-08 16:59:53,518 - INFO - (Val @ epoch 42) Acc: 0.9250, Prec: 0.9913, Rec: 0.8695, F1: 0.9264, AUC: 0.9302, AP: 0.9328
+2025-08-08 17:01:39,670 - INFO - Epoch 43 Train Loss: 0.0081
+2025-08-08 17:01:47,639 - INFO - (Val @ epoch 43) Acc: 0.9684, Prec: 0.9882, Rec: 0.9533, F1: 0.9704, AUC: 0.9699, AP: 0.9674
+2025-08-08 17:03:31,966 - INFO - Epoch 44 Train Loss: 0.0095
+2025-08-08 17:03:39,830 - INFO - (Val @ epoch 44) Acc: 0.9715, Prec: 0.9863, Rec: 0.9610, F1: 0.9735, AUC: 0.9725, AP: 0.9690
+2025-08-08 17:05:24,006 - INFO - Epoch 45 Train Loss: 0.0042
+2025-08-08 17:05:32,044 - INFO - (Val @ epoch 45) Acc: 0.9772, Prec: 0.9874, Rec: 0.9705, F1: 0.9789, AUC: 0.9779, AP: 0.9743
+2025-08-08 17:07:16,575 - INFO - Epoch 46 Train Loss: 0.0001
+2025-08-08 17:07:24,613 - INFO - (Val @ epoch 46) Acc: 0.9767, Prec: 0.9799, Rec: 0.9771, F1: 0.9785, AUC: 0.9767, AP: 0.9700
+2025-08-08 17:09:08,996 - INFO - Epoch 47 Train Loss: 0.0000
+2025-08-08 17:09:16,921 - INFO - (Val @ epoch 47) Acc: 0.9752, Prec: 0.9827, Rec: 0.9714, F1: 0.9770, AUC: 0.9755, AP: 0.9701
+2025-08-08 17:11:01,006 - INFO - Epoch 48 Train Loss: 0.0000
+2025-08-08 17:11:08,939 - INFO - (Val @ epoch 48) Acc: 0.9752, Prec: 0.9817, Rec: 0.9724, F1: 0.9770, AUC: 0.9754, AP: 0.9696
+2025-08-08 17:12:53,389 - INFO - Epoch 49 Train Loss: 0.0000
+2025-08-08 17:13:01,302 - INFO - (Val @ epoch 49) Acc: 0.9767, Prec: 0.9827, Rec: 0.9743, F1: 0.9785, AUC: 0.9770, AP: 0.9714
+2025-08-08 17:14:45,605 - INFO - Epoch 50 Train Loss: 0.0000
+2025-08-08 17:14:53,588 - INFO - (Val @ epoch 50) Acc: 0.9762, Prec: 0.9709, Rec: 0.9857, F1: 0.9783, AUC: 0.9753, AP: 0.9648
+2025-08-08 17:41:59,570 - INFO - Epoch 1 Train Loss: 0.0979
+2025-08-08 17:44:25,025 - INFO - (Val @ epoch 1) Acc: 0.9730, Prec: 0.9797, Rec: 0.9657, F1: 0.9727, AUC: 0.9729, AP: 0.9632
+2025-08-08 17:44:25,577 - INFO - Saved checkpoint: top10.pth
+2025-08-08 17:44:25,991 - INFO - Saved checkpoint: top30.pth
+2025-08-08 17:44:26,430 - INFO - Saved checkpoint: top50.pth
+2025-08-08 18:11:12,101 - INFO - Epoch 2 Train Loss: 0.0403
+2025-08-08 18:13:38,513 - INFO - (Val @ epoch 2) Acc: 0.9514, Prec: 0.9214, Rec: 0.9866, F1: 0.9529, AUC: 0.9515, AP: 0.9158
+2025-08-08 18:40:29,448 - INFO - Epoch 3 Train Loss: 0.0307
+2025-08-08 18:42:56,005 - INFO - (Val @ epoch 3) Acc: 0.9756, Prec: 0.9812, Rec: 0.9696, F1: 0.9754, AUC: 0.9756, AP: 0.9665
+2025-08-08 18:42:58,757 - INFO - Saved checkpoint: top10.pth
+2025-08-08 18:43:00,065 - INFO - Saved checkpoint: top30.pth
+2025-08-08 18:43:01,962 - INFO - Saved checkpoint: top50.pth
+2025-08-08 19:09:47,415 - INFO - Epoch 4 Train Loss: 0.0242
+2025-08-08 19:12:13,884 - INFO - (Val @ epoch 4) Acc: 0.9756, Prec: 0.9790, Rec: 0.9718, F1: 0.9754, AUC: 0.9756, AP: 0.9655
+2025-08-08 19:39:00,999 - INFO - Epoch 5 Train Loss: 0.0198
+2025-08-08 19:41:27,237 - INFO - (Val @ epoch 5) Acc: 0.9808, Prec: 0.9840, Rec: 0.9774, F1: 0.9807, AUC: 0.9808, AP: 0.9730
+2025-08-08 19:41:28,608 - INFO - Saved checkpoint: top10.pth
+2025-08-08 19:41:29,912 - INFO - Saved checkpoint: top30.pth
+2025-08-08 19:41:31,186 - INFO - Saved checkpoint: top50.pth
+2025-08-08 20:08:19,804 - INFO - Epoch 6 Train Loss: 0.0165
+2025-08-08 20:10:45,970 - INFO - (Val @ epoch 6) Acc: 0.9754, Prec: 0.9897, Rec: 0.9607, F1: 0.9750, AUC: 0.9754, AP: 0.9704
+2025-08-08 20:37:33,456 - INFO - Epoch 7 Train Loss: 0.0148
+2025-08-08 20:40:00,259 - INFO - (Val @ epoch 7) Acc: 0.9737, Prec: 0.9926, Rec: 0.9542, F1: 0.9731, AUC: 0.9736, AP: 0.9700
+2025-08-08 21:06:57,303 - INFO - Epoch 8 Train Loss: 0.0143
+2025-08-08 21:09:23,294 - INFO - (Val @ epoch 8) Acc: 0.9728, Prec: 0.9919, Rec: 0.9532, F1: 0.9722, AUC: 0.9728, AP: 0.9688
+2025-08-08 21:36:07,675 - INFO - Epoch 9 Train Loss: 0.0112
+2025-08-08 21:38:33,243 - INFO - (Val @ epoch 9) Acc: 0.9821, Prec: 0.9858, Rec: 0.9781, F1: 0.9819, AUC: 0.9821, AP: 0.9751
+2025-08-08 21:38:34,523 - INFO - Saved checkpoint: top10.pth
+2025-08-08 21:38:35,814 - INFO - Saved checkpoint: top30.pth
+2025-08-08 21:38:37,170 - INFO - Saved checkpoint: top50.pth
+2025-08-08 22:05:22,851 - INFO - Epoch 10 Train Loss: 0.0094
+2025-08-08 22:07:49,467 - INFO - (Val @ epoch 10) Acc: 0.9812, Prec: 0.9789, Rec: 0.9835, F1: 0.9812, AUC: 0.9812, AP: 0.9709
+2025-08-08 22:34:34,701 - INFO - Epoch 11 Train Loss: 0.0098
+2025-08-08 22:37:01,284 - INFO - (Val @ epoch 11) Acc: 0.9791, Prec: 0.9832, Rec: 0.9747, F1: 0.9789, AUC: 0.9791, AP: 0.9709
+2025-08-08 23:03:47,158 - INFO - Epoch 12 Train Loss: 0.0098
+2025-08-08 23:06:14,032 - INFO - (Val @ epoch 12) Acc: 0.9817, Prec: 0.9762, Rec: 0.9873, F1: 0.9817, AUC: 0.9817, AP: 0.9701
+2025-08-08 23:33:02,349 - INFO - Epoch 13 Train Loss: 0.0082
+2025-08-08 23:35:28,766 - INFO - (Val @ epoch 13) Acc: 0.9819, Prec: 0.9826, Rec: 0.9810, F1: 0.9818, AUC: 0.9819, AP: 0.9734
+2025-08-09 00:02:13,770 - INFO - Epoch 14 Train Loss: 0.0073
+2025-08-09 00:04:40,290 - INFO - (Val @ epoch 14) Acc: 0.9807, Prec: 0.9789, Rec: 0.9824, F1: 0.9807, AUC: 0.9807, AP: 0.9705
+2025-08-09 00:31:32,516 - INFO - Epoch 15 Train Loss: 0.0071
+2025-08-09 00:33:58,818 - INFO - (Val @ epoch 15) Acc: 0.9781, Prec: 0.9737, Rec: 0.9827, F1: 0.9782, AUC: 0.9782, AP: 0.9654
+2025-08-09 01:00:45,895 - INFO - Epoch 16 Train Loss: 0.0064
+2025-08-09 01:03:12,377 - INFO - (Val @ epoch 16) Acc: 0.9770, Prec: 0.9886, Rec: 0.9650, F1: 0.9767, AUC: 0.9770, AP: 0.9715
+2025-08-09 01:30:02,415 - INFO - Epoch 17 Train Loss: 0.0062
+2025-08-09 01:32:32,414 - INFO - (Val @ epoch 17) Acc: 0.9812, Prec: 0.9845, Rec: 0.9776, F1: 0.9810, AUC: 0.9811, AP: 0.9736
+2025-08-09 01:59:21,667 - INFO - Epoch 18 Train Loss: 0.0065
+2025-08-09 02:01:47,959 - INFO - (Val @ epoch 18) Acc: 0.9820, Prec: 0.9829, Rec: 0.9810, F1: 0.9819, AUC: 0.9820, AP: 0.9737
+2025-08-09 02:28:33,050 - INFO - Epoch 19 Train Loss: 0.0050
+2025-08-09 02:30:59,578 - INFO - (Val @ epoch 19) Acc: 0.9792, Prec: 0.9808, Rec: 0.9774, F1: 0.9791, AUC: 0.9792, AP: 0.9699
+2025-08-09 02:57:44,167 - INFO - Epoch 20 Train Loss: 0.0056
+2025-08-09 03:00:09,846 - INFO - (Val @ epoch 20) Acc: 0.9828, Prec: 0.9821, Rec: 0.9832, F1: 0.9827, AUC: 0.9828, AP: 0.9740
+2025-08-09 03:00:11,128 - INFO - Saved checkpoint: top30.pth
+2025-08-09 03:00:12,392 - INFO - Saved checkpoint: top50.pth
+2025-08-09 03:26:58,949 - INFO - Epoch 21 Train Loss: 0.0048
+2025-08-09 03:29:24,808 - INFO - (Val @ epoch 21) Acc: 0.9783, Prec: 0.9883, Rec: 0.9680, F1: 0.9780, AUC: 0.9783, AP: 0.9726
+2025-08-09 03:56:08,192 - INFO - Epoch 22 Train Loss: 0.0048
+2025-08-09 03:58:34,025 - INFO - (Val @ epoch 22) Acc: 0.9831, Prec: 0.9881, Rec: 0.9779, F1: 0.9830, AUC: 0.9831, AP: 0.9772
+2025-08-09 03:58:35,246 - INFO - Saved checkpoint: top30.pth
+2025-08-09 03:58:36,535 - INFO - Saved checkpoint: top50.pth
+2025-08-09 04:25:19,992 - INFO - Epoch 23 Train Loss: 0.0049
+2025-08-09 04:27:45,685 - INFO - (Val @ epoch 23) Acc: 0.9819, Prec: 0.9875, Rec: 0.9760, F1: 0.9817, AUC: 0.9818, AP: 0.9757
+2025-08-09 04:54:28,631 - INFO - Epoch 24 Train Loss: 0.0043
+2025-08-09 04:56:54,439 - INFO - (Val @ epoch 24) Acc: 0.9825, Prec: 0.9827, Rec: 0.9822, F1: 0.9825, AUC: 0.9825, AP: 0.9741
+2025-08-09 05:23:37,372 - INFO - Epoch 25 Train Loss: 0.0037
+2025-08-09 05:26:03,219 - INFO - (Val @ epoch 25) Acc: 0.9816, Prec: 0.9805, Rec: 0.9827, F1: 0.9816, AUC: 0.9816, AP: 0.9721
+2025-08-09 05:52:47,176 - INFO - Epoch 26 Train Loss: 0.0039
+2025-08-09 05:55:12,934 - INFO - (Val @ epoch 26) Acc: 0.9753, Prec: 0.9887, Rec: 0.9613, F1: 0.9748, AUC: 0.9752, AP: 0.9698
+2025-08-09 06:21:57,308 - INFO - Epoch 27 Train Loss: 0.0038
+2025-08-09 06:24:23,199 - INFO - (Val @ epoch 27) Acc: 0.9804, Prec: 0.9828, Rec: 0.9779, F1: 0.9803, AUC: 0.9804, AP: 0.9720
+2025-08-09 06:51:07,136 - INFO - Epoch 28 Train Loss: 0.0037
+2025-08-09 06:53:32,872 - INFO - (Val @ epoch 28) Acc: 0.9815, Prec: 0.9823, Rec: 0.9807, F1: 0.9815, AUC: 0.9815, AP: 0.9729
+2025-08-09 07:20:16,354 - INFO - Epoch 29 Train Loss: 0.0034
+2025-08-09 07:22:42,069 - INFO - (Val @ epoch 29) Acc: 0.9776, Prec: 0.9845, Rec: 0.9704, F1: 0.9774, AUC: 0.9776, AP: 0.9701
+2025-08-09 07:49:28,673 - INFO - Epoch 30 Train Loss: 0.0037
+2025-08-09 07:51:54,443 - INFO - (Val @ epoch 30) Acc: 0.9809, Prec: 0.9834, Rec: 0.9781, F1: 0.9808, AUC: 0.9809, AP: 0.9728
+2025-08-09 08:18:37,204 - INFO - Epoch 31 Train Loss: 0.0032
+2025-08-09 08:21:03,245 - INFO - (Val @ epoch 31) Acc: 0.9772, Prec: 0.9853, Rec: 0.9687, F1: 0.9769, AUC: 0.9772, AP: 0.9700
+2025-08-09 08:47:45,911 - INFO - Epoch 32 Train Loss: 0.0033
+2025-08-09 08:50:11,966 - INFO - (Val @ epoch 32) Acc: 0.9807, Prec: 0.9837, Rec: 0.9774, F1: 0.9806, AUC: 0.9807, AP: 0.9728
+2025-08-09 09:16:54,201 - INFO - Epoch 33 Train Loss: 0.0031
+2025-08-09 09:19:20,143 - INFO - (Val @ epoch 33) Acc: 0.9817, Prec: 0.9864, Rec: 0.9767, F1: 0.9816, AUC: 0.9817, AP: 0.9751
+2025-08-09 09:46:03,447 - INFO - Epoch 34 Train Loss: 0.0027
+2025-08-09 09:48:29,502 - INFO - (Val @ epoch 34) Acc: 0.9819, Prec: 0.9837, Rec: 0.9799, F1: 0.9818, AUC: 0.9819, AP: 0.9740
+2025-08-09 10:15:18,372 - INFO - Epoch 35 Train Loss: 0.0029
+2025-08-09 10:17:44,870 - INFO - (Val @ epoch 35) Acc: 0.9819, Prec: 0.9861, Rec: 0.9775, F1: 0.9818, AUC: 0.9819, AP: 0.9752
+2025-08-09 10:44:33,316 - INFO - Epoch 36 Train Loss: 0.0145
+2025-08-09 10:47:08,381 - INFO - (Val @ epoch 36) Acc: 0.9795, Prec: 0.9829, Rec: 0.9759, F1: 0.9794, AUC: 0.9795, AP: 0.9712
+2025-08-09 11:13:52,558 - INFO - Epoch 37 Train Loss: 0.0045
+2025-08-09 11:16:18,497 - INFO - (Val @ epoch 37) Acc: 0.9819, Prec: 0.9839, Rec: 0.9797, F1: 0.9818, AUC: 0.9819, AP: 0.9740
+2025-08-09 11:43:03,939 - INFO - Epoch 38 Train Loss: 0.0031
+2025-08-09 11:45:30,108 - INFO - (Val @ epoch 38) Acc: 0.9773, Prec: 0.9897, Rec: 0.9645, F1: 0.9769, AUC: 0.9773, AP: 0.9722
+2025-08-09 12:12:10,889 - INFO - Epoch 39 Train Loss: 0.0031
+2025-08-09 12:14:36,872 - INFO - (Val @ epoch 39) Acc: 0.9787, Prec: 0.9836, Rec: 0.9735, F1: 0.9785, AUC: 0.9787, AP: 0.9707
+2025-08-09 12:41:21,667 - INFO - Epoch 40 Train Loss: 0.0032
+2025-08-09 12:43:48,206 - INFO - (Val @ epoch 40) Acc: 0.9779, Prec: 0.9885, Rec: 0.9670, F1: 0.9776, AUC: 0.9779, AP: 0.9723
+2025-08-09 13:10:27,449 - INFO - Epoch 41 Train Loss: 0.0033
+2025-08-09 13:12:54,125 - INFO - (Val @ epoch 41) Acc: 0.9781, Prec: 0.9804, Rec: 0.9755, F1: 0.9780, AUC: 0.9781, AP: 0.9686
+2025-08-09 13:39:35,868 - INFO - Epoch 42 Train Loss: 0.0027
+2025-08-09 13:42:02,295 - INFO - (Val @ epoch 42) Acc: 0.9790, Prec: 0.9894, Rec: 0.9683, F1: 0.9787, AUC: 0.9790, AP: 0.9738
+2025-08-09 14:08:51,804 - INFO - Epoch 43 Train Loss: 0.0025
+2025-08-09 14:11:23,111 - INFO - (Val @ epoch 43) Acc: 0.9813, Prec: 0.9839, Rec: 0.9785, F1: 0.9812, AUC: 0.9813, AP: 0.9734
+2025-08-09 14:38:15,853 - INFO - Epoch 44 Train Loss: 0.0028
+2025-08-09 14:40:41,664 - INFO - (Val @ epoch 44) Acc: 0.9819, Prec: 0.9875, Rec: 0.9760, F1: 0.9817, AUC: 0.9818, AP: 0.9757
+2025-08-09 15:07:38,365 - INFO - Epoch 45 Train Loss: 0.0026
+2025-08-09 15:10:04,192 - INFO - (Val @ epoch 45) Acc: 0.9808, Prec: 0.9852, Rec: 0.9762, F1: 0.9807, AUC: 0.9808, AP: 0.9736
+2025-08-09 15:36:53,055 - INFO - Epoch 46 Train Loss: 0.0024
+2025-08-09 15:39:19,659 - INFO - (Val @ epoch 46) Acc: 0.9833, Prec: 0.9819, Rec: 0.9847, F1: 0.9833, AUC: 0.9833, AP: 0.9745
+2025-08-09 15:39:21,103 - INFO - Saved checkpoint: top50.pth
+2025-08-09 16:06:01,087 - INFO - Epoch 47 Train Loss: 0.0027
+2025-08-09 16:08:31,825 - INFO - (Val @ epoch 47) Acc: 0.9816, Prec: 0.9814, Rec: 0.9817, F1: 0.9815, AUC: 0.9816, AP: 0.9725
+2025-08-09 16:35:15,174 - INFO - Epoch 48 Train Loss: 0.0021
+2025-08-09 16:37:45,874 - INFO - (Val @ epoch 48) Acc: 0.9813, Prec: 0.9817, Rec: 0.9808, F1: 0.9812, AUC: 0.9813, AP: 0.9724
+2025-08-09 17:04:36,039 - INFO - Epoch 49 Train Loss: 0.0026
+2025-08-09 17:07:02,639 - INFO - (Val @ epoch 49) Acc: 0.9797, Prec: 0.9855, Rec: 0.9736, F1: 0.9795, AUC: 0.9797, AP: 0.9726
+2025-08-09 17:33:44,547 - INFO - Epoch 50 Train Loss: 0.0021
+2025-08-09 17:36:10,307 - INFO - (Val @ epoch 50) Acc: 0.9812, Prec: 0.9855, Rec: 0.9766, F1: 0.9811, AUC: 0.9812, AP: 0.9741
+2025-08-09 18:03:17,213 - INFO - Epoch 1 Train Loss: 0.2487
+2025-08-09 18:05:47,161 - INFO - (Val @ epoch 1) Acc: 0.8733, Prec: 0.9782, Rec: 0.7635, F1: 0.8577, AUC: 0.8733, AP: 0.8651
+2025-08-09 18:05:47,968 - INFO - Saved checkpoint: top10.pth
+2025-08-09 18:05:48,658 - INFO - Saved checkpoint: top30.pth
+2025-08-09 18:05:49,312 - INFO - Saved checkpoint: top50.pth
+2025-08-09 18:32:35,982 - INFO - Epoch 2 Train Loss: 0.1183
+2025-08-09 18:35:04,951 - INFO - (Val @ epoch 2) Acc: 0.9420, Prec: 0.9629, Rec: 0.9194, F1: 0.9407, AUC: 0.9420, AP: 0.9256
+2025-08-09 18:35:06,267 - INFO - Saved checkpoint: top10.pth
+2025-08-09 18:35:07,610 - INFO - Saved checkpoint: top30.pth
+2025-08-09 18:35:09,053 - INFO - Saved checkpoint: top50.pth
+2025-08-09 19:02:01,352 - INFO - Epoch 3 Train Loss: 0.0912
+2025-08-09 19:04:30,271 - INFO - (Val @ epoch 3) Acc: 0.9569, Prec: 0.9589, Rec: 0.9547, F1: 0.9568, AUC: 0.9569, AP: 0.9381
+2025-08-09 19:04:30,750 - INFO - Saved checkpoint: top10.pth
+2025-08-09 19:04:32,074 - INFO - Saved checkpoint: top30.pth
+2025-08-09 19:04:33,375 - INFO - Saved checkpoint: top50.pth
+2025-08-09 19:31:19,586 - INFO - Epoch 4 Train Loss: 0.0719
+2025-08-09 19:33:48,239 - INFO - (Val @ epoch 4) Acc: 0.9508, Prec: 0.9725, Rec: 0.9279, F1: 0.9497, AUC: 0.9508, AP: 0.9385
+2025-08-09 20:00:34,734 - INFO - Epoch 5 Train Loss: 0.0598
+2025-08-09 20:03:03,576 - INFO - (Val @ epoch 5) Acc: 0.9630, Prec: 0.9615, Rec: 0.9646, F1: 0.9630, AUC: 0.9630, AP: 0.9452
+2025-08-09 20:03:04,917 - INFO - Saved checkpoint: top10.pth
+2025-08-09 20:03:06,348 - INFO - Saved checkpoint: top30.pth
+2025-08-09 20:03:07,807 - INFO - Saved checkpoint: top50.pth
+2025-08-09 20:29:56,370 - INFO - Epoch 6 Train Loss: 0.0513
+2025-08-09 20:32:25,981 - INFO - (Val @ epoch 6) Acc: 0.9600, Prec: 0.9789, Rec: 0.9404, F1: 0.9592, AUC: 0.9600, AP: 0.9503
+2025-08-09 20:59:18,876 - INFO - Epoch 7 Train Loss: 0.0477
+2025-08-09 21:01:48,874 - INFO - (Val @ epoch 7) Acc: 0.9570, Prec: 0.9457, Rec: 0.9698, F1: 0.9576, AUC: 0.9570, AP: 0.9322
+2025-08-09 21:28:44,030 - INFO - Epoch 8 Train Loss: 0.0510
+2025-08-09 21:31:15,933 - INFO - (Val @ epoch 8) Acc: 0.9667, Prec: 0.9733, Rec: 0.9598, F1: 0.9665, AUC: 0.9667, AP: 0.9543
+2025-08-09 21:31:17,329 - INFO - Saved checkpoint: top10.pth
+2025-08-09 21:31:18,729 - INFO - Saved checkpoint: top30.pth
+2025-08-09 21:31:20,339 - INFO - Saved checkpoint: top50.pth
+2025-08-09 21:58:15,736 - INFO - Epoch 9 Train Loss: 0.0335
+2025-08-09 22:00:46,016 - INFO - (Val @ epoch 9) Acc: 0.9654, Prec: 0.9731, Rec: 0.9573, F1: 0.9651, AUC: 0.9654, AP: 0.9528
+2025-08-09 22:27:40,538 - INFO - Epoch 10 Train Loss: 0.0344
+2025-08-09 22:30:10,821 - INFO - (Val @ epoch 10) Acc: 0.9635, Prec: 0.9550, Rec: 0.9728, F1: 0.9638, AUC: 0.9635, AP: 0.9427
+2025-08-09 22:57:07,425 - INFO - Epoch 11 Train Loss: 0.0323
+2025-08-09 22:59:38,037 - INFO - (Val @ epoch 11) Acc: 0.9631, Prec: 0.9566, Rec: 0.9702, F1: 0.9634, AUC: 0.9631, AP: 0.9430
+2025-08-09 23:26:31,785 - INFO - Epoch 12 Train Loss: 0.0292
+2025-08-09 23:29:01,757 - INFO - (Val @ epoch 12) Acc: 0.9672, Prec: 0.9705, Rec: 0.9636, F1: 0.9671, AUC: 0.9672, AP: 0.9534
+2025-08-09 23:29:03,123 - INFO - Saved checkpoint: top30.pth
+2025-08-09 23:29:04,507 - INFO - Saved checkpoint: top50.pth
+2025-08-09 23:56:01,178 - INFO - Epoch 13 Train Loss: 0.0269
+2025-08-09 23:58:30,898 - INFO - (Val @ epoch 13) Acc: 0.9633, Prec: 0.9832, Rec: 0.9427, F1: 0.9625, AUC: 0.9633, AP: 0.9555
+2025-08-10 00:25:22,146 - INFO - Epoch 14 Train Loss: 0.0242
+2025-08-10 00:27:51,518 - INFO - (Val @ epoch 14) Acc: 0.9687, Prec: 0.9687, Rec: 0.9686, F1: 0.9686, AUC: 0.9686, AP: 0.9540
+2025-08-10 00:27:52,821 - INFO - Saved checkpoint: top30.pth
+2025-08-10 00:27:54,116 - INFO - Saved checkpoint: top50.pth
+2025-08-10 00:54:45,254 - INFO - Epoch 15 Train Loss: 0.0223
+2025-08-10 00:57:14,956 - INFO - (Val @ epoch 15) Acc: 0.9644, Prec: 0.9691, Rec: 0.9593, F1: 0.9642, AUC: 0.9644, AP: 0.9500
+2025-08-10 01:24:14,183 - INFO - Epoch 16 Train Loss: 0.0217
+2025-08-10 01:26:43,241 - INFO - (Val @ epoch 16) Acc: 0.9670, Prec: 0.9626, Rec: 0.9718, F1: 0.9672, AUC: 0.9671, AP: 0.9496
+2025-08-10 01:53:34,728 - INFO - Epoch 17 Train Loss: 0.0201
+2025-08-10 01:56:04,483 - INFO - (Val @ epoch 17) Acc: 0.9690, Prec: 0.9716, Rec: 0.9662, F1: 0.9689, AUC: 0.9690, AP: 0.9557
+2025-08-10 01:56:06,023 - INFO - Saved checkpoint: top30.pth
+2025-08-10 01:56:07,409 - INFO - Saved checkpoint: top50.pth
+2025-08-10 02:23:09,994 - INFO - Epoch 18 Train Loss: 0.0187
+2025-08-10 02:25:39,824 - INFO - (Val @ epoch 18) Acc: 0.9618, Prec: 0.9783, Rec: 0.9446, F1: 0.9612, AUC: 0.9618, AP: 0.9518
+2025-08-10 02:52:31,091 - INFO - Epoch 19 Train Loss: 0.0182
+2025-08-10 02:55:00,482 - INFO - (Val @ epoch 19) Acc: 0.9674, Prec: 0.9561, Rec: 0.9798, F1: 0.9678, AUC: 0.9674, AP: 0.9469
+2025-08-10 03:21:56,599 - INFO - Epoch 20 Train Loss: 0.0162
+2025-08-10 03:24:25,694 - INFO - (Val @ epoch 20) Acc: 0.9664, Prec: 0.9734, Rec: 0.9590, F1: 0.9661, AUC: 0.9664, AP: 0.9539
+2025-08-10 03:51:16,954 - INFO - Epoch 21 Train Loss: 0.0169
+2025-08-10 03:53:46,563 - INFO - (Val @ epoch 21) Acc: 0.9681, Prec: 0.9636, Rec: 0.9729, F1: 0.9683, AUC: 0.9681, AP: 0.9511
+2025-08-10 04:20:37,216 - INFO - Epoch 22 Train Loss: 0.0146
+2025-08-10 04:23:06,962 - INFO - (Val @ epoch 22) Acc: 0.9685, Prec: 0.9669, Rec: 0.9701, F1: 0.9685, AUC: 0.9685, AP: 0.9530
+2025-08-10 04:49:57,529 - INFO - Epoch 23 Train Loss: 0.0211
+2025-08-10 04:52:26,968 - INFO - (Val @ epoch 23) Acc: 0.9648, Prec: 0.9728, Rec: 0.9565, F1: 0.9646, AUC: 0.9648, AP: 0.9522
+2025-08-10 05:19:17,866 - INFO - Epoch 24 Train Loss: 0.0123
+2025-08-10 05:21:47,431 - INFO - (Val @ epoch 24) Acc: 0.9671, Prec: 0.9744, Rec: 0.9595, F1: 0.9669, AUC: 0.9671, AP: 0.9551
+2025-08-10 05:48:38,532 - INFO - Epoch 25 Train Loss: 0.0143
+2025-08-10 05:51:08,262 - INFO - (Val @ epoch 25) Acc: 0.9683, Prec: 0.9723, Rec: 0.9639, F1: 0.9681, AUC: 0.9683, AP: 0.9553
+2025-08-10 06:17:59,297 - INFO - Epoch 26 Train Loss: 0.0138
+2025-08-10 06:20:29,043 - INFO - (Val @ epoch 26) Acc: 0.9606, Prec: 0.9712, Rec: 0.9493, F1: 0.9601, AUC: 0.9606, AP: 0.9473
+2025-08-10 06:47:19,571 - INFO - Epoch 27 Train Loss: 0.0131
+2025-08-10 06:49:49,006 - INFO - (Val @ epoch 27) Acc: 0.9648, Prec: 0.9613, Rec: 0.9688, F1: 0.9650, AUC: 0.9648, AP: 0.9468
+2025-08-10 07:16:39,717 - INFO - Epoch 28 Train Loss: 0.0125
+2025-08-10 07:19:09,131 - INFO - (Val @ epoch 28) Acc: 0.9669, Prec: 0.9567, Rec: 0.9781, F1: 0.9673, AUC: 0.9669, AP: 0.9467
+2025-08-10 07:45:59,468 - INFO - Epoch 29 Train Loss: 0.0121
+2025-08-10 07:48:29,042 - INFO - (Val @ epoch 29) Acc: 0.9674, Prec: 0.9779, Rec: 0.9564, F1: 0.9670, AUC: 0.9674, AP: 0.9571
+2025-08-10 08:15:19,377 - INFO - Epoch 30 Train Loss: 0.0121
+2025-08-10 08:17:46,145 - INFO - (Val @ epoch 30) Acc: 0.9679, Prec: 0.9695, Rec: 0.9663, F1: 0.9679, AUC: 0.9680, AP: 0.9537
+2025-08-10 08:44:30,551 - INFO - Epoch 31 Train Loss: 0.0121
+2025-08-10 08:46:57,233 - INFO - (Val @ epoch 31) Acc: 0.9647, Prec: 0.9723, Rec: 0.9567, F1: 0.9645, AUC: 0.9647, AP: 0.9519
+2025-08-10 09:13:39,098 - INFO - Epoch 32 Train Loss: 0.0109
+2025-08-10 09:16:05,743 - INFO - (Val @ epoch 32) Acc: 0.9690, Prec: 0.9768, Rec: 0.9609, F1: 0.9688, AUC: 0.9690, AP: 0.9582
+2025-08-10 09:16:07,057 - INFO - Saved checkpoint: top50.pth
+2025-08-10 09:42:49,078 - INFO - Epoch 33 Train Loss: 0.0110
+2025-08-10 09:45:16,915 - INFO - (Val @ epoch 33) Acc: 0.9668, Prec: 0.9648, Rec: 0.9689, F1: 0.9669, AUC: 0.9668, AP: 0.9504
+2025-08-10 10:11:59,058 - INFO - Epoch 34 Train Loss: 0.0111
+2025-08-10 10:14:25,926 - INFO - (Val @ epoch 34) Acc: 0.9668, Prec: 0.9812, Rec: 0.9518, F1: 0.9663, AUC: 0.9668, AP: 0.9581
+2025-08-10 10:41:07,555 - INFO - Epoch 35 Train Loss: 0.0099
+2025-08-10 10:43:34,579 - INFO - (Val @ epoch 35) Acc: 0.9682, Prec: 0.9761, Rec: 0.9599, F1: 0.9680, AUC: 0.9682, AP: 0.9570
+2025-08-10 11:10:16,351 - INFO - Epoch 36 Train Loss: 0.0127
+2025-08-10 11:12:43,188 - INFO - (Val @ epoch 36) Acc: 0.9688, Prec: 0.9678, Rec: 0.9698, F1: 0.9688, AUC: 0.9688, AP: 0.9536
+2025-08-10 11:39:30,216 - INFO - Epoch 37 Train Loss: 0.0097
+2025-08-10 11:41:57,660 - INFO - (Val @ epoch 37) Acc: 0.9657, Prec: 0.9627, Rec: 0.9690, F1: 0.9659, AUC: 0.9657, AP: 0.9484
+2025-08-10 12:08:43,904 - INFO - Epoch 38 Train Loss: 0.0103
+2025-08-10 12:11:12,096 - INFO - (Val @ epoch 38) Acc: 0.9661, Prec: 0.9738, Rec: 0.9579, F1: 0.9658, AUC: 0.9661, AP: 0.9539
+2025-08-10 12:37:55,136 - INFO - Epoch 39 Train Loss: 0.0097
+2025-08-10 12:40:22,090 - INFO - (Val @ epoch 39) Acc: 0.9688, Prec: 0.9673, Rec: 0.9706, F1: 0.9689, AUC: 0.9688, AP: 0.9535
+2025-08-10 13:07:07,718 - INFO - Epoch 40 Train Loss: 0.0096
+2025-08-10 13:09:37,512 - INFO - (Val @ epoch 40) Acc: 0.9679, Prec: 0.9689, Rec: 0.9669, F1: 0.9679, AUC: 0.9679, AP: 0.9534
+2025-08-10 13:36:23,466 - INFO - Epoch 41 Train Loss: 0.0092
+2025-08-10 13:38:51,679 - INFO - (Val @ epoch 41) Acc: 0.9686, Prec: 0.9783, Rec: 0.9585, F1: 0.9683, AUC: 0.9686, AP: 0.9584
+2025-08-10 14:05:40,852 - INFO - Epoch 42 Train Loss: 0.0086
+2025-08-10 14:08:10,368 - INFO - (Val @ epoch 42) Acc: 0.9687, Prec: 0.9670, Rec: 0.9706, F1: 0.9688, AUC: 0.9687, AP: 0.9532
+2025-08-10 14:34:58,603 - INFO - Epoch 43 Train Loss: 0.0096
+2025-08-10 14:37:29,788 - INFO - (Val @ epoch 43) Acc: 0.9695, Prec: 0.9668, Rec: 0.9723, F1: 0.9696, AUC: 0.9695, AP: 0.9539
+2025-08-10 14:37:31,203 - INFO - Saved checkpoint: top50.pth
+2025-08-10 15:04:21,823 - INFO - Epoch 44 Train Loss: 0.0086
+2025-08-10 15:06:51,155 - INFO - (Val @ epoch 44) Acc: 0.9691, Prec: 0.9687, Rec: 0.9695, F1: 0.9691, AUC: 0.9691, AP: 0.9544
+2025-08-10 15:33:39,394 - INFO - Epoch 45 Train Loss: 0.0086
+2025-08-10 15:36:09,608 - INFO - (Val @ epoch 45) Acc: 0.9664, Prec: 0.9758, Rec: 0.9566, F1: 0.9661, AUC: 0.9664, AP: 0.9551
+2025-08-10 16:02:58,428 - INFO - Epoch 46 Train Loss: 0.0087
+2025-08-10 16:05:28,042 - INFO - (Val @ epoch 46) Acc: 0.9666, Prec: 0.9751, Rec: 0.9576, F1: 0.9662, AUC: 0.9666, AP: 0.9549
+2025-08-10 16:32:17,189 - INFO - Epoch 47 Train Loss: 0.0083
+2025-08-10 16:34:46,915 - INFO - (Val @ epoch 47) Acc: 0.9693, Prec: 0.9706, Rec: 0.9678, F1: 0.9692, AUC: 0.9693, AP: 0.9555
+2025-08-10 17:01:41,136 - INFO - Epoch 48 Train Loss: 0.0083
+2025-08-10 17:04:10,549 - INFO - (Val @ epoch 48) Acc: 0.9690, Prec: 0.9748, Rec: 0.9630, F1: 0.9689, AUC: 0.9690, AP: 0.9572
+2025-08-10 17:30:58,685 - INFO - Epoch 49 Train Loss: 0.0087
+2025-08-10 17:33:28,378 - INFO - (Val @ epoch 49) Acc: 0.9700, Prec: 0.9690, Rec: 0.9710, F1: 0.9700, AUC: 0.9700, AP: 0.9554
+2025-08-10 17:33:29,692 - INFO - Saved checkpoint: top50.pth
+2025-08-10 18:00:20,064 - INFO - Epoch 50 Train Loss: 0.0073
+2025-08-10 18:02:50,539 - INFO - (Val @ epoch 50) Acc: 0.9677, Prec: 0.9720, Rec: 0.9631, F1: 0.9676, AUC: 0.9677, AP: 0.9546
+2025-08-17 16:28:10,725 - INFO - (Train @ epoch 1) Acc: 0.8656
+2025-08-17 16:28:10,727 - INFO - Epoch 1 Train Loss: 0.2768
+2025-08-17 16:29:50,680 - INFO - (Val @ epoch 1) Acc: 0.9232, Prec: 0.9604, Rec: 0.8828, F1: 0.9200, AUC: 0.9232, AP: 0.9065
+2025-08-17 16:29:51,115 - INFO - Saved checkpoint: best.pth
+2025-08-17 16:48:13,169 - INFO - (Train @ epoch 2) Acc: 0.9458
+2025-08-17 16:48:13,169 - INFO - Epoch 2 Train Loss: 0.1215
+2025-08-17 16:49:53,077 - INFO - (Val @ epoch 2) Acc: 0.9292, Prec: 0.9661, Rec: 0.8896, F1: 0.9263, AUC: 0.9292, AP: 0.9147
+2025-08-17 16:49:54,305 - INFO - Saved checkpoint: best.pth
+2025-08-17 17:08:17,407 - INFO - (Train @ epoch 3) Acc: 0.9636
+2025-08-17 17:08:17,407 - INFO - Epoch 3 Train Loss: 0.0843
+2025-08-17 17:09:57,347 - INFO - (Val @ epoch 3) Acc: 0.9347, Prec: 0.9552, Rec: 0.9121, F1: 0.9332, AUC: 0.9347, AP: 0.9152
+2025-08-17 17:09:58,622 - INFO - Saved checkpoint: best.pth
+2025-08-17 17:28:21,835 - INFO - (Train @ epoch 4) Acc: 0.9719
+2025-08-17 17:28:21,836 - INFO - Epoch 4 Train Loss: 0.0662
+2025-08-17 17:30:01,599 - INFO - (Val @ epoch 4) Acc: 0.9192, Prec: 0.9606, Rec: 0.8743, F1: 0.9154, AUC: 0.9192, AP: 0.9027
+2025-08-17 17:48:24,821 - INFO - (Train @ epoch 5) Acc: 0.9777
+2025-08-17 17:48:24,821 - INFO - Epoch 5 Train Loss: 0.0537
+2025-08-17 17:50:04,617 - INFO - (Val @ epoch 5) Acc: 0.9434, Prec: 0.9589, Rec: 0.9265, F1: 0.9424, AUC: 0.9434, AP: 0.9252
+2025-08-17 17:50:05,915 - INFO - Saved checkpoint: best.pth
+2025-08-17 18:08:28,502 - INFO - (Train @ epoch 6) Acc: 0.9818
+2025-08-17 18:08:28,502 - INFO - Epoch 6 Train Loss: 0.0455
+2025-08-17 18:10:08,351 - INFO - (Val @ epoch 6) Acc: 0.9449, Prec: 0.9421, Rec: 0.9481, F1: 0.9451, AUC: 0.9449, AP: 0.9191
+2025-08-17 18:10:09,702 - INFO - Saved checkpoint: best.pth
+2025-08-17 18:28:34,283 - INFO - (Train @ epoch 7) Acc: 0.9873
+2025-08-17 18:28:34,283 - INFO - Epoch 7 Train Loss: 0.0335
+2025-08-17 18:30:20,099 - INFO - (Val @ epoch 7) Acc: 0.9396, Prec: 0.9530, Rec: 0.9249, F1: 0.9387, AUC: 0.9396, AP: 0.9190
+2025-08-17 18:48:45,549 - INFO - (Train @ epoch 8) Acc: 0.9870
+2025-08-17 18:48:45,549 - INFO - Epoch 8 Train Loss: 0.0336
+2025-08-17 18:50:25,403 - INFO - (Val @ epoch 8) Acc: 0.9470, Prec: 0.9648, Rec: 0.9279, F1: 0.9460, AUC: 0.9470, AP: 0.9313
+2025-08-17 18:50:26,688 - INFO - Saved checkpoint: best.pth
+2025-08-17 19:08:49,137 - INFO - (Train @ epoch 9) Acc: 0.9884
+2025-08-17 19:08:49,137 - INFO - Epoch 9 Train Loss: 0.0316
+2025-08-17 19:10:28,907 - INFO - (Val @ epoch 9) Acc: 0.9466, Prec: 0.9536, Rec: 0.9390, F1: 0.9462, AUC: 0.9466, AP: 0.9259
+2025-08-17 19:28:51,963 - INFO - (Train @ epoch 10) Acc: 0.9896
+2025-08-17 19:28:51,964 - INFO - Epoch 10 Train Loss: 0.0279
+2025-08-17 19:30:31,862 - INFO - (Val @ epoch 10) Acc: 0.9486, Prec: 0.9654, Rec: 0.9305, F1: 0.9476, AUC: 0.9486, AP: 0.9330
+2025-08-17 19:30:33,122 - INFO - Saved checkpoint: best.pth
+2025-08-17 19:49:00,469 - INFO - (Train @ epoch 11) Acc: 0.8819
+2025-08-17 19:49:00,470 - INFO - Epoch 11 Train Loss: 0.1925
+2025-08-17 19:50:39,998 - INFO - (Val @ epoch 11) Acc: 0.5372, Prec: 0.5286, Rec: 0.6918, F1: 0.5993, AUC: 0.5372, AP: 0.5198
+2025-08-17 20:09:02,016 - INFO - (Train @ epoch 12) Acc: 0.5860
+2025-08-17 20:09:02,016 - INFO - Epoch 12 Train Loss: 0.6699
+2025-08-17 20:10:41,684 - INFO - (Val @ epoch 12) Acc: 0.5758, Prec: 0.5969, Rec: 0.4679, F1: 0.5246, AUC: 0.5758, AP: 0.5454
+2025-08-17 20:29:03,212 - INFO - (Train @ epoch 13) Acc: 0.7088
+2025-08-17 20:29:03,212 - INFO - Epoch 13 Train Loss: 0.5452
+2025-08-17 20:30:42,949 - INFO - (Val @ epoch 13) Acc: 0.8265, Prec: 0.8343, Rec: 0.8149, F1: 0.8245, AUC: 0.8265, AP: 0.7724
+2025-08-17 20:49:05,820 - INFO - (Train @ epoch 14) Acc: 0.9267
+2025-08-17 20:49:05,821 - INFO - Epoch 14 Train Loss: 0.1702
+2025-08-17 20:50:45,520 - INFO - (Val @ epoch 14) Acc: 0.9313, Prec: 0.9506, Rec: 0.9099, F1: 0.9298, AUC: 0.9313, AP: 0.9100
+2025-08-17 21:09:07,187 - INFO - (Train @ epoch 15) Acc: 0.9835
+2025-08-17 21:09:07,187 - INFO - Epoch 15 Train Loss: 0.0430
+2025-08-17 21:10:46,755 - INFO - (Val @ epoch 15) Acc: 0.9509, Prec: 0.9527, Rec: 0.9490, F1: 0.9508, AUC: 0.9509, AP: 0.9296
+2025-08-17 21:10:47,987 - INFO - Saved checkpoint: best.pth

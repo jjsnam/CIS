@@ -175,21 +175,25 @@ for epoch in range(EPOCHS):
 
     if val_acc > best_acc:
         best_acc = val_acc
-        if epoch < 10:
-            save_path = args.model_path + "/" + args.dataset_name + "_RCNN_top10.pth"
-            save_checkpoint(model, optimizer, epoch + 1, save_path)
-            print(f"Saved best model top10 to {save_path}")
-            logging.info(f"Saved best model top10 to {save_path}")
-        if epoch < 30:
-            save_path = args.model_path + "/" + args.dataset_name + "_RCNN_top30.pth"
-            save_checkpoint(model, optimizer, epoch + 1, save_path)
-            print(f"Saved best model top30 to {save_path}")
-            logging.info(f"Saved best model top30 to {save_path}")
-        if epoch < 50:
-            save_path = args.model_path + "/" + args.dataset_name + "_RCNN_top50.pth"
-            save_checkpoint(model, optimizer, epoch + 1, save_path)
-            print(f"Saved best model top50 to {save_path}")
-            logging.info(f"Saved best model top50 to {save_path}")
+        # if epoch < 10:
+        #     save_path = args.model_path + "/" + args.dataset_name + "_RCNN_top10.pth"
+        #     save_checkpoint(model, optimizer, epoch + 1, save_path)
+        #     print(f"Saved best model top10 to {save_path}")
+        #     logging.info(f"Saved best model top10 to {save_path}")
+        # if epoch < 30:
+        #     save_path = args.model_path + "/" + args.dataset_name + "_RCNN_top30.pth"
+        #     save_checkpoint(model, optimizer, epoch + 1, save_path)
+        #     print(f"Saved best model top30 to {save_path}")
+        #     logging.info(f"Saved best model top30 to {save_path}")
+        # if epoch < 50:
+        #     save_path = args.model_path + "/" + args.dataset_name + "_RCNN_top50.pth"
+        #     save_checkpoint(model, optimizer, epoch + 1, save_path)
+        #     print(f"Saved best model top50 to {save_path}")
+        #     logging.info(f"Saved best model top50 to {save_path}")
+        save_path = args.model_path + "/" + args.dataset_name + "_RCNN_best.pth"
+        save_checkpoint(model, optimizer, epoch + 1, save_path)
+        print(f"Saved best model to {save_path}")
+        logging.info(f"Saved best model to {save_path}")
     # save_path = os.path.join("checkpoints", f"checkpoint_rcnn_epoch{epoch+1}.pth")
     # save_path = args.model_path + "/checkpoint_rcnn_epoch{epoch+1}.pth"
     # save_checkpoint(model, optimizer, epoch + 1, save_path)

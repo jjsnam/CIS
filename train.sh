@@ -3,7 +3,7 @@
 # exec 2>&1
 # du -sh /root/Project
 
-echo "Training script stated"
+echo "Training script started"
 echo "Sending notification email..."
 echo "Training is now started\n Email sending works properly" | s-nail -s "Training Notification on step 0" jjsnam@zju.edu.cn
 
@@ -346,6 +346,74 @@ else
   echo -e "Training completed: Transformer-200kMDID\nStart: $start_fmt\nEnd: $end_fmt\nDuration: ${duration}s" | s-nail -s "Success: Transformer-200kMDID" jjsnam@zju.edu.cn
 fi
 echo "Finish training Transformer model"
+
+# CNN+Transformer Rerunning (getting into error at 20250804 22:30)
+
+echo "Starting re-training CNN+Transformer model" | s-nail -s "Training Notification on step 2" jjsnam@zju.edu.cn
+echo "Starting re-training CNN+Transformer model"
+echo "Changing direction"
+cd /root/Project/CNN+Transformer/
+echo "Sending notification email..."
+
+echo "Starting re-training CNN+Transformer model on SGDF dataset" | s-nail -s "Training Notification on step 2.1" jjsnam@zju.edu.cn
+start_time=$(date +%s)
+start_fmt=$(date "+%Y-%m-%d %H:%M:%S")
+echo "Start time: $start_fmt"
+
+python train.py --epochs 50 --dataset_name SGDF --train_path /root/Project/datasets/SGDF/Train --val_path /root/Project/datasets/SGDF/Val --model_path /root/Project/weights/CNN+Transformer/SGDF --lr 1e-4
+status=$?
+end_time=$(date +%s)
+end_fmt=$(date "+%Y-%m-%d %H:%M:%S")
+duration=$((end_time - start_time))
+echo "End time: $end_fmt"
+echo "Duration: ${duration}s"
+
+if [ $status -ne 0 ]; then
+  echo -e "Training failed: CNN+Transformer-SGDF\nStart: $start_fmt\nEnd: $end_fmt\nDuration: ${duration}s" | s-nail -s "Failure: CNN+Transformer-SGDF" jjsnam@zju.edu.cn
+else
+  echo -e "Training completed: CNN+Transformer-SGDF\nStart: $start_fmt\nEnd: $end_fmt\nDuration: ${duration}s" | s-nail -s "Success: CNN+Transformer-SGDF" jjsnam@zju.edu.cn
+fi
+echo "Sending notification email..."
+
+echo "Starting re-training CNN+Transformer model on OpenForensics dataset" | s-nail -s "Training Notification on step 2.2" jjsnam@zju.edu.cn
+start_time=$(date +%s)
+start_fmt=$(date "+%Y-%m-%d %H:%M:%S")
+echo "Start time: $start_fmt"
+
+python train.py --epochs 50 --dataset_name OpenForensics --train_path /root/Project/datasets/OpenForensics/Train --val_path /root/Project/datasets/OpenForensics/Val --model_path /root/Project/weights/CNN+Transformer/OpenForensics --lr 1e-4
+status=$?
+end_time=$(date +%s)
+end_fmt=$(date "+%Y-%m-%d %H:%M:%S")
+duration=$((end_time - start_time))
+echo "End time: $end_fmt"
+echo "Duration: ${duration}s"
+
+if [ $status -ne 0 ]; then
+  echo -e "Training failed: CNN+Transformer-OpenForensics\nStart: $start_fmt\nEnd: $end_fmt\nDuration: ${duration}s" | s-nail -s "Failure: CNN+Transformer-OpenForensics" jjsnam@zju.edu.cn
+else
+  echo -e "Training completed: CNN+Transformer-OpenForensics\nStart: $start_fmt\nEnd: $end_fmt\nDuration: ${duration}s" | s-nail -s "Success: CNN+Transformer-OpenForensics" jjsnam@zju.edu.cn
+fi
+echo "Sending notification email..."
+
+echo "Starting re-training CNN+Transformer model on 200kMDID dataset" | s-nail -s "Training Notification on step 2.3" jjsnam@zju.edu.cn
+start_time=$(date +%s)
+start_fmt=$(date "+%Y-%m-%d %H:%M:%S")
+echo "Start time: $start_fmt"
+
+python train.py --epochs 50 --dataset_name 200kMDID --train_path /root/Project/datasets/200kMDID/Train --val_path /root/Project/datasets/200kMDID/Val --model_path /root/Project/weights/CNN+Transformer/200kMDID --lr 1e-4
+status=$?
+end_time=$(date +%s)
+end_fmt=$(date "+%Y-%m-%d %H:%M:%S")
+duration=$((end_time - start_time))
+echo "End time: $end_fmt"
+echo "Duration: ${duration}s"
+
+if [ $status -ne 0 ]; then
+  echo -e "Training failed: CNN+Transformer-200kMDID\nStart: $start_fmt\nEnd: $end_fmt\nDuration: ${duration}s" | s-nail -s "Failure: CNN+Transformer-200kMDID" jjsnam@zju.edu.cn
+else
+  echo -e "Training completed: CNN+Transformer-200kMDID\nStart: $start_fmt\nEnd: $end_fmt\nDuration: ${duration}s" | s-nail -s "Success: CNN+Transformer-200kMDID" jjsnam@zju.edu.cn
+fi
+echo "Finish re-training CNN+Transformer model"
 
 
 echo "Sending notification email..."

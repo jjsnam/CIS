@@ -36,6 +36,8 @@ def train():
     for epoch in range(config.EPOCHS):
         model.train()
         total_loss = 0
+        train_preds = []
+        train_labels = []
         loop = tqdm(train_loader, desc=f"Epoch {epoch+1}/{config.EPOCHS}")
 
         for imgs, labels in loop:
@@ -48,7 +50,14 @@ def train():
             optimizer.step()
 
             total_loss += loss.item()
+            # Collect predictions and labels for accuracy calculation
+            preds = outputs.argmax(dim=1)
+            train_preds.extend(preds.cpu().tolist())
+            train_labels.extend(labels.cpu().tolist())
             loop.set_postfix(loss=loss.item())
+        train_acc = accuracy_score(train_labels, train_preds)
+        print(f"(Train @ epoch {epoch}) Acc: {train_acc:.4f}")
+        logging.info(f"(Train @ epoch {epoch+1}) Acc: {train_acc:.4f}")
         logging.info(f"Epoch {epoch+1} Train Loss: {total_loss / len(train_loader):.4f}")
 
         # Validation
@@ -77,15 +86,17 @@ def train():
 
         if acc > best_acc:
             best_acc = acc
-            if epoch < 10:
-                save_checkpoint(model, config.CHECKPOINT_PATH + "top10.pth")
-                logging.info(f"Saved checkpoint: top10.pth")
-            if epoch < 30:
-                save_checkpoint(model, config.CHECKPOINT_PATH + "top30.pth")
-                logging.info(f"Saved checkpoint: top30.pth")
-            if epoch < 50:
-                save_checkpoint(model, config.CHECKPOINT_PATH + "top50.pth")
-                logging.info(f"Saved checkpoint: top50.pth")
+            # if epoch < 10:
+            #     save_checkpoint(model, config.CHECKPOINT_PATH + "top10.pth")
+            #     logging.info(f"Saved checkpoint: top10.pth")
+            # if epoch < 30:
+            #     save_checkpoint(model, config.CHECKPOINT_PATH + "top30.pth")
+            #     logging.info(f"Saved checkpoint: top30.pth")
+            # if epoch < 50:
+            #     save_checkpoint(model, config.CHECKPOINT_PATH + "top50.pth")
+            #     logging.info(f"Saved checkpoint: top50.pth")
+            save_checkpoint(model, config.CHECKPOINT_PATH + "best.pth")
+            logging.info(f"Saved checkpoint: best.pth")
 
 
 if __name__ == '__main__':

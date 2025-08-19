@@ -130,12 +130,14 @@ for epoch in range(args.epochs):
     # torch.save(model.state_dict(), f"{args.model_path}/epoch{epoch+1}_acc{val_acc:.4f}.pth")
     if val_acc > best_acc:
         best_acc = val_acc
-        if epoch < 10:
-            torch.save(model.state_dict(), args.model_path + "/" + args.dataset_name + "_CNN_top10.pth")
-            print("top10 best model updated")
-        if epoch < 30:
-            torch.save(model.state_dict(), args.model_path + "/" + args.dataset_name + "_CNN_top30.pth")
-            print("top30 best model updated")
-        if epoch < 50:
-            torch.save(model.state_dict(), args.model_path + "/" + args.dataset_name + "_CNN_top50.pth")
-            print("top50 best model updated")
+        # if epoch < 10:
+        #     torch.save(model.state_dict(), args.model_path + "/" + args.dataset_name + "_CNN_top10.pth")
+        #     print("top10 best model updated")
+        # if epoch < 30:
+        #     torch.save(model.state_dict(), args.model_path + "/" + args.dataset_name + "_CNN_top30.pth")
+        #     print("top30 best model updated")
+        # if epoch < 50:
+        #     torch.save(model.state_dict(), args.model_path + "/" + args.dataset_name + "_CNN_top50.pth")
+        #     print("top50 best model updated")
+        torch.save(model.state_dict(), args.model_path + "/" + args.dataset_name + "_CNN_best.pth")
+        print("best model updated")

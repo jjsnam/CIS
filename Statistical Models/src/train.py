@@ -134,12 +134,14 @@ def train_loop(train_real_dir, train_fake_dir, val_real_dir, val_fake_dir, model
             # model.save(model_dir + "/gmm_real.pkl", model_dir + "/gmm_fake.pkl")
             # best_acc = acc
             best_acc = acc
-            if epoch < 10:
-                logger.info(f"New best model found. Saving checkpoints...")
-                model.save(model_dir + "/" + dataset + "_gmm_real_top10.pkl", model_dir + "/_gmm_fake_top10.pkl")
-            if epoch < 30:
-                logger.info(f"New best model found. Saving checkpoints...")
-                model.save(model_dir + "/" + dataset + "_gmm_real_top30.pkl", model_dir + "/_gmm_fake_top30.pkl")
-            if epoch < 50:
-                logger.info(f"New best model found. Saving checkpoints...")
-                model.save(model_dir + "/" + dataset + "_gmm_real_top50.pkl", model_dir + "/_gmm_fake_top50.pkl")
+            # if epoch < 10:
+            #     logger.info(f"New best model found. Saving checkpoints...")
+            #     model.save(model_dir + "/" + dataset + "_gmm_real_top10.pkl", model_dir + "/_gmm_fake_top10.pkl")
+            # if epoch < 30:
+            #     logger.info(f"New best model found. Saving checkpoints...")
+            #     model.save(model_dir + "/" + dataset + "_gmm_real_top30.pkl", model_dir + "/_gmm_fake_top30.pkl")
+            # if epoch < 50:
+            #     logger.info(f"New best model found. Saving checkpoints...")
+            #     model.save(model_dir + "/" + dataset + "_gmm_real_top50.pkl", model_dir + "/_gmm_fake_top50.pkl")
+            logger.info(f"New best model found. Saving checkpoints...")
+            model.save(model_dir + "/" + dataset + "_gmm_real_best.pkl", model_dir + "/_gmm_fake_best.pkl")

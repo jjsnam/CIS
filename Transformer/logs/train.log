@@ -1,4 +1,68 @@
-2025-08-03 23:03:17,041 - INFO - Training started.
-2025-08-03 23:05:00,770 - INFO - Epoch 1: Train loss 0.5948, acc 0.6706 | Val loss 0.5500, acc 0.7170
-2025-08-03 23:05:00,770 - INFO - Learning rate: 0.0001
-2025-08-03 23:05:01,170 - INFO - Checkpoint saved: /root/Project/weights/Transformer/SGDF/epoch_1.pth
+2025-08-18 09:04:09,467 - INFO - Training started.
+2025-08-18 09:24:46,356 - INFO - Epoch 1: Train loss 0.3771, acc 0.8062 | Val loss 0.2906, acc 0.8666
+2025-08-18 09:24:46,356 - INFO - Train Precision 0.8034, AP 0.9081, F1 0.8064, AUC 0.9061, Recall 0.8095
+2025-08-18 09:24:46,356 - INFO - Val Precision 0.8296, AP 0.9544, F1 0.8736, AUC 0.9514, Recall 0.9225
+2025-08-18 09:24:46,356 - INFO - Learning rate: 0.0001
+2025-08-18 09:24:46,745 - INFO - Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+2025-08-18 09:45:19,485 - INFO - Epoch 2: Train loss 0.2050, acc 0.9073 | Val loss 0.2409, acc 0.8914
+2025-08-18 09:45:19,485 - INFO - Train Precision 0.9012, AP 0.9734, F1 0.9077, AUC 0.9741, Recall 0.9143
+2025-08-18 09:45:19,485 - INFO - Val Precision 0.9169, AP 0.9669, F1 0.8880, AUC 0.9664, Recall 0.8609
+2025-08-18 09:45:19,485 - INFO - Learning rate: 0.0001
+2025-08-18 09:45:20,521 - INFO - Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+2025-08-18 10:05:56,475 - INFO - Epoch 3: Train loss 0.1552, acc 0.9299 | Val loss 0.2293, acc 0.9046
+2025-08-18 10:05:56,475 - INFO - Train Precision 0.9233, AP 0.9850, F1 0.9302, AUC 0.9851, Recall 0.9373
+2025-08-18 10:05:56,475 - INFO - Val Precision 0.9026, AP 0.9710, F1 0.9048, AUC 0.9710, Recall 0.9070
+2025-08-18 10:05:56,475 - INFO - Learning rate: 0.0001
+2025-08-18 10:05:57,664 - INFO - Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+2025-08-18 10:26:31,699 - INFO - Epoch 4: Train loss 0.1308, acc 0.9412 | Val loss 0.1945, acc 0.9172
+2025-08-18 10:26:31,699 - INFO - Train Precision 0.9354, AP 0.9895, F1 0.9415, AUC 0.9894, Recall 0.9476
+2025-08-18 10:26:31,699 - INFO - Val Precision 0.8968, AP 0.9786, F1 0.9192, AUC 0.9785, Recall 0.9428
+2025-08-18 10:26:31,699 - INFO - Learning rate: 0.0001
+2025-08-18 10:26:32,756 - INFO - Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+2025-08-18 10:47:28,977 - INFO - Epoch 5: Train loss 0.1115, acc 0.9508 | Val loss 0.2188, acc 0.9165
+2025-08-18 10:47:28,978 - INFO - Train Precision 0.9457, AP 0.9923, F1 0.9509, AUC 0.9923, Recall 0.9562
+2025-08-18 10:47:28,978 - INFO - Val Precision 0.9118, AP 0.9770, F1 0.9170, AUC 0.9772, Recall 0.9222
+2025-08-18 10:47:28,978 - INFO - Learning rate: 0.0001
+2025-08-18 11:08:05,294 - INFO - Epoch 6: Train loss 0.1009, acc 0.9568 | Val loss 0.2109, acc 0.9169
+2025-08-18 11:08:05,294 - INFO - Train Precision 0.9535, AP 0.9938, F1 0.9568, AUC 0.9937, Recall 0.9601
+2025-08-18 11:08:05,294 - INFO - Val Precision 0.8915, AP 0.9791, F1 0.9195, AUC 0.9794, Recall 0.9492
+2025-08-18 11:08:05,294 - INFO - Learning rate: 0.0001
+2025-08-18 11:28:46,339 - INFO - Epoch 7: Train loss 0.0908, acc 0.9620 | Val loss 0.2513, acc 0.9044
+2025-08-18 11:28:46,339 - INFO - Train Precision 0.9591, AP 0.9949, F1 0.9620, AUC 0.9949, Recall 0.9648
+2025-08-18 11:28:46,339 - INFO - Val Precision 0.9233, AP 0.9722, F1 0.9022, AUC 0.9726, Recall 0.8820
+2025-08-18 11:28:46,339 - INFO - Learning rate: 0.0001
+2025-08-18 11:49:29,798 - INFO - Epoch 8: Train loss 0.0799, acc 0.9668 | Val loss 0.2527, acc 0.9142
+2025-08-18 11:49:29,798 - INFO - Train Precision 0.9653, AP 0.9961, F1 0.9668, AUC 0.9961, Recall 0.9682
+2025-08-18 11:49:29,798 - INFO - Val Precision 0.8968, AP 0.9769, F1 0.9160, AUC 0.9772, Recall 0.9362
+2025-08-18 11:49:29,798 - INFO - Learning rate: 0.0001
+2025-08-18 12:10:04,443 - INFO - Epoch 9: Train loss 0.0742, acc 0.9700 | Val loss 0.2372, acc 0.9175
+2025-08-18 12:10:04,443 - INFO - Train Precision 0.9690, AP 0.9966, F1 0.9699, AUC 0.9966, Recall 0.9709
+2025-08-18 12:10:04,443 - INFO - Val Precision 0.9096, AP 0.9765, F1 0.9182, AUC 0.9771, Recall 0.9270
+2025-08-18 12:10:04,443 - INFO - Learning rate: 0.0001
+2025-08-18 12:10:05,559 - INFO - Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+2025-08-18 12:30:42,653 - INFO - Epoch 10: Train loss 0.0649, acc 0.9746 | Val loss 0.2402, acc 0.9167
+2025-08-18 12:30:42,653 - INFO - Train Precision 0.9738, AP 0.9974, F1 0.9745, AUC 0.9974, Recall 0.9753
+2025-08-18 12:30:42,653 - INFO - Val Precision 0.9268, AP 0.9775, F1 0.9157, AUC 0.9779, Recall 0.9049
+2025-08-18 12:30:42,653 - INFO - Learning rate: 0.0001
+2025-08-18 12:51:17,423 - INFO - Epoch 11: Train loss 0.0627, acc 0.9757 | Val loss 0.2268, acc 0.9243
+2025-08-18 12:51:17,423 - INFO - Train Precision 0.9744, AP 0.9976, F1 0.9757, AUC 0.9975, Recall 0.9770
+2025-08-18 12:51:17,423 - INFO - Val Precision 0.9176, AP 0.9793, F1 0.9249, AUC 0.9799, Recall 0.9322
+2025-08-18 12:51:17,423 - INFO - Learning rate: 0.0001
+2025-08-18 12:51:18,600 - INFO - Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+2025-08-18 13:11:53,988 - INFO - Epoch 12: Train loss 0.0575, acc 0.9780 | Val loss 0.2007, acc 0.9279
+2025-08-18 13:11:53,988 - INFO - Train Precision 0.9771, AP 0.9979, F1 0.9779, AUC 0.9979, Recall 0.9788
+2025-08-18 13:11:53,988 - INFO - Val Precision 0.9246, AP 0.9810, F1 0.9282, AUC 0.9814, Recall 0.9318
+2025-08-18 13:11:53,988 - INFO - Learning rate: 0.0001
+2025-08-18 13:11:55,209 - INFO - Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+2025-08-18 13:32:32,068 - INFO - Epoch 13: Train loss 0.3294, acc 0.7821 | Val loss 0.6928, acc 0.5188
+2025-08-18 13:32:32,068 - INFO - Train Precision 0.7901, AP 0.9111, F1 0.7782, AUC 0.9026, Recall 0.7667
+2025-08-18 13:32:32,068 - INFO - Val Precision 0.5168, AP 0.5158, F1 0.5446, AUC 0.5248, Recall 0.5756
+2025-08-18 13:32:32,068 - INFO - Learning rate: 0.0001
+2025-08-18 13:53:13,004 - INFO - Epoch 14: Train loss 0.6803, acc 0.5586 | Val loss 0.6457, acc 0.6236
+2025-08-18 13:53:13,004 - INFO - Train Precision 0.5592, AP 0.5810, F1 0.5506, AUC 0.5855, Recall 0.5422
+2025-08-18 13:53:13,005 - INFO - Val Precision 0.6344, AP 0.6772, F1 0.6076, AUC 0.6728, Recall 0.5830
+2025-08-18 13:53:13,005 - INFO - Learning rate: 0.0001
+2025-08-18 14:13:52,079 - INFO - Epoch 15: Train loss 0.6744, acc 0.5366 | Val loss 0.7125, acc 0.5001
+2025-08-18 14:13:52,080 - INFO - Train Precision 0.5364, AP 0.5833, F1 0.5286, AUC 0.5683, Recall 0.5210
+2025-08-18 14:13:52,080 - INFO - Val Precision 0.0000, AP 0.5013, F1 0.0000, AUC 0.5100, Recall 0.0000
+2025-08-18 14:13:52,080 - INFO - Learning rate: 0.0001

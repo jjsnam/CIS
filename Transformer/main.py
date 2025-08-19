@@ -44,21 +44,25 @@ def main():
 
         if val_acc > best_acc:
             best_acc = val_acc
-            if epoch < 10:
-                checkpoint_path = Config.model_path + "/" + Config.dataset_name + "_Transformer_top10.pth"
-                torch.save(model.state_dict(), checkpoint_path)
-                print(f"Checkpoint saved: {checkpoint_path}")
-                logging.info(f"Checkpoint saved: {checkpoint_path}")
-            if epoch < 30:
-                checkpoint_path = Config.model_path + "/" + Config.dataset_name + "_Transformer_top30.pth"
-                torch.save(model.state_dict(), checkpoint_path)
-                print(f"Checkpoint saved: {checkpoint_path}")
-                logging.info(f"Checkpoint saved: {checkpoint_path}")
-            if epoch < 50:
-                checkpoint_path = Config.model_path + "/" + Config.dataset_name + "_Transformer_top50.pth"
-                torch.save(model.state_dict(), checkpoint_path)
-                print(f"Checkpoint saved: {checkpoint_path}")
-                logging.info(f"Checkpoint saved: {checkpoint_path}")
+            # if epoch < 10:
+            #     checkpoint_path = Config.model_path + "/" + Config.dataset_name + "_Transformer_top10.pth"
+            #     torch.save(model.state_dict(), checkpoint_path)
+            #     print(f"Checkpoint saved: {checkpoint_path}")
+            #     logging.info(f"Checkpoint saved: {checkpoint_path}")
+            # if epoch < 30:
+            #     checkpoint_path = Config.model_path + "/" + Config.dataset_name + "_Transformer_top30.pth"
+            #     torch.save(model.state_dict(), checkpoint_path)
+            #     print(f"Checkpoint saved: {checkpoint_path}")
+            #     logging.info(f"Checkpoint saved: {checkpoint_path}")
+            # if epoch < 50:
+            #     checkpoint_path = Config.model_path + "/" + Config.dataset_name + "_Transformer_top50.pth"
+            #     torch.save(model.state_dict(), checkpoint_path)
+            #     print(f"Checkpoint saved: {checkpoint_path}")
+            #     logging.info(f"Checkpoint saved: {checkpoint_path}")
+            checkpoint_path = Config.model_path + "/" + Config.dataset_name + "_Transformer_best.pth"
+            torch.save(model.state_dict(), checkpoint_path)
+            print(f"Checkpoint saved: {checkpoint_path}")
+            logging.info(f"Checkpoint saved: {checkpoint_path}")
 
     # logging.info("Training complete. Saving model.")
     # torch.save(model.state_dict(), Config.checkpoint_path)

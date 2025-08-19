@@ -26,8 +26,9 @@ class RegionFaceDataset(Dataset):
                 if all(os.path.exists(p) for p in region_paths.values()):
                     self.samples.append((img_path, label))
                 else:
-                    print(f"[WARN] Skip {img_path}, region image missing.")
+                    # print(f"[WARN] Skip {img_path}, region image missing.")
                     # print(f"{region_paths}")
+                    pass
 
     def __len__(self):
         return len(self.samples)

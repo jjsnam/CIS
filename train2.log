@@ -1,0 +1,305 @@
+Training script started
+Sending notification email...
+/root/dead.letter 10/297
+Starting training CNN model
+Changing direction
+Sending notification email...
+/root/dead.letter 10/271
+/root/dead.letter 10/290
+Start time: 2025-08-17 15:38:12
+Device in use: cuda
+Is CUDA available: True
+GPU name: Tesla V100-PCIE-16GB
+[Epoch 1] Train Loss: 651.4705, Train Acc: 0.8998
+[Epoch 1] Val Acc: 0.9267, Precision: 0.9542, Recall: 0.8966, F1: 0.9245, AUC: 0.9829, AP: 0.9831
+best model updated
+[Epoch 2] Train Loss: 330.9834, Train Acc: 0.9489
+[Epoch 2] Val Acc: 0.9356, Precision: 0.9429, Recall: 0.9274, F1: 0.9351, AUC: 0.9874, AP: 0.9883
+best model updated
+[Epoch 3] Train Loss: 245.0743, Train Acc: 0.9627
+[Epoch 3] Val Acc: 0.9403, Precision: 0.9700, Recall: 0.9086, F1: 0.9383, AUC: 0.9903, AP: 0.9908
+best model updated
+[Epoch 4] Train Loss: 202.4136, Train Acc: 0.9698
+[Epoch 4] Val Acc: 0.9493, Precision: 0.9706, Recall: 0.9266, F1: 0.9481, AUC: 0.9917, AP: 0.9915
+best model updated
+[Epoch 5] Train Loss: 170.7463, Train Acc: 0.9748
+[Epoch 5] Val Acc: 0.9497, Precision: 0.9649, Recall: 0.9334, F1: 0.9489, AUC: 0.9915, AP: 0.9918
+best model updated
+[Epoch 6] Train Loss: 149.2572, Train Acc: 0.9789
+[Epoch 6] Val Acc: 0.9507, Precision: 0.9725, Recall: 0.9277, F1: 0.9496, AUC: 0.9919, AP: 0.9923
+best model updated
+[Epoch 7] Train Loss: 129.9025, Train Acc: 0.9822
+[Epoch 7] Val Acc: 0.9537, Precision: 0.9729, Recall: 0.9333, F1: 0.9527, AUC: 0.9929, AP: 0.9931
+best model updated
+[Epoch 8] Train Loss: 105.8922, Train Acc: 0.9862
+[Epoch 8] Val Acc: 0.9459, Precision: 0.9766, Recall: 0.9138, F1: 0.9442, AUC: 0.9908, AP: 0.9911
+[Epoch 9] Train Loss: 98.0257, Train Acc: 0.9874
+[Epoch 9] Val Acc: 0.9546, Precision: 0.9542, Recall: 0.9550, F1: 0.9546, AUC: 0.9923, AP: 0.9924
+best model updated
+[Epoch 10] Train Loss: 82.8056, Train Acc: 0.9898
+[Epoch 10] Val Acc: 0.9567, Precision: 0.9592, Recall: 0.9540, F1: 0.9566, AUC: 0.9928, AP: 0.9932
+best model updated
+[Epoch 11] Train Loss: 73.8623, Train Acc: 0.9906
+[Epoch 11] Val Acc: 0.9550, Precision: 0.9614, Recall: 0.9482, F1: 0.9547, AUC: 0.9915, AP: 0.9920
+[Epoch 12] Train Loss: 66.8699, Train Acc: 0.9920
+[Epoch 12] Val Acc: 0.9583, Precision: 0.9589, Recall: 0.9576, F1: 0.9583, AUC: 0.9932, AP: 0.9933
+best model updated
+[Epoch 13] Train Loss: 61.3593, Train Acc: 0.9925
+[Epoch 13] Val Acc: 0.9524, Precision: 0.9708, Recall: 0.9330, F1: 0.9515, AUC: 0.9914, AP: 0.9918
+[Epoch 14] Train Loss: 58.1637, Train Acc: 0.9931
+[Epoch 14] Val Acc: 0.9541, Precision: 0.9544, Recall: 0.9538, F1: 0.9541, AUC: 0.9923, AP: 0.9927
+[Epoch 15] Train Loss: 54.5318, Train Acc: 0.9935
+[Epoch 15] Val Acc: 0.9586, Precision: 0.9578, Recall: 0.9594, F1: 0.9586, AUC: 0.9931, AP: 0.9931
+best model updated
+End time: 2025-08-17 16:09:27
+Duration: 1875s
+/root/dead.letter 13/328
+/root/dead.letter 10/283
+Starting training CNN+Transformer model
+Changing direction
+Sending notification email...
+/root/dead.letter 10/302
+Start time: 2025-08-17 16:09:31
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+(Train @ epoch 0) Acc: 0.8656
+(Val @ epoch 0) Acc: 0.9232, Prec: 0.9604, Rec: 0.8828, F1: 0.9200, AUC: 0.9232, AP: 0.9065
+[INFO] Saved best model to /root/Project/weights/CNN+Transformer/Fused/Fused_CNN+Transformer_best.pth
+(Train @ epoch 1) Acc: 0.9458
+(Val @ epoch 1) Acc: 0.9292, Prec: 0.9661, Rec: 0.8896, F1: 0.9263, AUC: 0.9292, AP: 0.9147
+[INFO] Saved best model to /root/Project/weights/CNN+Transformer/Fused/Fused_CNN+Transformer_best.pth
+(Train @ epoch 2) Acc: 0.9636
+(Val @ epoch 2) Acc: 0.9347, Prec: 0.9552, Rec: 0.9121, F1: 0.9332, AUC: 0.9347, AP: 0.9152
+[INFO] Saved best model to /root/Project/weights/CNN+Transformer/Fused/Fused_CNN+Transformer_best.pth
+(Train @ epoch 3) Acc: 0.9719
+(Val @ epoch 3) Acc: 0.9192, Prec: 0.9606, Rec: 0.8743, F1: 0.9154, AUC: 0.9192, AP: 0.9027
+(Train @ epoch 4) Acc: 0.9777
+(Val @ epoch 4) Acc: 0.9434, Prec: 0.9589, Rec: 0.9265, F1: 0.9424, AUC: 0.9434, AP: 0.9252
+[INFO] Saved best model to /root/Project/weights/CNN+Transformer/Fused/Fused_CNN+Transformer_best.pth
+(Train @ epoch 5) Acc: 0.9818
+(Val @ epoch 5) Acc: 0.9449, Prec: 0.9421, Rec: 0.9481, F1: 0.9451, AUC: 0.9449, AP: 0.9191
+[INFO] Saved best model to /root/Project/weights/CNN+Transformer/Fused/Fused_CNN+Transformer_best.pth
+(Train @ epoch 6) Acc: 0.9873
+(Val @ epoch 6) Acc: 0.9396, Prec: 0.9530, Rec: 0.9249, F1: 0.9387, AUC: 0.9396, AP: 0.9190
+(Train @ epoch 7) Acc: 0.9870
+(Val @ epoch 7) Acc: 0.9470, Prec: 0.9648, Rec: 0.9279, F1: 0.9460, AUC: 0.9470, AP: 0.9313
+[INFO] Saved best model to /root/Project/weights/CNN+Transformer/Fused/Fused_CNN+Transformer_best.pth
+(Train @ epoch 8) Acc: 0.9884
+(Val @ epoch 8) Acc: 0.9466, Prec: 0.9536, Rec: 0.9390, F1: 0.9462, AUC: 0.9466, AP: 0.9259
+(Train @ epoch 9) Acc: 0.9896
+(Val @ epoch 9) Acc: 0.9486, Prec: 0.9654, Rec: 0.9305, F1: 0.9476, AUC: 0.9486, AP: 0.9330
+[INFO] Saved best model to /root/Project/weights/CNN+Transformer/Fused/Fused_CNN+Transformer_best.pth
+(Train @ epoch 10) Acc: 0.8819
+(Val @ epoch 10) Acc: 0.5372, Prec: 0.5286, Rec: 0.6918, F1: 0.5993, AUC: 0.5372, AP: 0.5198
+(Train @ epoch 11) Acc: 0.5860
+(Val @ epoch 11) Acc: 0.5758, Prec: 0.5969, Rec: 0.4679, F1: 0.5246, AUC: 0.5758, AP: 0.5454
+(Train @ epoch 12) Acc: 0.7088
+(Val @ epoch 12) Acc: 0.8265, Prec: 0.8343, Rec: 0.8149, F1: 0.8245, AUC: 0.8265, AP: 0.7724
+(Train @ epoch 13) Acc: 0.9267
+(Val @ epoch 13) Acc: 0.9313, Prec: 0.9506, Rec: 0.9099, F1: 0.9298, AUC: 0.9313, AP: 0.9100
+(Train @ epoch 14) Acc: 0.9835
+(Val @ epoch 14) Acc: 0.9509, Prec: 0.9527, Rec: 0.9490, F1: 0.9508, AUC: 0.9509, AP: 0.9296
+[INFO] Saved best model to /root/Project/weights/CNN+Transformer/Fused/Fused_CNN+Transformer_best.pth
+End time: 2025-08-17 21:10:49
+Duration: 18078s
+/root/dead.letter 13/353
+/root/dead.letter 10/272
+Starting training RCNN model
+Changing direction
+Sending notification email...
+/root/dead.letter 10/291
+Start time: 2025-08-17 21:10:52
+[Epoch 1] Train Loss: 889.8257, Train Acc: 0.8614
+[Epoch 1] Train Precision: 0.8740, Recall: 0.8464, F1: 0.8600, AP: 0.8169
+[Epoch 1] Train AUC: 0.8615
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 1] Val Acc: 0.8651
+[Epoch 1] Val Precision: 0.8611, Recall: 0.8704, F1: 0.8657, AP: 0.8142
+[Epoch 1] Val AUC: 0.8651
+Saved best model to /root/Project/weights/RCNN/Fused/Fused_RCNN_best.pth
+[Epoch 2] Train Loss: 511.2417, Train Acc: 0.9249
+[Epoch 2] Train Precision: 0.9355, Recall: 0.9136, F1: 0.9244, AP: 0.8981
+[Epoch 2] Train AUC: 0.9250
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 2] Val Acc: 0.8632
+[Epoch 2] Val Precision: 0.8503, Recall: 0.8812, F1: 0.8655, AP: 0.8086
+[Epoch 2] Val AUC: 0.8632
+[Epoch 3] Train Loss: 389.8165, Train Acc: 0.9433
+[Epoch 3] Train Precision: 0.9507, Recall: 0.9359, F1: 0.9432, AP: 0.9219
+[Epoch 3] Train AUC: 0.9434
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 3] Val Acc: 0.8842
+[Epoch 3] Val Precision: 0.8939, Recall: 0.8718, F1: 0.8827, AP: 0.8433
+[Epoch 3] Val AUC: 0.8842
+Saved best model to /root/Project/weights/RCNN/Fused/Fused_RCNN_best.pth
+[Epoch 4] Train Loss: 316.8439, Train Acc: 0.9537
+[Epoch 4] Train Precision: 0.9595, Recall: 0.9480, F1: 0.9537, AP: 0.9357
+[Epoch 4] Train AUC: 0.9538
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 4] Val Acc: 0.9030
+[Epoch 4] Val Precision: 0.8993, Recall: 0.9074, F1: 0.9034, AP: 0.8623
+[Epoch 4] Val AUC: 0.9030
+Saved best model to /root/Project/weights/RCNN/Fused/Fused_RCNN_best.pth
+[Epoch 5] Train Loss: 253.9474, Train Acc: 0.9641
+[Epoch 5] Train Precision: 0.9674, Recall: 0.9609, F1: 0.9641, AP: 0.9492
+[Epoch 5] Train AUC: 0.9641
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 5] Val Acc: 0.8691
+[Epoch 5] Val Precision: 0.8420, Recall: 0.9084, F1: 0.8740, AP: 0.8107
+[Epoch 5] Val AUC: 0.8692
+[Epoch 6] Train Loss: 203.9794, Train Acc: 0.9728
+[Epoch 6] Train Precision: 0.9751, Recall: 0.9706, F1: 0.9728, AP: 0.9612
+[Epoch 6] Train AUC: 0.9728
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 6] Val Acc: 0.8765
+[Epoch 6] Val Precision: 0.9435, Recall: 0.8006, F1: 0.8662, AP: 0.8550
+[Epoch 6] Val AUC: 0.8764
+[Epoch 7] Train Loss: 160.3705, Train Acc: 0.9790
+[Epoch 7] Train Precision: 0.9802, Recall: 0.9781, F1: 0.9791, AP: 0.9697
+[Epoch 7] Train AUC: 0.9790
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 7] Val Acc: 0.8974
+[Epoch 7] Val Precision: 0.9449, Recall: 0.8437, F1: 0.8915, AP: 0.8753
+[Epoch 7] Val AUC: 0.8973
+[Epoch 8] Train Loss: 127.6665, Train Acc: 0.9841
+[Epoch 8] Train Precision: 0.9847, Recall: 0.9836, F1: 0.9842, AP: 0.9768
+[Epoch 8] Train AUC: 0.9841
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 8] Val Acc: 0.8935
+[Epoch 8] Val Precision: 0.9430, Recall: 0.8373, F1: 0.8871, AP: 0.8709
+[Epoch 8] Val AUC: 0.8934
+[Epoch 9] Train Loss: 106.7728, Train Acc: 0.9867
+[Epoch 9] Train Precision: 0.9875, Recall: 0.9860, F1: 0.9867, AP: 0.9807
+[Epoch 9] Train AUC: 0.9867
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 9] Val Acc: 0.8942
+[Epoch 9] Val Precision: 0.8722, Recall: 0.9237, F1: 0.8972, AP: 0.8437
+[Epoch 9] Val AUC: 0.8943
+[Epoch 10] Train Loss: 99.2697, Train Acc: 0.9874
+[Epoch 10] Train Precision: 0.9878, Recall: 0.9871, F1: 0.9875, AP: 0.9816
+[Epoch 10] Train AUC: 0.9874
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 10] Val Acc: 0.9069
+[Epoch 10] Val Precision: 0.9158, Recall: 0.8960, F1: 0.9058, AP: 0.8725
+[Epoch 10] Val AUC: 0.9069
+Saved best model to /root/Project/weights/RCNN/Fused/Fused_RCNN_best.pth
+[Epoch 11] Train Loss: 86.1439, Train Acc: 0.9896
+[Epoch 11] Train Precision: 0.9902, Recall: 0.9890, F1: 0.9896, AP: 0.9848
+[Epoch 11] Train AUC: 0.9896
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 11] Val Acc: 0.8923
+[Epoch 11] Val Precision: 0.9047, Recall: 0.8767, F1: 0.8905, AP: 0.8548
+[Epoch 11] Val AUC: 0.8923
+[Epoch 12] Train Loss: 78.0442, Train Acc: 0.9906
+[Epoch 12] Train Precision: 0.9910, Recall: 0.9903, F1: 0.9906, AP: 0.9862
+[Epoch 12] Train AUC: 0.9906
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 12] Val Acc: 0.8967
+[Epoch 12] Val Precision: 0.8803, Recall: 0.9181, F1: 0.8988, AP: 0.8491
+[Epoch 12] Val AUC: 0.8967
+[Epoch 13] Train Loss: 72.3628, Train Acc: 0.9916
+[Epoch 13] Train Precision: 0.9919, Recall: 0.9914, F1: 0.9917, AP: 0.9877
+[Epoch 13] Train AUC: 0.9916
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 13] Val Acc: 0.9015
+[Epoch 13] Val Precision: 0.9090, Recall: 0.8921, F1: 0.9005, AP: 0.8648
+[Epoch 13] Val AUC: 0.9015
+[Epoch 14] Train Loss: 65.1892, Train Acc: 0.9921
+[Epoch 14] Train Precision: 0.9926, Recall: 0.9917, F1: 0.9921, AP: 0.9885
+[Epoch 14] Train AUC: 0.9921
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 14] Val Acc: 0.8827
+[Epoch 14] Val Precision: 0.8482, Recall: 0.9319, F1: 0.8881, AP: 0.8244
+[Epoch 14] Val AUC: 0.8827
+[Epoch 15] Train Loss: 65.4713, Train Acc: 0.9923
+[Epoch 15] Train Precision: 0.9927, Recall: 0.9921, F1: 0.9924, AP: 0.9888
+[Epoch 15] Train AUC: 0.9923
+[VAL SKIP] Exception during validation: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+[Epoch 15] Val Acc: 0.8972
+[Epoch 15] Val Precision: 0.8802, Recall: 0.9193, F1: 0.8993, AP: 0.8495
+[Epoch 15] Val AUC: 0.8972
+End time: 2025-08-17 22:52:27
+Duration: 6095s
+/root/dead.letter 13/330
+/root/dead.letter 10/279
+Starting training Statistical model
+Changing direction
+Sending notification email...
+/root/dead.letter 10/298
+Start time: 2025-08-17 22:52:30
+End time: 2025-08-18 00:25:18
+Duration: 5568s
+/root/dead.letter 13/344
+/root/dead.letter 10/279
+Starting training Transformer model
+Changing direction
+Sending notification email...
+/root/dead.letter 10/298
+Start time: 2025-08-18 00:25:21
+End time: 2025-08-18 00:25:26
+Duration: 5s
+/root/dead.letter 13/338
+Begin to shutdown
+Instance: I228c8602ca00301d54 shutdown successfully
+/root/dead.letter 10/279
+Starting training Transformer model
+Changing direction
+Sending notification email...
+/root/dead.letter 10/298
+Start time: 2025-08-18 09:04:05
+Epoch 1: Train acc 0.8062, Val acc 0.8666
+Train - Precision: 0.8034, AP: 0.9081, F1: 0.8064, AUC: 0.9061, Recall: 0.8095
+Val   - Precision: 0.8296, AP: 0.9544, F1: 0.8736, AUC: 0.9514, Recall: 0.9225
+Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+Epoch 2: Train acc 0.9073, Val acc 0.8914
+Train - Precision: 0.9012, AP: 0.9734, F1: 0.9077, AUC: 0.9741, Recall: 0.9143
+Val   - Precision: 0.9169, AP: 0.9669, F1: 0.8880, AUC: 0.9664, Recall: 0.8609
+Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+Epoch 3: Train acc 0.9299, Val acc 0.9046
+Train - Precision: 0.9233, AP: 0.9850, F1: 0.9302, AUC: 0.9851, Recall: 0.9373
+Val   - Precision: 0.9026, AP: 0.9710, F1: 0.9048, AUC: 0.9710, Recall: 0.9070
+Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+Epoch 4: Train acc 0.9412, Val acc 0.9172
+Train - Precision: 0.9354, AP: 0.9895, F1: 0.9415, AUC: 0.9894, Recall: 0.9476
+Val   - Precision: 0.8968, AP: 0.9786, F1: 0.9192, AUC: 0.9785, Recall: 0.9428
+Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+Epoch 5: Train acc 0.9508, Val acc 0.9165
+Train - Precision: 0.9457, AP: 0.9923, F1: 0.9509, AUC: 0.9923, Recall: 0.9562
+Val   - Precision: 0.9118, AP: 0.9770, F1: 0.9170, AUC: 0.9772, Recall: 0.9222
+Epoch 6: Train acc 0.9568, Val acc 0.9169
+Train - Precision: 0.9535, AP: 0.9938, F1: 0.9568, AUC: 0.9937, Recall: 0.9601
+Val   - Precision: 0.8915, AP: 0.9791, F1: 0.9195, AUC: 0.9794, Recall: 0.9492
+Epoch 7: Train acc 0.9620, Val acc 0.9044
+Train - Precision: 0.9591, AP: 0.9949, F1: 0.9620, AUC: 0.9949, Recall: 0.9648
+Val   - Precision: 0.9233, AP: 0.9722, F1: 0.9022, AUC: 0.9726, Recall: 0.8820
+Epoch 8: Train acc 0.9668, Val acc 0.9142
+Train - Precision: 0.9653, AP: 0.9961, F1: 0.9668, AUC: 0.9961, Recall: 0.9682
+Val   - Precision: 0.8968, AP: 0.9769, F1: 0.9160, AUC: 0.9772, Recall: 0.9362
+Epoch 9: Train acc 0.9700, Val acc 0.9175
+Train - Precision: 0.9690, AP: 0.9966, F1: 0.9699, AUC: 0.9966, Recall: 0.9709
+Val   - Precision: 0.9096, AP: 0.9765, F1: 0.9182, AUC: 0.9771, Recall: 0.9270
+Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+Epoch 10: Train acc 0.9746, Val acc 0.9167
+Train - Precision: 0.9738, AP: 0.9974, F1: 0.9745, AUC: 0.9974, Recall: 0.9753
+Val   - Precision: 0.9268, AP: 0.9775, F1: 0.9157, AUC: 0.9779, Recall: 0.9049
+Epoch 11: Train acc 0.9757, Val acc 0.9243
+Train - Precision: 0.9744, AP: 0.9976, F1: 0.9757, AUC: 0.9975, Recall: 0.9770
+Val   - Precision: 0.9176, AP: 0.9793, F1: 0.9249, AUC: 0.9799, Recall: 0.9322
+Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+Epoch 12: Train acc 0.9780, Val acc 0.9279
+Train - Precision: 0.9771, AP: 0.9979, F1: 0.9779, AUC: 0.9979, Recall: 0.9788
+Val   - Precision: 0.9246, AP: 0.9810, F1: 0.9282, AUC: 0.9814, Recall: 0.9318
+Checkpoint saved: /root/Project/weights/Transformer/Fused/Fused_Transformer_best.pth
+Epoch 13: Train acc 0.7821, Val acc 0.5188
+Train - Precision: 0.7901, AP: 0.9111, F1: 0.7782, AUC: 0.9026, Recall: 0.7667
+Val   - Precision: 0.5168, AP: 0.5158, F1: 0.5446, AUC: 0.5248, Recall: 0.5756
+Epoch 14: Train acc 0.5586, Val acc 0.6236
+Train - Precision: 0.5592, AP: 0.5810, F1: 0.5506, AUC: 0.5855, Recall: 0.5422
+Val   - Precision: 0.6344, AP: 0.6772, F1: 0.6076, AUC: 0.6728, Recall: 0.5830
+Epoch 15: Train acc 0.5366, Val acc 0.5001
+Train - Precision: 0.5364, AP: 0.5833, F1: 0.5286, AUC: 0.5683, Recall: 0.5210
+Val   - Precision: 0.0000, AP: 0.5013, F1: 0.0000, AUC: 0.5100, Recall: 0.0000
+End time: 2025-08-18 14:13:53
+Duration: 18588s
+/root/dead.letter 13/345
+Begin to shutdown
+Instance: I228c8602ca00301d54 shutdown successfully

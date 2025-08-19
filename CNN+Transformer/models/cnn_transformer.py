@@ -17,19 +17,18 @@ class CNNTransformerClassifier(nn.Module):
         self.proj = nn.Conv2d(256, 768, kernel_size=1)  # match ViT hidden dim (768)
 
         # ViT Transformer
-        vit_ckpt = '/root/Project/Transformer/weights/vit_base_patch16_224.pth'
-
         self.transformer = create_model(
             transformer_name,
-            pretrained=False,   # 避免自动下载
-            num_classes=num_classes,
-            checkpoint_path=vit_ckpt
+            pretrained=False,
+            num_classes=0  # Do not load classifier head
         )
-        # self.transformer = create_model(
-        #     transformer_name,
-        #     pretrained=pretrained,
-        #     num_classes=num_classes,
-        # )
+
+        # Load ViT weights excluding classifier head
+        vit_ckpt = '/root/Project/Transformer/weights/vit_base_patch16_224.pth'
+        state_dict = torch.load(vit_ckpt, map_location='cpu')
+        state_dict = {k: v for k, v in state_dict.items() if not k.startswith('head')}
+        missing_keys, unexpected_keys = self.transformer.load_state_dict(state_dict, strict=False)
+        print(f"[INFO] Loaded ViT weights. Missing: {missing_keys}, Unexpected: {unexpected_keys}")
 
         # Freeze ViT classifier head (we use our own)
         self.transformer.reset_classifier(0)

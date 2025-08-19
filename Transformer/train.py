@@ -29,7 +29,8 @@ def train(model, train_loader, optimizer, scheduler, criterion, epoch=0):
         probs = torch.softmax(outputs, dim=1)[:, 1]  # 取正类概率
         preds = outputs.argmax(dim=1)
 
-        all_probs.extend(probs.cpu().numpy())
+        # all_probs.extend(probs.cpu().numpy())
+        all_probs.extend(probs.detach().cpu().numpy())
         all_preds.extend(preds.cpu().numpy())
         all_labels.extend(labels.cpu().numpy())
 

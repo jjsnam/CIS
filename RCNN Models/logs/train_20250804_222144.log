@@ -1,0 +1,313 @@
+2025-08-04 22:22:23,827 | INFO | Epoch 1 | Train Loss: 86.1846, Train Acc: 0.8505
+2025-08-04 22:22:23,875 | INFO | Epoch 1 | Train Precision: 0.8613, Recall: 0.8789, F1: 0.8700, AP: 0.8259
+2025-08-04 22:22:23,875 | INFO | Epoch 1 | Train AUC: 0.8460
+2025-08-04 22:22:29,381 | INFO | Epoch 1 | Val Acc: 0.7668
+2025-08-04 22:22:29,408 | INFO | Epoch 1 | Val Precision: 0.7117, Recall: 0.9961, F1: 0.8302, AP: 0.7111
+2025-08-04 22:22:29,409 | INFO | Epoch 1 | Val AUC: 0.7279
+2025-08-04 22:22:30,027 | INFO | Saved best model top10 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top10.pth
+2025-08-04 22:22:30,560 | INFO | Saved best model top30 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top30.pth
+2025-08-04 22:22:31,076 | INFO | Saved best model top50 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top50.pth
+2025-08-04 22:23:03,342 | INFO | Epoch 2 | Train Loss: 26.8108, Train Acc: 0.9573
+2025-08-04 22:23:03,392 | INFO | Epoch 2 | Train Precision: 0.9635, Recall: 0.9614, F1: 0.9624, AP: 0.9482
+2025-08-04 22:23:03,393 | INFO | Epoch 2 | Train AUC: 0.9566
+2025-08-04 22:23:08,634 | INFO | Epoch 2 | Val Acc: 0.8546
+2025-08-04 22:23:08,658 | INFO | Epoch 2 | Val Precision: 0.8032, Recall: 0.9882, F1: 0.8861, AP: 0.8005
+2025-08-04 22:23:08,658 | INFO | Epoch 2 | Val AUC: 0.8320
+2025-08-04 22:23:09,175 | INFO | Saved best model top10 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top10.pth
+2025-08-04 22:23:09,698 | INFO | Saved best model top30 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top30.pth
+2025-08-04 22:23:10,237 | INFO | Saved best model top50 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top50.pth
+2025-08-04 22:23:42,473 | INFO | Epoch 3 | Train Loss: 11.9300, Train Acc: 0.9833
+2025-08-04 22:23:42,517 | INFO | Epoch 3 | Train Precision: 0.9853, Recall: 0.9853, F1: 0.9853, AP: 0.9792
+2025-08-04 22:23:42,517 | INFO | Epoch 3 | Train AUC: 0.9829
+2025-08-04 22:23:46,628 | INFO | Epoch 3 | Val Acc: 0.8400
+2025-08-04 22:23:46,653 | INFO | Epoch 3 | Val Precision: 0.7837, Recall: 0.9951, F1: 0.8768, AP: 0.7827
+2025-08-04 22:23:46,653 | INFO | Epoch 3 | Val AUC: 0.8137
+2025-08-04 22:24:21,282 | INFO | Epoch 4 | Train Loss: 12.8333, Train Acc: 0.9806
+2025-08-04 22:24:21,362 | INFO | Epoch 4 | Train Precision: 0.9829, Recall: 0.9829, F1: 0.9829, AP: 0.9759
+2025-08-04 22:24:21,362 | INFO | Epoch 4 | Train AUC: 0.9802
+2025-08-04 22:24:26,748 | INFO | Epoch 4 | Val Acc: 0.7459
+2025-08-04 22:24:26,769 | INFO | Epoch 4 | Val Precision: 0.6934, Recall: 0.9970, F1: 0.8179, AP: 0.6930
+2025-08-04 22:24:26,770 | INFO | Epoch 4 | Val AUC: 0.7034
+2025-08-04 22:24:59,252 | INFO | Epoch 5 | Train Loss: 12.8230, Train Acc: 0.9817
+2025-08-04 22:24:59,339 | INFO | Epoch 5 | Train Precision: 0.9840, Recall: 0.9838, F1: 0.9839, AP: 0.9773
+2025-08-04 22:24:59,340 | INFO | Epoch 5 | Train AUC: 0.9813
+2025-08-04 22:25:03,826 | INFO | Epoch 5 | Val Acc: 0.8377
+2025-08-04 22:25:03,849 | INFO | Epoch 5 | Val Precision: 0.7839, Recall: 0.9892, F1: 0.8747, AP: 0.7816
+2025-08-04 22:25:03,849 | INFO | Epoch 5 | Val AUC: 0.8121
+2025-08-04 22:25:35,940 | INFO | Epoch 6 | Train Loss: 8.5854, Train Acc: 0.9887
+2025-08-04 22:25:35,980 | INFO | Epoch 6 | Train Precision: 0.9921, Recall: 0.9881, F1: 0.9901, AP: 0.9870
+2025-08-04 22:25:35,980 | INFO | Epoch 6 | Train AUC: 0.9888
+2025-08-04 22:25:41,137 | INFO | Epoch 6 | Val Acc: 0.8721
+2025-08-04 22:25:41,162 | INFO | Epoch 6 | Val Precision: 0.8200, Recall: 0.9951, F1: 0.8991, AP: 0.8187
+2025-08-04 22:25:41,162 | INFO | Epoch 6 | Val AUC: 0.8513
+2025-08-04 22:25:41,713 | INFO | Saved best model top10 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top10.pth
+2025-08-04 22:25:42,185 | INFO | Saved best model top30 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top30.pth
+2025-08-04 22:25:42,680 | INFO | Saved best model top50 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top50.pth
+2025-08-04 22:26:15,344 | INFO | Epoch 7 | Train Loss: 6.0661, Train Acc: 0.9915
+2025-08-04 22:26:15,387 | INFO | Epoch 7 | Train Precision: 0.9938, Recall: 0.9913, F1: 0.9925, AP: 0.9901
+2025-08-04 22:26:15,387 | INFO | Epoch 7 | Train AUC: 0.9915
+2025-08-04 22:26:20,658 | INFO | Epoch 7 | Val Acc: 0.7420
+2025-08-04 22:26:20,687 | INFO | Epoch 7 | Val Precision: 0.6898, Recall: 0.9980, F1: 0.8158, AP: 0.6896
+2025-08-04 22:26:20,687 | INFO | Epoch 7 | Val AUC: 0.6986
+2025-08-04 22:26:53,816 | INFO | Epoch 8 | Train Loss: 9.4911, Train Acc: 0.9874
+2025-08-04 22:26:53,855 | INFO | Epoch 8 | Train Precision: 0.9889, Recall: 0.9889, F1: 0.9889, AP: 0.9843
+2025-08-04 22:26:53,856 | INFO | Epoch 8 | Train AUC: 0.9871
+2025-08-04 22:26:58,309 | INFO | Epoch 8 | Val Acc: 0.7932
+2025-08-04 22:26:58,330 | INFO | Epoch 8 | Val Precision: 0.7357, Recall: 0.9970, F1: 0.8466, AP: 0.7352
+2025-08-04 22:26:58,331 | INFO | Epoch 8 | Val AUC: 0.7587
+2025-08-04 22:27:30,769 | INFO | Epoch 9 | Train Loss: 8.0985, Train Acc: 0.9890
+2025-08-04 22:27:30,809 | INFO | Epoch 9 | Train Precision: 0.9919, Recall: 0.9887, F1: 0.9903, AP: 0.9871
+2025-08-04 22:27:30,809 | INFO | Epoch 9 | Train AUC: 0.9890
+2025-08-04 22:27:35,836 | INFO | Epoch 9 | Val Acc: 0.7758
+2025-08-04 22:27:35,856 | INFO | Epoch 9 | Val Precision: 0.7191, Recall: 0.9980, F1: 0.8359, AP: 0.7189
+2025-08-04 22:27:35,856 | INFO | Epoch 9 | Val AUC: 0.7381
+2025-08-04 22:28:08,498 | INFO | Epoch 10 | Train Loss: 6.6743, Train Acc: 0.9907
+2025-08-04 22:28:08,537 | INFO | Epoch 10 | Train Precision: 0.9919, Recall: 0.9917, F1: 0.9918, AP: 0.9884
+2025-08-04 22:28:08,537 | INFO | Epoch 10 | Train AUC: 0.9905
+2025-08-04 22:28:13,582 | INFO | Epoch 10 | Val Acc: 0.7927
+2025-08-04 22:28:13,605 | INFO | Epoch 10 | Val Precision: 0.7386, Recall: 0.9872, F1: 0.8450, AP: 0.7365
+2025-08-04 22:28:13,605 | INFO | Epoch 10 | Val AUC: 0.7597
+2025-08-04 22:28:45,906 | INFO | Epoch 11 | Train Loss: 5.6177, Train Acc: 0.9922
+2025-08-04 22:28:45,982 | INFO | Epoch 11 | Train Precision: 0.9928, Recall: 0.9936, F1: 0.9932, AP: 0.9900
+2025-08-04 22:28:45,982 | INFO | Epoch 11 | Train AUC: 0.9920
+2025-08-04 22:28:50,842 | INFO | Epoch 11 | Val Acc: 0.8569
+2025-08-04 22:28:50,860 | INFO | Epoch 11 | Val Precision: 0.8033, Recall: 0.9931, F1: 0.8882, AP: 0.8018
+2025-08-04 22:28:50,861 | INFO | Epoch 11 | Val AUC: 0.8338
+2025-08-04 22:29:23,499 | INFO | Epoch 12 | Train Loss: 4.9354, Train Acc: 0.9926
+2025-08-04 22:29:23,560 | INFO | Epoch 12 | Train Precision: 0.9936, Recall: 0.9934, F1: 0.9935, AP: 0.9908
+2025-08-04 22:29:23,560 | INFO | Epoch 12 | Train AUC: 0.9925
+2025-08-04 22:29:29,049 | INFO | Epoch 12 | Val Acc: 0.7515
+2025-08-04 22:29:29,067 | INFO | Epoch 12 | Val Precision: 0.6976, Recall: 0.9990, F1: 0.8215, AP: 0.6975
+2025-08-04 22:29:29,068 | INFO | Epoch 12 | Val AUC: 0.7097
+2025-08-04 22:30:01,392 | INFO | Epoch 13 | Train Loss: 4.4783, Train Acc: 0.9942
+2025-08-04 22:30:01,432 | INFO | Epoch 13 | Train Precision: 0.9949, Recall: 0.9949, F1: 0.9949, AP: 0.9927
+2025-08-04 22:30:01,432 | INFO | Epoch 13 | Train AUC: 0.9941
+2025-08-04 22:30:06,466 | INFO | Epoch 13 | Val Acc: 0.8620
+2025-08-04 22:30:06,491 | INFO | Epoch 13 | Val Precision: 0.8086, Recall: 0.9941, F1: 0.8918, AP: 0.8073
+2025-08-04 22:30:06,492 | INFO | Epoch 13 | Val AUC: 0.8396
+2025-08-04 22:30:38,905 | INFO | Epoch 14 | Train Loss: 7.9146, Train Acc: 0.9896
+2025-08-04 22:30:38,946 | INFO | Epoch 14 | Train Precision: 0.9917, Recall: 0.9900, F1: 0.9908, AP: 0.9874
+2025-08-04 22:30:38,946 | INFO | Epoch 14 | Train AUC: 0.9895
+2025-08-04 22:30:43,390 | INFO | Epoch 14 | Val Acc: 0.7296
+2025-08-04 22:30:43,409 | INFO | Epoch 14 | Val Precision: 0.6794, Recall: 0.9990, F1: 0.8088, AP: 0.6793
+2025-08-04 22:30:43,409 | INFO | Epoch 14 | Val AUC: 0.6840
+2025-08-04 22:31:16,993 | INFO | Epoch 15 | Train Loss: 5.8918, Train Acc: 0.9914
+2025-08-04 22:31:17,057 | INFO | Epoch 15 | Train Precision: 0.9927, Recall: 0.9921, F1: 0.9924, AP: 0.9894
+2025-08-04 22:31:17,057 | INFO | Epoch 15 | Train AUC: 0.9913
+2025-08-04 22:31:22,443 | INFO | Epoch 15 | Val Acc: 0.7572
+2025-08-04 22:31:22,467 | INFO | Epoch 15 | Val Precision: 0.7024, Recall: 0.9990, F1: 0.8249, AP: 0.7023
+2025-08-04 22:31:22,468 | INFO | Epoch 15 | Val AUC: 0.7162
+2025-08-04 22:31:55,289 | INFO | Epoch 16 | Train Loss: 3.5975, Train Acc: 0.9950
+2025-08-04 22:31:55,328 | INFO | Epoch 16 | Train Precision: 0.9955, Recall: 0.9957, F1: 0.9956, AP: 0.9937
+2025-08-04 22:31:55,329 | INFO | Epoch 16 | Train AUC: 0.9949
+2025-08-04 22:31:59,745 | INFO | Epoch 16 | Val Acc: 0.8000
+2025-08-04 22:31:59,766 | INFO | Epoch 16 | Val Precision: 0.7428, Recall: 0.9951, F1: 0.8507, AP: 0.7420
+2025-08-04 22:31:59,766 | INFO | Epoch 16 | Val AUC: 0.7670
+2025-08-04 22:32:32,009 | INFO | Epoch 17 | Train Loss: 5.9981, Train Acc: 0.9915
+2025-08-04 22:32:32,049 | INFO | Epoch 17 | Train Precision: 0.9917, Recall: 0.9934, F1: 0.9925, AP: 0.9889
+2025-08-04 22:32:32,049 | INFO | Epoch 17 | Train AUC: 0.9912
+2025-08-04 22:32:37,020 | INFO | Epoch 17 | Val Acc: 0.8107
+2025-08-04 22:32:37,045 | INFO | Epoch 17 | Val Precision: 0.7519, Recall: 0.9990, F1: 0.8580, AP: 0.7517
+2025-08-04 22:32:37,045 | INFO | Epoch 17 | Val AUC: 0.7788
+2025-08-04 22:33:09,548 | INFO | Epoch 18 | Train Loss: 3.6141, Train Acc: 0.9945
+2025-08-04 22:33:09,591 | INFO | Epoch 18 | Train Precision: 0.9953, Recall: 0.9951, F1: 0.9952, AP: 0.9932
+2025-08-04 22:33:09,591 | INFO | Epoch 18 | Train AUC: 0.9945
+2025-08-04 22:33:13,948 | INFO | Epoch 18 | Val Acc: 0.7566
+2025-08-04 22:33:13,967 | INFO | Epoch 18 | Val Precision: 0.7019, Recall: 0.9990, F1: 0.8245, AP: 0.7018
+2025-08-04 22:33:13,968 | INFO | Epoch 18 | Val AUC: 0.7156
+2025-08-04 22:33:46,393 | INFO | Epoch 19 | Train Loss: 6.7545, Train Acc: 0.9909
+2025-08-04 22:33:46,439 | INFO | Epoch 19 | Train Precision: 0.9930, Recall: 0.9910, F1: 0.9920, AP: 0.9892
+2025-08-04 22:33:46,439 | INFO | Epoch 19 | Train AUC: 0.9909
+2025-08-04 22:33:51,144 | INFO | Epoch 19 | Val Acc: 0.7566
+2025-08-04 22:33:51,161 | INFO | Epoch 19 | Val Precision: 0.7019, Recall: 0.9990, F1: 0.8245, AP: 0.7018
+2025-08-04 22:33:51,161 | INFO | Epoch 19 | Val AUC: 0.7156
+2025-08-04 22:34:23,508 | INFO | Epoch 20 | Train Loss: 3.1692, Train Acc: 0.9960
+2025-08-04 22:34:23,545 | INFO | Epoch 20 | Train Precision: 0.9968, Recall: 0.9962, F1: 0.9965, AP: 0.9952
+2025-08-04 22:34:23,546 | INFO | Epoch 20 | Train AUC: 0.9960
+2025-08-04 22:34:28,411 | INFO | Epoch 20 | Val Acc: 0.7842
+2025-08-04 22:34:28,430 | INFO | Epoch 20 | Val Precision: 0.7266, Recall: 0.9990, F1: 0.8413, AP: 0.7264
+2025-08-04 22:34:28,430 | INFO | Epoch 20 | Val AUC: 0.7479
+2025-08-04 22:35:01,170 | INFO | Epoch 21 | Train Loss: 5.1160, Train Acc: 0.9920
+2025-08-04 22:35:01,216 | INFO | Epoch 21 | Train Precision: 0.9928, Recall: 0.9932, F1: 0.9930, AP: 0.9899
+2025-08-04 22:35:01,216 | INFO | Epoch 21 | Train AUC: 0.9918
+2025-08-04 22:35:06,102 | INFO | Epoch 21 | Val Acc: 0.8924
+2025-08-04 22:35:06,121 | INFO | Epoch 21 | Val Precision: 0.8487, Recall: 0.9882, F1: 0.9131, AP: 0.8454
+2025-08-04 22:35:06,121 | INFO | Epoch 21 | Val AUC: 0.8762
+2025-08-04 22:35:06,665 | INFO | Saved best model top30 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top30.pth
+2025-08-04 22:35:07,198 | INFO | Saved best model top50 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top50.pth
+2025-08-04 22:35:40,127 | INFO | Epoch 22 | Train Loss: 3.0919, Train Acc: 0.9956
+2025-08-04 22:35:40,166 | INFO | Epoch 22 | Train Precision: 0.9960, Recall: 0.9964, F1: 0.9962, AP: 0.9944
+2025-08-04 22:35:40,166 | INFO | Epoch 22 | Train AUC: 0.9955
+2025-08-04 22:35:45,121 | INFO | Epoch 22 | Val Acc: 0.7290
+2025-08-04 22:35:45,144 | INFO | Epoch 22 | Val Precision: 0.6792, Recall: 0.9980, F1: 0.8083, AP: 0.6790
+2025-08-04 22:35:45,145 | INFO | Epoch 22 | Val AUC: 0.6835
+2025-08-04 22:36:18,002 | INFO | Epoch 23 | Train Loss: 3.5494, Train Acc: 0.9960
+2025-08-04 22:36:18,052 | INFO | Epoch 23 | Train Precision: 0.9966, Recall: 0.9964, F1: 0.9965, AP: 0.9950
+2025-08-04 22:36:18,052 | INFO | Epoch 23 | Train AUC: 0.9959
+2025-08-04 22:36:22,623 | INFO | Epoch 23 | Val Acc: 0.7814
+2025-08-04 22:36:22,640 | INFO | Epoch 23 | Val Precision: 0.7249, Recall: 0.9961, F1: 0.8391, AP: 0.7243
+2025-08-04 22:36:22,641 | INFO | Epoch 23 | Val AUC: 0.7451
+2025-08-04 22:36:54,906 | INFO | Epoch 24 | Train Loss: 5.3969, Train Acc: 0.9926
+2025-08-04 22:36:54,957 | INFO | Epoch 24 | Train Precision: 0.9930, Recall: 0.9940, F1: 0.9935, AP: 0.9904
+2025-08-04 22:36:54,957 | INFO | Epoch 24 | Train AUC: 0.9924
+2025-08-04 22:36:59,850 | INFO | Epoch 24 | Val Acc: 0.7876
+2025-08-04 22:36:59,867 | INFO | Epoch 24 | Val Precision: 0.7304, Recall: 0.9970, F1: 0.8431, AP: 0.7299
+2025-08-04 22:36:59,867 | INFO | Epoch 24 | Val AUC: 0.7521
+2025-08-04 22:37:32,096 | INFO | Epoch 25 | Train Loss: 2.6130, Train Acc: 0.9964
+2025-08-04 22:37:32,145 | INFO | Epoch 25 | Train Precision: 0.9966, Recall: 0.9970, F1: 0.9968, AP: 0.9953
+2025-08-04 22:37:32,146 | INFO | Epoch 25 | Train AUC: 0.9963
+2025-08-04 22:37:36,427 | INFO | Epoch 25 | Val Acc: 0.7076
+2025-08-04 22:37:36,450 | INFO | Epoch 25 | Val Precision: 0.6623, Recall: 0.9980, F1: 0.7962, AP: 0.6621
+2025-08-04 22:37:36,450 | INFO | Epoch 25 | Val AUC: 0.6584
+2025-08-04 22:38:10,412 | INFO | Epoch 26 | Train Loss: 3.4287, Train Acc: 0.9951
+2025-08-04 22:38:10,459 | INFO | Epoch 26 | Train Precision: 0.9949, Recall: 0.9966, F1: 0.9957, AP: 0.9934
+2025-08-04 22:38:10,459 | INFO | Epoch 26 | Train AUC: 0.9949
+2025-08-04 22:38:15,902 | INFO | Epoch 26 | Val Acc: 0.9166
+2025-08-04 22:38:15,926 | INFO | Epoch 26 | Val Precision: 0.8820, Recall: 0.9862, F1: 0.9312, AP: 0.8778
+2025-08-04 22:38:15,926 | INFO | Epoch 26 | Val AUC: 0.9048
+2025-08-04 22:38:16,433 | INFO | Saved best model top30 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top30.pth
+2025-08-04 22:38:16,971 | INFO | Saved best model top50 to /root/Project/weights/RCNN/SGDF/SGDF_RCNN_top50.pth
+2025-08-04 22:38:49,578 | INFO | Epoch 27 | Train Loss: 3.9348, Train Acc: 0.9945
+2025-08-04 22:38:49,619 | INFO | Epoch 27 | Train Precision: 0.9951, Recall: 0.9953, F1: 0.9952, AP: 0.9931
+2025-08-04 22:38:49,619 | INFO | Epoch 27 | Train AUC: 0.9944
+2025-08-04 22:38:53,994 | INFO | Epoch 27 | Val Acc: 0.8096
+2025-08-04 22:38:54,014 | INFO | Epoch 27 | Val Precision: 0.7519, Recall: 0.9961, F1: 0.8569, AP: 0.7512
+2025-08-04 22:38:54,014 | INFO | Epoch 27 | Val AUC: 0.7780
+2025-08-04 22:39:26,261 | INFO | Epoch 28 | Train Loss: 2.5563, Train Acc: 0.9968
+2025-08-04 22:39:26,300 | INFO | Epoch 28 | Train Precision: 0.9968, Recall: 0.9977, F1: 0.9972, AP: 0.9958
+2025-08-04 22:39:26,300 | INFO | Epoch 28 | Train AUC: 0.9967
+2025-08-04 22:39:31,136 | INFO | Epoch 28 | Val Acc: 0.8180
+2025-08-04 22:39:31,162 | INFO | Epoch 28 | Val Precision: 0.7607, Recall: 0.9951, F1: 0.8623, AP: 0.7598
+2025-08-04 22:39:31,162 | INFO | Epoch 28 | Val AUC: 0.7881
+2025-08-04 22:40:03,522 | INFO | Epoch 29 | Train Loss: 3.3442, Train Acc: 0.9953
+2025-08-04 22:40:03,573 | INFO | Epoch 29 | Train Precision: 0.9964, Recall: 0.9953, F1: 0.9958, AP: 0.9944
+2025-08-04 22:40:03,573 | INFO | Epoch 29 | Train AUC: 0.9953
+2025-08-04 22:40:08,578 | INFO | Epoch 29 | Val Acc: 0.8507
+2025-08-04 22:40:08,603 | INFO | Epoch 29 | Val Precision: 0.7978, Recall: 0.9902, F1: 0.8836, AP: 0.7956
+2025-08-04 22:40:08,603 | INFO | Epoch 29 | Val AUC: 0.8271
+2025-08-04 22:40:41,018 | INFO | Epoch 30 | Train Loss: 3.0774, Train Acc: 0.9962
+2025-08-04 22:40:41,057 | INFO | Epoch 30 | Train Precision: 0.9962, Recall: 0.9972, F1: 0.9967, AP: 0.9950
+2025-08-04 22:40:41,057 | INFO | Epoch 30 | Train AUC: 0.9961
+2025-08-04 22:40:46,215 | INFO | Epoch 30 | Val Acc: 0.8045
+2025-08-04 22:40:46,247 | INFO | Epoch 30 | Val Precision: 0.7461, Recall: 0.9980, F1: 0.8539, AP: 0.7458
+2025-08-04 22:40:46,247 | INFO | Epoch 30 | Val AUC: 0.7717
+2025-08-04 22:41:18,602 | INFO | Epoch 31 | Train Loss: 4.7052, Train Acc: 0.9947
+2025-08-04 22:41:18,641 | INFO | Epoch 31 | Train Precision: 0.9951, Recall: 0.9955, F1: 0.9953, AP: 0.9932
+2025-08-04 22:41:18,641 | INFO | Epoch 31 | Train AUC: 0.9945
+2025-08-04 22:41:23,548 | INFO | Epoch 31 | Val Acc: 0.8879
+2025-08-04 22:41:23,570 | INFO | Epoch 31 | Val Precision: 0.8401, Recall: 0.9931, F1: 0.9102, AP: 0.8383
+2025-08-04 22:41:23,570 | INFO | Epoch 31 | Val AUC: 0.8701
+2025-08-04 22:41:55,871 | INFO | Epoch 32 | Train Loss: 3.0028, Train Acc: 0.9954
+2025-08-04 22:41:55,916 | INFO | Epoch 32 | Train Precision: 0.9962, Recall: 0.9957, F1: 0.9959, AP: 0.9943
+2025-08-04 22:41:55,916 | INFO | Epoch 32 | Train AUC: 0.9953
+2025-08-04 22:42:00,628 | INFO | Epoch 32 | Val Acc: 0.8417
+2025-08-04 22:42:00,650 | INFO | Epoch 32 | Val Precision: 0.7851, Recall: 0.9961, F1: 0.8781, AP: 0.7843
+2025-08-04 22:42:00,650 | INFO | Epoch 32 | Val AUC: 0.8156
+2025-08-04 22:42:32,990 | INFO | Epoch 33 | Train Loss: 1.4132, Train Acc: 0.9987
+2025-08-04 22:42:33,040 | INFO | Epoch 33 | Train Precision: 0.9987, Recall: 0.9989, F1: 0.9988, AP: 0.9983
+2025-08-04 22:42:33,040 | INFO | Epoch 33 | Train AUC: 0.9986
+2025-08-04 22:42:37,696 | INFO | Epoch 33 | Val Acc: 0.8992
+2025-08-04 22:42:37,718 | INFO | Epoch 33 | Val Precision: 0.8550, Recall: 0.9921, F1: 0.9185, AP: 0.8527
+2025-08-04 22:42:37,718 | INFO | Epoch 33 | Val AUC: 0.8834
+2025-08-04 22:43:10,177 | INFO | Epoch 34 | Train Loss: 3.3251, Train Acc: 0.9961
+2025-08-04 22:43:10,226 | INFO | Epoch 34 | Train Precision: 0.9966, Recall: 0.9966, F1: 0.9966, AP: 0.9951
+2025-08-04 22:43:10,226 | INFO | Epoch 34 | Train AUC: 0.9960
+2025-08-04 22:43:15,043 | INFO | Epoch 34 | Val Acc: 0.8828
+2025-08-04 22:43:15,069 | INFO | Epoch 34 | Val Precision: 0.8361, Recall: 0.9892, F1: 0.9062, AP: 0.8333
+2025-08-04 22:43:15,069 | INFO | Epoch 34 | Val AUC: 0.8648
+2025-08-04 22:43:47,404 | INFO | Epoch 35 | Train Loss: 3.6704, Train Acc: 0.9951
+2025-08-04 22:43:47,443 | INFO | Epoch 35 | Train Precision: 0.9953, Recall: 0.9962, F1: 0.9957, AP: 0.9937
+2025-08-04 22:43:47,444 | INFO | Epoch 35 | Train AUC: 0.9950
+2025-08-04 22:43:52,643 | INFO | Epoch 35 | Val Acc: 0.8839
+2025-08-04 22:43:52,669 | INFO | Epoch 35 | Val Precision: 0.8347, Recall: 0.9941, F1: 0.9075, AP: 0.8332
+2025-08-04 22:43:52,669 | INFO | Epoch 35 | Val AUC: 0.8653
+2025-08-04 22:44:25,389 | INFO | Epoch 36 | Train Loss: 2.1894, Train Acc: 0.9971
+2025-08-04 22:44:25,494 | INFO | Epoch 36 | Train Precision: 0.9979, Recall: 0.9970, F1: 0.9974, AP: 0.9966
+2025-08-04 22:44:25,495 | INFO | Epoch 36 | Train AUC: 0.9971
+2025-08-04 22:44:31,009 | INFO | Epoch 36 | Val Acc: 0.8332
+2025-08-04 22:44:31,031 | INFO | Epoch 36 | Val Precision: 0.7769, Recall: 0.9941, F1: 0.8722, AP: 0.7757
+2025-08-04 22:44:31,031 | INFO | Epoch 36 | Val AUC: 0.8060
+2025-08-04 22:45:04,529 | INFO | Epoch 37 | Train Loss: 3.1052, Train Acc: 0.9960
+2025-08-04 22:45:04,567 | INFO | Epoch 37 | Train Precision: 0.9964, Recall: 0.9966, F1: 0.9965, AP: 0.9949
+2025-08-04 22:45:04,568 | INFO | Epoch 37 | Train AUC: 0.9959
+2025-08-04 22:45:08,914 | INFO | Epoch 37 | Val Acc: 0.7611
+2025-08-04 22:45:08,935 | INFO | Epoch 37 | Val Precision: 0.7058, Recall: 0.9990, F1: 0.8272, AP: 0.7057
+2025-08-04 22:45:08,935 | INFO | Epoch 37 | Val AUC: 0.7209
+2025-08-04 22:45:42,239 | INFO | Epoch 38 | Train Loss: 1.4381, Train Acc: 0.9984
+2025-08-04 22:45:42,278 | INFO | Epoch 38 | Train Precision: 0.9985, Recall: 0.9987, F1: 0.9986, AP: 0.9980
+2025-08-04 22:45:42,279 | INFO | Epoch 38 | Train AUC: 0.9984
+2025-08-04 22:45:47,497 | INFO | Epoch 38 | Val Acc: 0.8197
+2025-08-04 22:45:47,521 | INFO | Epoch 38 | Val Precision: 0.7624, Recall: 0.9951, F1: 0.8634, AP: 0.7615
+2025-08-04 22:45:47,521 | INFO | Epoch 38 | Val AUC: 0.7900
+2025-08-04 22:46:19,859 | INFO | Epoch 39 | Train Loss: 4.1660, Train Acc: 0.9941
+2025-08-04 22:46:19,913 | INFO | Epoch 39 | Train Precision: 0.9951, Recall: 0.9945, F1: 0.9948, AP: 0.9927
+2025-08-04 22:46:19,913 | INFO | Epoch 39 | Train AUC: 0.9940
+2025-08-04 22:46:24,930 | INFO | Epoch 39 | Val Acc: 0.7769
+2025-08-04 22:46:24,958 | INFO | Epoch 39 | Val Precision: 0.7211, Recall: 0.9951, F1: 0.8362, AP: 0.7204
+2025-08-04 22:46:24,958 | INFO | Epoch 39 | Val AUC: 0.7400
+2025-08-04 22:46:57,517 | INFO | Epoch 40 | Train Loss: 2.5082, Train Acc: 0.9972
+2025-08-04 22:46:57,554 | INFO | Epoch 40 | Train Precision: 0.9974, Recall: 0.9977, F1: 0.9975, AP: 0.9964
+2025-08-04 22:46:57,554 | INFO | Epoch 40 | Train AUC: 0.9971
+2025-08-04 22:47:02,952 | INFO | Epoch 40 | Val Acc: 0.8085
+2025-08-04 22:47:02,972 | INFO | Epoch 40 | Val Precision: 0.7500, Recall: 0.9980, F1: 0.8564, AP: 0.7497
+2025-08-04 22:47:02,972 | INFO | Epoch 40 | Val AUC: 0.7764
+2025-08-04 22:47:35,186 | INFO | Epoch 41 | Train Loss: 2.5560, Train Acc: 0.9966
+2025-08-04 22:47:35,232 | INFO | Epoch 41 | Train Precision: 0.9970, Recall: 0.9970, F1: 0.9970, AP: 0.9957
+2025-08-04 22:47:35,233 | INFO | Epoch 41 | Train AUC: 0.9965
+2025-08-04 22:47:40,394 | INFO | Epoch 41 | Val Acc: 0.8034
+2025-08-04 22:47:40,416 | INFO | Epoch 41 | Val Precision: 0.7450, Recall: 0.9980, F1: 0.8532, AP: 0.7447
+2025-08-04 22:47:40,416 | INFO | Epoch 41 | Val AUC: 0.7704
+2025-08-04 22:48:13,285 | INFO | Epoch 42 | Train Loss: 2.1705, Train Acc: 0.9970
+2025-08-04 22:48:13,331 | INFO | Epoch 42 | Train Precision: 0.9972, Recall: 0.9974, F1: 0.9973, AP: 0.9961
+2025-08-04 22:48:13,331 | INFO | Epoch 42 | Train AUC: 0.9969
+2025-08-04 22:48:17,903 | INFO | Epoch 42 | Val Acc: 0.7685
+2025-08-04 22:48:17,919 | INFO | Epoch 42 | Val Precision: 0.7126, Recall: 0.9980, F1: 0.8315, AP: 0.7123
+2025-08-04 22:48:17,919 | INFO | Epoch 42 | Val AUC: 0.7296
+2025-08-04 22:48:50,225 | INFO | Epoch 43 | Train Loss: 2.6286, Train Acc: 0.9966
+2025-08-04 22:48:50,266 | INFO | Epoch 43 | Train Precision: 0.9972, Recall: 0.9968, F1: 0.9970, AP: 0.9959
+2025-08-04 22:48:50,266 | INFO | Epoch 43 | Train AUC: 0.9966
+2025-08-04 22:48:55,043 | INFO | Epoch 43 | Val Acc: 0.7504
+2025-08-04 22:48:55,068 | INFO | Epoch 43 | Val Precision: 0.6969, Recall: 0.9980, F1: 0.8207, AP: 0.6967
+2025-08-04 22:48:55,069 | INFO | Epoch 43 | Val AUC: 0.7085
+2025-08-04 22:49:28,613 | INFO | Epoch 44 | Train Loss: 2.7059, Train Acc: 0.9959
+2025-08-04 22:49:28,705 | INFO | Epoch 44 | Train Precision: 0.9964, Recall: 0.9964, F1: 0.9964, AP: 0.9948
+2025-08-04 22:49:28,706 | INFO | Epoch 44 | Train AUC: 0.9958
+2025-08-04 22:49:35,856 | INFO | Epoch 44 | Val Acc: 0.7741
+2025-08-04 22:49:35,881 | INFO | Epoch 44 | Val Precision: 0.7176, Recall: 0.9980, F1: 0.8349, AP: 0.7173
+2025-08-04 22:49:35,881 | INFO | Epoch 44 | Val AUC: 0.7362
+2025-08-04 22:50:13,010 | INFO | Epoch 45 | Train Loss: 2.7212, Train Acc: 0.9967
+2025-08-04 22:50:13,063 | INFO | Epoch 45 | Train Precision: 0.9972, Recall: 0.9970, F1: 0.9971, AP: 0.9959
+2025-08-04 22:50:13,064 | INFO | Epoch 45 | Train AUC: 0.9967
+2025-08-04 22:50:17,623 | INFO | Epoch 45 | Val Acc: 0.8394
+2025-08-04 22:50:17,648 | INFO | Epoch 45 | Val Precision: 0.7831, Recall: 0.9951, F1: 0.8765, AP: 0.7821
+2025-08-04 22:50:17,648 | INFO | Epoch 45 | Val AUC: 0.8131
+2025-08-04 22:50:49,889 | INFO | Epoch 46 | Train Loss: 2.6975, Train Acc: 0.9967
+2025-08-04 22:50:49,935 | INFO | Epoch 46 | Train Precision: 0.9972, Recall: 0.9970, F1: 0.9971, AP: 0.9959
+2025-08-04 22:50:49,935 | INFO | Epoch 46 | Train AUC: 0.9967
+2025-08-04 22:50:54,169 | INFO | Epoch 46 | Val Acc: 0.7611
+2025-08-04 22:50:54,190 | INFO | Epoch 46 | Val Precision: 0.7070, Recall: 0.9951, F1: 0.8267, AP: 0.7063
+2025-08-04 22:50:54,191 | INFO | Epoch 46 | Val AUC: 0.7215
+2025-08-04 22:51:26,959 | INFO | Epoch 47 | Train Loss: 1.1930, Train Acc: 0.9987
+2025-08-04 22:51:27,004 | INFO | Epoch 47 | Train Precision: 0.9989, Recall: 0.9987, F1: 0.9988, AP: 0.9984
+2025-08-04 22:51:27,004 | INFO | Epoch 47 | Train AUC: 0.9987
+2025-08-04 22:51:32,128 | INFO | Epoch 47 | Val Acc: 0.8107
+2025-08-04 22:51:32,152 | INFO | Epoch 47 | Val Precision: 0.7526, Recall: 0.9970, F1: 0.8577, AP: 0.7521
+2025-08-04 22:51:32,152 | INFO | Epoch 47 | Val AUC: 0.7792
+2025-08-04 22:52:04,990 | INFO | Epoch 48 | Train Loss: 1.8308, Train Acc: 0.9981
+2025-08-04 22:52:05,031 | INFO | Epoch 48 | Train Precision: 0.9981, Recall: 0.9985, F1: 0.9983, AP: 0.9974
+2025-08-04 22:52:05,031 | INFO | Epoch 48 | Train AUC: 0.9980
+2025-08-04 22:52:09,915 | INFO | Epoch 48 | Val Acc: 0.8794
+2025-08-04 22:52:09,939 | INFO | Epoch 48 | Val Precision: 0.8303, Recall: 0.9921, F1: 0.9040, AP: 0.8283
+2025-08-04 22:52:09,940 | INFO | Epoch 48 | Val AUC: 0.8604
+2025-08-04 22:52:42,677 | INFO | Epoch 49 | Train Loss: 4.0051, Train Acc: 0.9944
+2025-08-04 22:52:42,723 | INFO | Epoch 49 | Train Precision: 0.9953, Recall: 0.9949, F1: 0.9951, AP: 0.9931
+2025-08-04 22:52:42,723 | INFO | Epoch 49 | Train AUC: 0.9943
+2025-08-04 22:52:47,985 | INFO | Epoch 49 | Val Acc: 0.8073
+2025-08-04 22:52:48,003 | INFO | Epoch 49 | Val Precision: 0.7493, Recall: 0.9970, F1: 0.8556, AP: 0.7487
+2025-08-04 22:52:48,004 | INFO | Epoch 49 | Val AUC: 0.7752
+2025-08-04 22:53:20,174 | INFO | Epoch 50 | Train Loss: 2.3437, Train Acc: 0.9967
+2025-08-04 22:53:20,215 | INFO | Epoch 50 | Train Precision: 0.9972, Recall: 0.9970, F1: 0.9971, AP: 0.9959
+2025-08-04 22:53:20,216 | INFO | Epoch 50 | Train AUC: 0.9967
+2025-08-04 22:53:24,751 | INFO | Epoch 50 | Val Acc: 0.8575
+2025-08-04 22:53:24,774 | INFO | Epoch 50 | Val Precision: 0.8021, Recall: 0.9970, F1: 0.8890, AP: 0.8014
+2025-08-04 22:53:24,774 | INFO | Epoch 50 | Val AUC: 0.8338

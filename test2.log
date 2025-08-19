@@ -1,0 +1,149 @@
+Testing started
+Testing CNN
+
+Testing Fused Trained CNN Model best on SGDF dataset
+Test Results:
+Accuracy: 0.9633
+Precision: 0.9871
+Recall: 0.9448
+F1 Score: 0.9655
+ROC-AUC: 0.9928
+Confusion Matrix:
+[[871  13]
+ [ 58 992]]
+
+
+Testing Fused Trained CNN Model best on OpenForensics dataset
+Test Results:
+Accuracy: 0.8766
+Precision: 0.8333
+Recall: 0.9437
+F1 Score: 0.8851
+ROC-AUC: 0.9592
+Confusion Matrix:
+[[4376 1037]
+ [ 309 5183]]
+
+
+Testing Fused Trained CNN Model best on 200kMDID dataset
+Test Results:
+Accuracy: 0.9489
+Precision: 0.9389
+Recall: 0.9603
+F1 Score: 0.9495
+ROC-AUC: 0.9909
+Confusion Matrix:
+[[9375  625]
+ [ 397 9603]]
+
+
+Testing Fused Trained CNN Model best on Fused dataset
+Test Results:
+Accuracy: 0.9244
+Precision: 0.9030
+Recall: 0.9523
+F1 Score: 0.9270
+ROC-AUC: 0.9831
+Confusion Matrix:
+[[4867  564]
+ [ 263 5250]]
+
+Testing RCNN
+
+Testing Fused Trained RCNN Model best on SGDF dataset
+[TEST] Accuracy:  0.9081
+[TEST] Precision: 0.9380
+[TEST] Recall:    0.8981
+[TEST] F1 Score:  0.9176
+[TEST] ROC-AUC:   0.9716
+[TEST] Confusion Matrix:
+[[703  60]
+ [103 908]]
+
+
+Testing Fused Trained RCNN Model best on OpenForensics dataset
+[TEST] Accuracy:  0.7927
+[TEST] Precision: 0.7319
+[TEST] Recall:    0.9375
+[TEST] F1 Score:  0.8220
+[TEST] ROC-AUC:   0.9205
+[TEST] Confusion Matrix:
+[[3303 1846]
+ [ 336 5039]]
+
+
+Testing Fused Trained RCNN Model best on 200kMDID dataset
+[TEST] Accuracy:  0.8986
+[TEST] Precision: 0.9435
+[TEST] Recall:    0.8479
+[TEST] F1 Score:  0.8932
+[TEST] ROC-AUC:   0.9677
+[TEST] Confusion Matrix:
+[[9493  507]
+ [1519 8470]]
+
+
+Testing Fused Trained RCNN Model best on Fused dataset
+[TEST] Accuracy:  0.8645
+[TEST] Precision: 0.8563
+[TEST] Recall:    0.8811
+[TEST] F1 Score:  0.8685
+[TEST] ROC-AUC:   0.9434
+[TEST] Confusion Matrix:
+[[4480  807]
+ [ 649 4810]]
+
+Testing Transformer
+
+Testing Fused Trained Transformer Model best on SGDF dataset
+Transformer Test Results:
+Accuracy: 0.8940
+Precision: 0.8616
+Recall: 0.9152
+F1 Score: 0.8875
+ROC-AUC: 0.9563
+Confusion Matrix:
+[[920 130]
+ [ 75 809]]
+
+
+Testing Fused Trained Transformer Model best on OpenForensics dataset
+Transformer Test Results:
+Accuracy: 0.9109
+Precision: 0.9184
+Recall: 0.9004
+F1 Score: 0.9093
+ROC-AUC: 0.9738
+Confusion Matrix:
+[[5059  433]
+ [ 539 4874]]
+
+
+Testing Fused Trained Transformer Model best on 200kMDID dataset
+Transformer Test Results:
+Accuracy: 0.9115
+Precision: 0.9150
+Recall: 0.9074
+F1 Score: 0.9112
+ROC-AUC: 0.9758
+Confusion Matrix:
+[[9157  843]
+ [ 926 9074]]
+
+
+Testing Fused Trained Transformer Model best on Fused dataset
+Transformer Test Results:
+Accuracy: 0.9112
+Precision: 0.9122
+Recall: 0.9085
+F1 Score: 0.9103
+ROC-AUC: 0.9733
+Confusion Matrix:
+[[5038  475]
+ [ 497 4934]]
+
+Testing CNN+Transformer
+
+Testing Fused Trained CNN+Transformer Model best on SGDF dataset
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/Fused/Fused_CNN+Transformer_best.pth
