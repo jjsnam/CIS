@@ -23,8 +23,8 @@ class DeepfakeDataset(Dataset):
     def __len__(self):
         return len(self.samples)
 
-    def __getitem__(self, idx):
+    def __getitem__(self, idx, return_path=True):
         path, label = self.samples[idx]
         img = Image.open(path).convert('RGB')
         img = self.transform(img)
-        return img, label
+        return img, label, path

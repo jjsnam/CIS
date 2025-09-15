@@ -14,8 +14,8 @@ args = parser.parse_args()
 # ===== 配置部分 =====
 dataset_name = args.dataset_name
 splits = ["Train", "Val", "Test"]
-base_image_root = f"/root/Project/datasets/{dataset_name}"
-base_cache_dir = "/root/Project/RCNN Models/cache/regions"
+base_image_root = f"/root/CIS/datasets/{dataset_name}"
+base_cache_dir = "/root/CIS/RCNN Models/cache/regions"
 
 # ===== 初始化提取器 =====
 extractor = FaceRegionExtractor(cache_dir=base_cache_dir)

@@ -24,11 +24,20 @@ class MultiRegionRCNN(nn.Module):
             nn.Linear(256, num_classes)
         )
 
+    # def forward(self, regions):
+    #     feats = []
+    #     for region in ["full", "eyes", "mouth"]:
+    #         x = self.shared_model(regions[region]).squeeze()
+    #         feats.append(x)
+    #     concat = torch.cat(feats, dim=1)
+    #     out = self.fusion(concat)
+    #     return out
     def forward(self, regions):
         feats = []
         for region in ["full", "eyes", "mouth"]:
-            x = self.shared_model(regions[region]).squeeze()
+            x = self.shared_model(regions[region])  # (B, C, 1, 1) 常见输出
+            x = x.flatten(1)  # -> (B, C) 即从第 1 维（batch 维之后）展平
             feats.append(x)
-        concat = torch.cat(feats, dim=1)
+        concat = torch.cat(feats, dim=1)  # -> (B, C*3)
         out = self.fusion(concat)
         return out

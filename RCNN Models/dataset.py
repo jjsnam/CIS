@@ -3,7 +3,6 @@ from PIL import Image
 from torch.utils.data import Dataset
 import torch
 
-
 class RegionFaceDataset(Dataset):
     def __init__(self, root_dir, cache_dir, transform=None):
         self.samples = []

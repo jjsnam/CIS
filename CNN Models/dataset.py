@@ -22,11 +22,20 @@ class DATAset(Dataset):
     def __len__(self):
         return len(self.image_paths)
 
+    # def __getitem__(self, idx):
+    #     image = Image.open(self.image_paths[idx]).convert('RGB')
+    #     label = self.labels[idx]
+
+    #     if self.transform:
+    #         image = self.transform(image)
+
+    #     return image, label
     def __getitem__(self, idx):
-        image = Image.open(self.image_paths[idx]).convert('RGB')
+        img_path = self.image_paths[idx]
+        image = Image.open(img_path).convert('RGB')
         label = self.labels[idx]
 
         if self.transform:
             image = self.transform(image)
 
-        return image, label
+        return image, label, img_path   # 这里多返回路径

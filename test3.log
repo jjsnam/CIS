@@ -1,0 +1,110 @@
+___________________________________________________________________________
+CNN
+
+Model Parameters: 11,177,538
+Computational complexity (FLOPs): 1.82 GMac
+Number of parameters (ptflops): 11.18 M
+Inference Time per Image: 4.78 ms
+Test Results:
+Accuracy: 0.9244
+Precision: 0.9030
+Recall: 0.9523
+F1 Score: 0.9270
+ROC-AUC: 0.9831
+Confusion Matrix:
+[[4867  564]
+ [ 263 5250]]
+Saved 20 misclassified samples to results/misclassified
+Saved predictions to results/predictions.csv
+
+___________________________________________________________________________
+CNN+Transformer
+
+[INFO] Loaded ViT weights. Missing: [], Unexpected: []
+[INFO] Loaded model from /root/Project/weights/CNN+Transformer/Fused/Fused_CNN+Transformer_best.pth
+Model Parameters: 88,780,354
+Computational complexity (FLOPs): 13.35 GMac
+Number of parameters (ptflops): 88.78 M
+Inference Time per Image: 12.55 ms
+[TEST] Accuracy:  0.9189
+[TEST] Precision: 0.9042
+[TEST] Recall:    0.9383
+[TEST] F1 Score:  0.9210
+[TEST] ROC-AUC:   0.9796
+[TEST] Confusion Matrix:
+[[4883  548]
+ [ 340 5173]]
+Saved 20 misclassified samples to results/misclassified
+Saved predictions to results/predictions.csv
+
+___________________________________________________________________________
+Transformer:
+
+Model Parameters: 85,800,194
+Computational complexity (FLOPs): 12.02 GMac
+Number of parameters (ptflops): 85.8 M
+Inference Time per Image: 8.05 ms
+Transformer Test Results:
+Accuracy: 0.9385
+Precision: 0.9516
+Recall: 0.9118
+F1 Score: 0.9313
+ROC-AUC: 0.9856
+Confusion Matrix:
+[[1009   41]
+ [  78  806]]
+
+___________________________________________________________________________
+RCNN:
+
+Model Parameters: 11,573,576
+Warning! No positional inputs found for a module, assuming batch size is 1.
+Computational complexity (MACs reported by ptflops): 5.47 GMac
+Number of parameters (ptflops): 11.57 M
+Inference Time per Image: 14.37 ms
+[TEST] Accuracy:  0.8646
+[TEST] Precision: 0.8564
+[TEST] Recall:    0.8812
+[TEST] F1 Score:  0.8686
+[TEST] ROC-AUC:   0.9435
+[TEST] Confusion Matrix:
+[[4486  807]
+ [ 649 4813]]
+
+
+___________________________________________________________________________
+Statistical:
+
+=== Model parameter counts (scalar entries) ===
+Real GMM params:  108873
+Fake GMM params:  108873
+Total params (both models): 217746
+
+=== Approximate FLOPs (per image, single model) ===
+Real GMM approx ops/sample: 219450 FLOPs (approx)
+Fake GMM approx ops/sample: 219450 FLOPs (approx)
+Combined approx ops/sample: 438900 FLOPs (approx)
+
+Note: these FLOPs are coarse approximations (mahalanobis + small overhead).
+
+=== Running full dataset prediction (parallel) ===
+Processed 10944 images (out of 10944 total).
+Parallel wall time: 1899.975 s, avg per image (wall): 173.61 ms
+
+=== Serial single-threaded timing on 100 samples (for latency est) ===
+Serial total time: 22.121 s for 100 successful samples
+Estimated single-threaded inference time per image: 221.21 ms
+
+=== Evaluation Metrics (on processed images) ===
+Accuracy:  0.6090
+Precision: 0.6101
+Recall:    0.5877
+F1:        0.5987
+ROC-AUC:   0.6536
+
+=== Summary of compute-related info ===
+Total model scalar params (real + fake): 217746
+Approx combined FLOPs/sample: 438900 FLOPs (approx)
+Parallel avg time per image (wall): 173.61 ms
+Single-thread avg time per image (serial): 221.21 ms
+Note: FLOPs estimates are approximate; timing includes feature extraction + scoring.
