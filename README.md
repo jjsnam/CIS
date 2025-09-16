@@ -35,7 +35,7 @@ Besides, also a Fused dataset are generated from these datasets, which will be m
 ### Clone the repository
 use:
 
-```shell
+```bash
 git clone --depth=1 https://github.com/jjsnam/DFD-Comparison
 ```
 
@@ -43,7 +43,7 @@ but not just `git clone` since we previously added some weights to make the repo
 
 ### Install dependencies
 
-```shell
+```bash
 pip install -r requirements.txt
 ```
 
@@ -78,22 +78,22 @@ And transformer needs pretrained ViT model from Hugging face. More specifically,
 The commands for training each model are:
 
 -   CNN/CNN+Transformer: 
-    ```shell
+    ```bash
     python train.py --epochs ${num of epochs} --dataset_name ${dataset name} --train_path ${train path} --val_path ${val path}--model_path ${model save path} --lr ${learning rate}
     ```
 
 -   RCNN:
-    ```shell
+    ```bash
     python train.py --epochs ${num of epochs} --dataset_name ${dataset name} --train_path ${train path} --val_path ${val path}  --train_cache_path ${train region cache path} --val_cache_path ${val region cache path}  --model_path ${model save path} --lr ${learning rate}
     ```
 
 -   Statistical (GMM):
-    ```shell
+    ```bash
     python main.py --epochs ${num of epochs} --dataset_name ${dataset name} --train_path ${train path} --val_path ${val path}   --model_path ${model save path}
     ```
 
 -   Transformer:
-    ```shell
+    ```bash
     python main.py --epochs ${num of epochs} --dataset_name ${dataset name} --train_path ${train path} --val_path ${val path}  --model_path ${model save path} --lr ${learning rate}
     ```
 
@@ -116,17 +116,17 @@ ViT pretrained model is also needed as mentioned in training part.
 The commands for training each model are:
 
 -   CNN/CNN+Transformer/Transformer:
-    ```shell
+    ```bash
     python test.py --model_path ${test model path} --test_path ${test dataset path}
     ```
 
 -   RCNN:
-    ```shell
+    ```bash
     python test.py --model_path ${test model path} --test_root ${test dataset path} --cache_root ${test region cache}
     ```
 
 -   Statistical (GMM):
-    ```shell
+    ```bash
     python test.py --model_real ${real model path} --model_fake ${fake model path}$ --test_path ${test dataset path}
     ```
 
@@ -145,7 +145,7 @@ All the key results are in the `results/` directory in log format.
 
 For training results, run:
 
-```shell
+```bash
 python parse_deepfake_logs_train.py --log ${/path/to/train-log} --outdir ${/path/to/outdir}
 ```
 
@@ -153,7 +153,7 @@ and you may get the results processed.
 
 Analogously, for testing results, run:
 
-```shell
+```bash
 python parse_deepfake_logs_test.py --log ${/path/to/test-log} --outdir ${/path/to/outdir}
 ```
 
