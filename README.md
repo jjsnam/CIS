@@ -159,7 +159,7 @@ python parse_deepfake_logs_test.py --log ${/path/to/test-log} --outdir ${/path/t
 
 ### Weights
 
-To get our training weights, you can follow [this link]().
+To get our training weights, you can follow [this link](https://drive.google.com/drive/folders/1M_3_O-M84g_5y3sXHZRvAyylQDbqMFC9?usp=sharing).
 
 ## Citation
 
