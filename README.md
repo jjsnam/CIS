@@ -98,6 +98,9 @@ The commands for training each model are:
     ```
 
 -   ML (SVC):
+    ```bash
+    python main.py --dataset_name ${dataset name} --train_path ${train path} --val_path ${val path} --model_path ${model save path} --pca_components ${num of PCA components} --C ${regularization strength}
+    ```
 
 Note that if you choosed to run them manually, remember to change your direction before running codes.
 
@@ -131,6 +134,9 @@ The commands for training each model are:
     ```
 
 -   ML (SVC):
+    ```bash
+    python test.py --model_path ${model path} --test_path ${test dataset path}
+    ```
 
 
 
